@@ -1,0 +1,428 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Condition="Exists('$(BDS)\bin\CodeGear.Deployment.targets')" Project="$(BDS)\bin\CodeGear.Deployment.targets"/>
+    <ProjectExtensions>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <PropertyGroup/>
+    <ItemGroup Condition="'$(Platform)'=='Win32'">
+        <DeployFile Include="img\approve-invoice.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>approve-invoice.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\icedcafemocha.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>icedcafemocha.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="Win32\Debug\DDEDev.exe" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>DDEDev.exe</RemoteName>
+            <DeployClass>ProjectOutput</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="img\download (1).jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>download (1).jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\sb-espresso.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>sb-espresso.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\fork.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>fork.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\galeria_18962_0107171953.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>galeria_18962_0107171953.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\settings.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>settings.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\coffee-cup.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>coffee-cup.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\sp44844433_sc7.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>sp44844433_sc7.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="..\AO VIVO - Copia\img\down-arrow.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>down-arrow.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\19878601.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>19878601.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\green-tea.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>green-tea.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\tomato-juice.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>tomato-juice.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\edelmanstrip_106787_0_full.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>edelmanstrip_106787_0_full.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\423e34c4d3fc01929e0fb94e448edaf6--starbucks-caramel-frappuccino-starbucks-drinks.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>423e34c4d3fc01929e0fb94e448edaf6--starbucks-caramel-frappuccino-starbucks-drinks.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\cocktail.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>cocktail.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\pint.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>pint.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="..\AO VIVO - Copia\img\level-up.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>level-up.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\starbucksfrutasvermelhas300.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>starbucksfrutasvermelhas300.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\wine-glass.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>wine-glass.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\download.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>download.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\Starbucks-Frappuccino-Morango.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>Starbucks-Frappuccino-Morango.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+    </ItemGroup>
+    <ItemGroup Condition="'$(Platform)'=='Win64'"/>
+    <ItemGroup Condition="'$(Platform)'=='Linux64'">
+        <DeployFile Include="img\approve-invoice.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>approve-invoice.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\starbucksfrutasvermelhas300.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>starbucksfrutasvermelhas300.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\fork.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>fork.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="..\AO VIVO - Copia\img\level-up.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>level-up.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\icedcafemocha.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>icedcafemocha.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\423e34c4d3fc01929e0fb94e448edaf6--starbucks-caramel-frappuccino-starbucks-drinks.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>423e34c4d3fc01929e0fb94e448edaf6--starbucks-caramel-frappuccino-starbucks-drinks.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\19878601.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>19878601.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\galeria_18962_0107171953.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>galeria_18962_0107171953.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\settings.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>settings.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\sb-espresso.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>sb-espresso.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\green-tea.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>green-tea.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\tomato-juice.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>tomato-juice.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\wine-glass.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>wine-glass.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\Starbucks-Frappuccino-Morango.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>Starbucks-Frappuccino-Morango.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\pint.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>pint.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\download.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>download.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="Linux64\Debug\DDEDev" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>DDEDev</RemoteName>
+            <DeployClass>ProjectOutput</DeployClass>
+            <Operation>1</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="img\cocktail.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>cocktail.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\download (1).jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>download (1).jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\edelmanstrip_106787_0_full.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>edelmanstrip_106787_0_full.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="..\AO VIVO - Copia\img\down-arrow.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>down-arrow.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\coffee-cup.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>coffee-cup.png</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="img\sp44844433_sc7.jpg" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>DDEDev\</RemoteDir>
+            <RemoteName>sp44844433_sc7.jpg</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+    </ItemGroup>
+</Project>
