@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/07/04 15:02:43.000.923,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/07/04 15:26:25.000.387,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\Principal.pas</Transaction>
+    <Transaction>2019/07/04 15:26:25.000.387,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\Principal.fmx</Transaction>
+    <Transaction>2019/07/04 15:26:34.000.518,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\DDEDelivery_AoVivo.dproj</Transaction>
+    <Transaction>2019/07/04 15:41:15.000.196,=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\Unit2.pas</Transaction>
+    <Transaction>2019/07/04 15:45:43.000.343,D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\Unit2.pas=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\ItemMenuPrincipal1.pas</Transaction>
+    <Transaction>2019/07/04 15:45:43.000.343,D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\Unit2.fmx=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\ItemMenuPrincipal1.fmx</Transaction>
+    <Transaction>2019/07/04 15:56:37.000.166,=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\img\fork.png</Transaction>
+    <Transaction>2019/07/04 15:56:37.000.141,=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\img\approve-invoice.png</Transaction>
+    <Transaction>2019/07/04 15:56:37.000.184,=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\img\settings.png</Transaction>
+    <Transaction>2019/07/04 15:56:37.000.152,=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\img\cocktail.png</Transaction>
+    <Transaction>2019/07/04 16:36:38.000.661,=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\Unit2.pas</Transaction>
+    <Transaction>2019/07/04 16:36:47.000.516,D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\Unit2.fmx=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\ItemMenuMesa.fmx</Transaction>
+    <Transaction>2019/07/04 16:36:47.000.516,D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\Unit2.pas=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\ItemMenuMesa.pas</Transaction>
+    <Transaction>2019/07/04 16:54:22.000.224,=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\Unit2.pas</Transaction>
+    <Transaction>2019/07/04 16:55:25.000.511,D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\Unit2.pas=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\ItemMenuCategoria.pas</Transaction>
+    <Transaction>2019/07/04 16:55:25.000.511,D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\Unit2.fmx=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\ItemMenuCategoria.fmx</Transaction>
+    <Transaction>2019/07/04 17:03:01.000.223,=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\img\pint.png</Transaction>
+    <Transaction>2019/07/04 17:03:01.000.314,=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\img\wine-glass.png</Transaction>
+    <Transaction>2019/07/04 17:03:01.000.265,=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\img\tomato-juice.png</Transaction>
+    <Transaction>2019/07/04 17:03:01.000.129,=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\img\coffee-cup.png</Transaction>
+    <Transaction>2019/07/04 17:03:01.000.179,=D:\Projetos\Cursos\Delphi Design Experience\DDE - Encontro 4\AO VIVO\img\green-tea.png</Transaction>
+  </Transactions>
+</BorlandProject>

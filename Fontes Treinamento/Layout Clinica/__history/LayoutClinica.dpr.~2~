@@ -1,0 +1,16 @@
+program LayoutClinica;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  View.Principal in 'View.Principal.pas' {Form1},
+  View.Componente.MenuPrincipal in 'View\Componentes\View.Componente.MenuPrincipal.pas' {Form2};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.Run;
+end.

@@ -1,0 +1,75 @@
+object ItemMenuMesa1: TItemMenuMesa1
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  Fill.Color = xFF000E28
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object LayoutPrincipal: TLayout
+    Position.X = 184.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 105.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Line1: TLine
+      Align = Contents
+      LineType = Bottom
+      Size.Width = 145.000000000000000000
+      Size.Height = 105.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFFF9C67
+      Stroke.Thickness = 3.000000000000000000
+      Visible = False
+    end
+    object Label1: TLabel
+      Align = Top
+      StyledSettings = [Family, Style]
+      Margins.Top = 20.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Mesa'
+      TabOrder = 1
+    end
+    object Label2: TLabel
+      Align = Top
+      StyledSettings = [Family]
+      Position.Y = 37.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 40.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = '01'
+      TabOrder = 2
+    end
+    object Rectangle1: TRectangle
+      Align = Contents
+      Opacity = 0.200000002980232200
+      Size.Width = 145.000000000000000000
+      Size.Height = 105.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      Visible = False
+    end
+    object SpeedButton1: TSpeedButton
+      Align = Contents
+      Size.Width = 145.000000000000000000
+      Size.Height = 105.000000000000000000
+      Size.PlatformDefault = False
+      OnMouseEnter = SpeedButton1MouseEnter
+      OnMouseLeave = SpeedButton1MouseLeave
+    end
+  end
+end

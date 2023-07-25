@@ -1,0 +1,60 @@
+unit View.Clientes;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts;
+
+type
+  TViewClientes = class(TForm)
+    Layout1: TLayout;
+    LayoutInfo: TLayout;
+    LayoutDetalhe: TLayout;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  ViewClientes: TViewClientes;
+
+implementation
+
+{$R *.fmx}
+
+uses View.Componente.Cliente.Info, View.Componente.Cliente.Detalhes;
+
+procedure TViewClientes.FormCreate(Sender: TObject);
+begin
+  LayoutInfo.AddObject(
+    TComponenteClienteInfo.Create(Self).Layout1
+  );
+
+  LayoutDetalhe.AddObject(
+    TComobject Layout8: TLayout
+  Align = Client
+  Margins.Left = 20.000000000000000000
+  Margins.Top = 20.000000000000000000
+  Margins.Right = 10.000000000000000000
+  Margins.Bottom = 20.000000000000000000
+  Size.Width = 395.000000000000000000
+  Size.Height = 240.000000000000000000
+  Size.PlatformDefault = False
+  TabOrder = 0
+  object Rectangle2: TRectangle
+    Align = Contents
+    Fill.Color = claWhite
+    Size.Width = 395.000000000000000000
+    Size.Height = 240.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+end
+
+  );
+end;
+
+end.

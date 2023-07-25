@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{59554FCA-36EE-467A-B592-E329FB90C82F}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Project1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Workshop_fevereiro_01\Workshop_fevereiro_01\Projeto\LayoutIncrivel.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Project1">
+        <MSBuild Projects="Project1.dproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="Project1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="Project1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LayoutIncrivel">
+        <MSBuild Projects="..\Workshop_fevereiro_01\Workshop_fevereiro_01\Projeto\LayoutIncrivel.dproj"/>
+    </Target>
+    <Target Name="LayoutIncrivel:Clean">
+        <MSBuild Projects="..\Workshop_fevereiro_01\Workshop_fevereiro_01\Projeto\LayoutIncrivel.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LayoutIncrivel:Make">
+        <MSBuild Projects="..\Workshop_fevereiro_01\Workshop_fevereiro_01\Projeto\LayoutIncrivel.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Project1;LayoutIncrivel"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Project1:Clean;LayoutIncrivel:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Project1:Make;LayoutIncrivel:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

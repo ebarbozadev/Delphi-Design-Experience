@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/09/07 14:08:59.903,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/07 14:36:37.700,D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\Unit1.pas=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/07 14:36:37.700,D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\Unit1.fmx=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2019/09/07 14:36:45.007,D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\LayoutClinica.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/09/07 14:36:58.099,D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\View.Principal.fmx=D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\Unit1.fmx</Transaction>
+    <Transaction>2019/09/07 14:36:58.099,D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\View.Principal.pas=D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\Unit1.pas</Transaction>
+    <Transaction>2019/09/07 14:37:59.231,=D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\Unit2.pas</Transaction>
+    <Transaction>2019/09/07 14:38:24.771,D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\View\Componentes\View.Componente.MenuPrincipal.fmx=D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\Unit2.fmx</Transaction>
+    <Transaction>2019/09/07 14:38:24.771,D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\View\Componentes\View.Componente.MenuPrincipal.pas=D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\Unit2.pas</Transaction>
+    <Transaction>2019/09/07 14:38:33.233,D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\View\View.Principal.pas=D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\View.Principal.pas</Transaction>
+    <Transaction>2019/09/07 14:38:33.233,D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\View\View.Principal.fmx=D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\View.Principal.fmx</Transaction>
+    <Transaction>2019/09/07 14:47:28.169,=D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\Unit2.pas</Transaction>
+    <Transaction>2019/09/07 14:47:47.046,D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\View\Componentes\View.Componente.ItemMenuPrincipal.pas=D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\Unit2.pas</Transaction>
+    <Transaction>2019/09/07 14:47:47.046,D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\View\Componentes\View.Componente.ItemMenuPrincipal.fmx=D:\Projetos\Cursos\Delphi Design Experience\Layout Clinica\Unit2.fmx</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>
