@@ -1,0 +1,16 @@
+program Projeto;
+
+uses
+  Vcl.Forms,
+  frmPrincipal in 'frmPrincipal.pas' {Form1},
+  frame in 'frame.pas' {FramItem: TFrame};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.HelpFile := 'C:\Users\Public\Documents\Embarcadero\Studio\22.0\Styles\StyleDashboard1.vsf';
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

@@ -6,7 +6,7 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Imaging.pngimage,
   Vcl.StdCtrls, Vcl.OleCtrls, SHDocVw, Data.DB, Datasnap.DBClient, Vcl.Grids,
-  Vcl.DBGrids, View.WebCharts,
+  Vcl.DBGrids,
   System.Generics.Collections,
   Unit2;
 
@@ -79,8 +79,6 @@ type
   private
     { Private declarations }
     FItemLista : TObjectList<TFrameItem>;
-    procedure CreateCharts1;
-    Procedure CreateCharts2;
     procedure PreencheScrollBox;
   public
     { Public declarations }
@@ -92,9 +90,6 @@ var
   Form1: TForm1;
 
 implementation
-
-uses
-  Charts.Types;
 
 {$R *.dfm}
 
@@ -110,136 +105,9 @@ begin
   ShowMessage('Clique Personalizado');
 end;
 
-procedure TForm1.CreateCharts1;
-begin
-  WebCharts1
-  .BackgroundColor('#223061')
-  .FontColor('#515564')
-  .NewProject(True)
-    .Charts
-      ._ChartType(line)
-        .Attributes
-          .Name('Meu Grafico de Barras')
-          .ColSpan(12)
-          .Options
-            .Title
-              .text('Total de Vendas por Mês')
-            .&End
-          .&End
-          .Heigth(200)
-          .DataSet
-            .textLabel('Meu DataSet 1')
-            .DataSet(ClientDataSet2)
-            .Types('line')
-            .Fill(False)
-            .BorderWidth(2)
-            .BorderColor('30,182,203')
-          .&End
-        .&End
-      .&End
-    .&End
-    .Charts
-      ._ChartType(bar)
-          .Attributes
-            .Name('Meu Grafico Doughnut')
-            .Options
-              .Title
-                .text('Vendas por Produtos')
-              .&End
-              .Legend
-                .display(False)
-              .&End
-            .&End
-            .Heigth(200)
-            .DataSet
-              .BackgroundColor('53,126,157')
-              .textLabel('Produtos')
-              .DataSet(ClientDataSet3)
-            .&End
-          .&End
-        .&End
-      .&End
-    .Charts
-      ._ChartType(doughnut)
-          .Attributes
-            .Name('Meu Grafico Doughnut2')
-            .Options
-              .SemiCircule(True)
-              .Title
-                .text('Curva ABC')
-              .&End
-              .Legend
-                .display(False)
-              .&End
-            .&End
-            .DataSet
-              .BackgroundColor('53,126,157')
-              .BorderColor('89,92,101')
-              .textLabel('Meu DataSet 4')
-              .DataSet(ClientDataSet2)
-            .&End
-          .&End
-        .&End
-      .&End
-  .WebBrowser(WebBrowser2)
-  .Generated;
-end;
-
-procedure TForm1.CreateCharts2;
-begin
-  WebCharts2
-  .BackgroundColor('#18254a')
-  .FontColor('#515564')
-  .NewProject(False)
-    .Charts
-      ._ChartType(bar)
-        .Attributes
-          .Name('Meu Grafico de Barras')
-          .ColSpan(12)
-          .Options
-              .SemiCircule(True)
-              .Title
-                .text('Venda no Período')
-              .&End
-              .Legend
-                .display(False)
-              .&End
-            .&End
-          .Heigth(75)
-          .DataSet
-            .textLabel('Margem')
-            .DataSet(ClientDataSet2)
-            .Types('line')
-            .Fill(False)
-            .BackgroundColor('26,133,196')
-            .BorderColor('89,92,101')
-          .&End
-          .DataSet
-            .textLabel('Despesa')
-            .DataSet(ClientDataSet2)
-            .Types('bar')
-            .BackgroundColor('89,97,104')
-            .BorderColor('89,92,101')
-          .&End
-          .DataSet
-            .textLabel('Receita')
-            .DataSet(ClientDataSet3)
-            .Types('bar')
-            .BackgroundColor('53,126,157')
-            .BorderColor('89,92,101')
-          .&End
-        .&End
-      .&End
-    .&End
-  .WebBrowser(WebBrowser1)
-  .Generated;
-end;
-
 procedure TForm1.FormCreate(Sender: TObject);
 begin
   FItemLista := TObjectList<TFrameItem>.Create;
-  CreateCharts1;
-  CreateCharts2;
   PreencheScrollBox;
 end;
 

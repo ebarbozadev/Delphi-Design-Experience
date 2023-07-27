@@ -12,7 +12,6 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  TStyleManager.TrySetStyle('DDE');
   Application.CreateForm(TForm1, Form1);
   Application.Run;
 end.

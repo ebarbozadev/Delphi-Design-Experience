@@ -13,6 +13,7 @@ object FramItem: TFramItem
     BevelEdges = []
     BevelOuter = bvNone
     TabOrder = 0
+    StyleElements = []
     object Image1: TImage
       Left = 8
       Top = 8
@@ -517,6 +518,7 @@ object FramItem: TFramItem
       Font.Name = 'Segoe UI'
       Font.Style = [fsBold]
       ParentFont = False
+      StyleElements = []
     end
     object Label2: TLabel
       Left = 136
@@ -528,6 +530,7 @@ object FramItem: TFramItem
         'n dui quam. Sed eu ultrices lorem, mattis pellentesque nibh. Sus' +
         'pendisse a massa quis magna scelerisque luctus sit amet at diam.'
       WordWrap = True
+      StyleElements = []
     end
     object Button1: TButton
       Left = 408
