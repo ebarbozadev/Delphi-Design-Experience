@@ -37,7 +37,7 @@ object Form1: TForm1
     ParentShowHint = False
     ShowHint = False
     TabOrder = 0
-    ExplicitWidth = 1110
+    ExplicitWidth = 1253
     ExplicitHeight = 737
     object Shape2: TShape
       Left = 528
@@ -115,7 +115,7 @@ object Form1: TForm1
       ParentShowHint = False
       ShowHint = False
       TabOrder = 1
-      ExplicitWidth = 1046
+      ExplicitWidth = 1189
       ExplicitHeight = 737
       DesignSize = (
         1193
@@ -158,7 +158,7 @@ object Form1: TForm1
         ParentShowHint = False
         ShowHint = False
         TabOrder = 0
-        ExplicitWidth = 1046
+        ExplicitWidth = 1189
         object Shape4: TShape
           Left = 425
           Top = 0
@@ -214,10 +214,7 @@ object Form1: TForm1
           Color = 4136982
           ParentBackground = False
           TabOrder = 1
-          ExplicitLeft = 240
-          ExplicitTop = 159
-          ExplicitWidth = 185
-          ExplicitHeight = 41
+          ExplicitWidth = 764
           object Shape10: TShape
             Left = 489
             Top = 0
@@ -426,8 +423,7 @@ object Form1: TForm1
             Padding.Bottom = 15
             ParentBackground = False
             TabOrder = 1
-            ExplicitLeft = 345
-            ExplicitWidth = 423
+            ExplicitWidth = 275
             object Shape12: TShape
               Left = 15
               Top = 15
@@ -456,10 +452,7 @@ object Form1: TForm1
               Height = 170
               Align = alClient
               TabOrder = 0
-              ExplicitLeft = -21
-              ExplicitTop = 50
-              ExplicitWidth = 300
-              ExplicitHeight = 150
+              ExplicitWidth = 245
               ControlData = {
                 4C000000BC190000921100000100000001020000000000000000000000000000
                 000000004C000000000000000000000001000000E0D057007335CF11AE690800
@@ -482,7 +475,7 @@ object Form1: TForm1
         Color = clFuchsia
         ParentBackground = False
         TabOrder = 1
-        ExplicitWidth = 1050
+        ExplicitWidth = 1193
         ExplicitHeight = 537
         object Shape6: TShape
           Left = 425
@@ -515,6 +508,7 @@ object Form1: TForm1
           ParentBackground = False
           ParentFont = False
           TabOrder = 0
+          ExplicitHeight = 537
         end
         object Panel10: TPanel
           Left = 425
@@ -523,10 +517,8 @@ object Form1: TForm1
           Height = 538
           Align = alClient
           TabOrder = 1
-          ExplicitLeft = 48
-          ExplicitTop = 248
-          ExplicitWidth = 185
-          ExplicitHeight = 41
+          ExplicitWidth = 768
+          ExplicitHeight = 537
           object Panel8: TPanel
             Left = 1
             Top = 1
@@ -542,6 +534,7 @@ object Form1: TForm1
             Padding.Bottom = 15
             ParentBackground = False
             TabOrder = 0
+            ExplicitHeight = 535
             object Shape8: TShape
               Left = 15
               Top = 56
@@ -574,9 +567,6 @@ object Form1: TForm1
               Color = clWhite
               ParentBackground = False
               TabOrder = 0
-              ExplicitLeft = 64
-              ExplicitTop = 184
-              ExplicitWidth = 185
               object Shape18: TShape
                 Left = 0
                 Top = 0
@@ -621,10 +611,7 @@ object Form1: TForm1
               BevelEdges = []
               BevelOuter = bvNone
               TabOrder = 1
-              ExplicitLeft = 129
-              ExplicitTop = 0
-              ExplicitWidth = 185
-              ExplicitHeight = 41
+              ExplicitHeight = 464
               object Shape19: TShape
                 Left = 0
                 Top = 0
@@ -655,7 +642,7 @@ object Form1: TForm1
                 Color = clWhite
                 ParentColor = False
                 TabOrder = 0
-                ExplicitWidth = 314
+                ExplicitHeight = 464
               end
             end
           end
@@ -675,10 +662,8 @@ object Form1: TForm1
             Padding.Bottom = 15
             ParentBackground = False
             TabOrder = 1
-            ExplicitLeft = 425
-            ExplicitTop = 0
-            ExplicitWidth = 628
-            ExplicitHeight = 538
+            ExplicitWidth = 284
+            ExplicitHeight = 535
             object Shape9: TShape
               Left = 15
               Top = 113
@@ -708,7 +693,7 @@ object Form1: TForm1
               BevelEdges = []
               BevelOuter = bvNone
               TabOrder = 0
-              ExplicitWidth = 396
+              ExplicitWidth = 254
               object Shape13: TShape
                 Left = 0
                 Top = 0
@@ -773,10 +758,8 @@ object Form1: TForm1
               BevelEdges = []
               BevelOuter = bvNone
               TabOrder = 1
-              ExplicitLeft = 97
-              ExplicitTop = 368
-              ExplicitWidth = 185
-              ExplicitHeight = 41
+              ExplicitWidth = 254
+              ExplicitHeight = 407
               object DBGrid1: TDBGrid
                 Left = 0
                 Top = 0
@@ -813,6 +796,7 @@ object Form1: TForm1
         Color = 6369314
         ParentBackground = False
         TabOrder = 2
+        ExplicitHeight = 681
         object Shape5: TShape
           Left = 0
           Top = 136
@@ -911,8 +895,7 @@ object Form1: TForm1
           Color = 6369314
           ParentBackground = False
           TabOrder = 1
-          ExplicitTop = 41
-          ExplicitHeight = 617
+          ExplicitHeight = 545
           object Shape15: TShape
             Left = 0
             Top = 33
@@ -994,7 +977,7 @@ object Form1: TForm1
             object Label11: TLabel
               Left = 255
               Top = 12
-              Width = 34
+              Width = 31
               Height = 15
               Caption = 'Anual'
               Color = clWhite
@@ -1014,10 +997,7 @@ object Form1: TForm1
             Padding.Right = 15
             Padding.Bottom = 15
             TabOrder = 1
-            ExplicitLeft = 120
-            ExplicitTop = 368
-            ExplicitWidth = 185
-            ExplicitHeight = 41
+            ExplicitHeight = 512
             object Shape16: TShape
               Left = 15
               Top = 15
@@ -1046,7 +1026,7 @@ object Form1: TForm1
               Height = 483
               Align = alClient
               TabOrder = 0
-              ExplicitTop = -41
+              ExplicitHeight = 482
               ControlData = {
                 4C0000006C1C0000EB3100000000000000000000000000000000000000000000
                 000000004C000000000000000000000001000000E0D057007335CF11AE690800

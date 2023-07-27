@@ -2,7 +2,8 @@ program Projeto;
 
 uses
   Vcl.Forms,
-  frmPrincipal in 'frmPrincipal.pas' {Form1};
+  frmPrincipal in 'frmPrincipal.pas' {Form1},
+  frame in 'frame.pas' {FramItem: TFrame};
 
 {$R *.res}
 
