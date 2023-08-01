@@ -1,0 +1,145 @@
+unit UnifFrameMenuConferir;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
+  Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls,
+  Vcl.Imaging.pngimage, System.TypInfo;
+
+type
+  TTypePagamento = (pg_money, pg_creditcard);
+
+type
+  TFrame1 = class(TFrame)
+    pnMeio: TPanel;
+    pnMeioTop: TPanel;
+    pnMeioBottom: TPanel;
+    pnMMeio: TPanel;
+    lb: TLabel;
+    pnTipoPagamento: TPanel;
+    Label1: TLabel;
+    pnFotoTipoPagamento: TPanel;
+    Label2: TLabel;
+    pn: TPanel;
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Panel3: TPanel;
+    Label5: TLabel;
+    Label6: TLabel;
+    pnValores: TPanel;
+    pnInformacoes: TPanel;
+    Panel5: TPanel;
+    Label8: TLabel;
+    Label9: TLabel;
+    pnNCartao: TPanel;
+    Label10: TLabel;
+    Shape1: TShape;
+    pnN: TPanel;
+    Label12: TLabel;
+    Shape2: TShape;
+    Panel4: TPanel;
+    Label14: TLabel;
+    Shape3: TShape;
+    Panel7: TPanel;
+    Panel6: TPanel;
+    Panel8: TPanel;
+    Panel9: TPanel;
+    Panel10: TPanel;
+    Shape4: TShape;
+    Label16: TLabel;
+    Image1: TImage;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    procedure pnMeioBottomClick(Sender: TObject);
+    procedure pnClick(Sender: TObject);
+    procedure Label2Click(Sender: TObject);
+  private
+    procedure FormatButtonEnter(Panel: TPanel; Image: TImage; _Label: TLabel;
+      Resource: String);
+    procedure FormatButtonLeave(Panel: TPanel; Image: TImage; _Label: TLabel;
+      Resource: String);
+    { Private declarations }
+  public
+    { Public declarations }
+    IcoPag : TTypePagamento;
+    FrameParent : TFrame;
+    PanelContainer : TPanel;
+    procedure AddImage(Component : TImage; Resource : String);
+  end;
+
+implementation
+
+{$R *.dfm}
+
+// Adicionar imagem cor preta
+procedure TFrame1.AddImage(Component: TImage; Resource: String);
+var
+  _Resource : TResourceStream;
+begin
+  _Resource := TResourceStream.Create(HInstance, Resource, RT_RCDATA);
+  try
+    Component.Picture.LoadFromStream(_Resource);
+  finally
+    _Resource.Free;
+  end;
+end;
+
+procedure TFrame1.FormatButtonEnter(Panel: TPanel; Image: TImage;
+  _Label: TLabel; Resource: String);
+begin
+  Panel.Color:= clWhite;
+  _Label.Font.Color:= clWindowFrame;
+  AddImage(Image, 'black_' + Resource);
+end;
+
+// Adicionar imagem white
+procedure TFrame1.FormatButtonLeave(Panel: TPanel; Image: TImage;
+  _Label: TLabel; Resource: String);
+begin
+  Panel.Color:= StringToColor('$00D58219');
+  _Label.Font.Color:= clWhite;
+  AddImage(Image, Resource);
+end;
+
+procedure TFrame1.Label2Click(Sender: TObject);
+begin
+  case IcoPag of
+    pg_money: IcoPag := pg_creditcard;
+    pg_creditcard: IcoPag := pg_money;
+  end;
+
+  AddImage(Image1, GetEnumName(TypeInfo(TTypePagamento), Integer(IcoPag)));
+end;
+
+procedure TFrame1.pnClick(Sender: TObject);
+begin
+  case IcoPag of
+    pg_money: IcoPag := pg_creditcard;
+    pg_creditcard: IcoPag := pg_money;
+  end;
+
+  AddImage(Image1, GetEnumName(TypeInfo(TTypePagamento), Integer(IcoPag)));
+
+  Label12.Visible := (IcoPag = pg_creditcard);
+  Edit1.Visible   := (IcoPag = pg_creditcard);
+  Shape2.Visible  := (IcoPag = pg_creditcard);
+end;
+
+procedure TFrame1.pnMeioBottomClick(Sender: TObject);
+begin
+  // FrameParent é quem chamou ele ou seja, o nosso meu lateral
+  // .Parent := PanelContainer estamos setando o nosso parent como o painel anterior
+  FrameParent.Parent := Self.Parent;
+  Self.Parent.Width:= FrameParent.Width;
+  // Mostrar o FrameParent que foi setado
+  FrameParent.Show;
+  // Quando clicar ele vai se autodestruir
+  Self.Destroy;
+end;
+
+end.

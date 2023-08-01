@@ -1,0 +1,22 @@
+program Projeto;
+
+{$R *.dres}
+
+uses
+  Vcl.Forms,
+  frmPrincipal in 'frmPrincipal.pas' {Form1},
+  UnitFrameMenuLateral in 'UnitFrameMenuLateral.pas' {frameMenuLateral: TFrame},
+  UnifFrameMenuConferir in 'UnifFrameMenuConferir.pas' {Frame1: TFrame},
+  UnitFrameCliente in 'UnitFrameCliente.pas' {Frame2: TFrame},
+  frmCliente in 'frmCliente.pas' {Form2};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  ReportMemoryLeaksOnShutdown   := True;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.Run;
+end.

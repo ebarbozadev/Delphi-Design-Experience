@@ -1,0 +1,55 @@
+unit UnitFrameCliente;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
+  Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Data.DB,
+  FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Error, FireDAC.UI.Intf,
+  FireDAC.Phys.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Stan.Async,
+  FireDAC.Phys, FireDAC.Phys.FB, FireDAC.Phys.FBDef, FireDAC.VCLUI.Wait,
+  Datasnap.DBClient, FireDAC.Comp.Client, Vcl.StdCtrls, Vcl.Grids, Vcl.DBGrids,
+  Vcl.Imaging.jpeg;
+
+type
+  TFrame2 = class(TFrame)
+    pnPrincipal: TPanel;
+    pnTop: TPanel;
+    edt: TEdit;
+    pnMid: TPanel;
+    pnTabela: TPanel;
+    pnButton: TPanel;
+    DBGrid1: TDBGrid;
+    Image1: TImage;
+    FDConnection1: TFDConnection;
+    ClientDataSet1: TClientDataSet;
+    DataSource1: TDataSource;
+    ClientDataSet1LAST_NAME: TStringField;
+    ClientDataSet1FIRST_NAME: TStringField;
+    ClientDataSet1ACCT_NBR: TFloatField;
+    ClientDataSet1ADDRESS_1: TStringField;
+    ClientDataSet1CITY: TStringField;
+    ClientDataSet1STATE: TStringField;
+    ClientDataSet1ZIP: TStringField;
+    ClientDataSet1TELEPHONE: TStringField;
+    ClientDataSet1DATE_OPEN: TDateField;
+    ClientDataSet1SS_NUMBER: TFloatField;
+    ClientDataSet1PICTURE: TStringField;
+    ClientDataSet1BIRTH_DATE: TDateField;
+    ClientDataSet1RISK_LEVEL: TStringField;
+    ClientDataSet1OCCUPATION: TStringField;
+    ClientDataSet1OBJECTIVES: TStringField;
+    ClientDataSet1INTERESTS: TStringField;
+    ClientDataSet1IMAGE: TBlobField;
+    Label1: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+implementation
+
+{$R *.dfm}
+
+end.

@@ -1,21 +1,26 @@
 object Form1: TForm1
   Left = 0
   Top = 0
+  BorderStyle = bsNone
   Caption = 'Form1'
-  ClientHeight = 690
-  ClientWidth = 1283
+  ClientHeight = 999
+  ClientWidth = 1291
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  Position = poDesigned
+  WindowState = wsMaximized
+  OnCreate = FormCreate
+  OnResize = FormResize
   TextHeight = 15
   object pnPrincipal: TPanel
     Left = 0
     Top = 0
-    Width = 1283
-    Height = 690
+    Width = 1291
+    Height = 999
     Margins.Left = 0
     Margins.Top = 0
     Margins.Right = 0
@@ -44,13 +49,10 @@ object Form1: TForm1
     Touch.ParentTabletOptions = False
     Touch.TabletOptions = [toPressAndHold]
     StyleElements = []
-    ExplicitLeft = 5
-    ExplicitTop = -5
-    ExplicitWidth = 1270
     object pnHeader: TPanel
       Left = 0
       Top = 0
-      Width = 1283
+      Width = 1291
       Height = 41
       Margins.Left = 0
       Margins.Top = 0
@@ -81,9 +83,6 @@ object Form1: TForm1
       Touch.ParentTabletOptions = False
       Touch.TabletOptions = [toPressAndHold]
       StyleElements = []
-      ExplicitLeft = 40
-      ExplicitTop = 139
-      ExplicitWidth = 185
       object pnHeaderLogo: TPanel
         Left = 0
         Top = 0
@@ -118,7 +117,6 @@ object Form1: TForm1
         Touch.ParentTabletOptions = False
         Touch.TabletOptions = [toPressAndHold]
         StyleElements = []
-        ExplicitLeft = 40
         object lbHeaderLogo: TLabel
           AlignWithMargins = True
           Left = 0
@@ -158,7 +156,7 @@ object Form1: TForm1
       object pnHeaderMeio: TPanel
         Left = 185
         Top = 0
-        Width = 913
+        Width = 921
         Height = 41
         Margins.Left = 0
         Margins.Top = 0
@@ -189,13 +187,11 @@ object Form1: TForm1
         Touch.ParentTabletOptions = False
         Touch.TabletOptions = [toPressAndHold]
         StyleElements = []
-        ExplicitLeft = 0
-        ExplicitWidth = 185
         object lbHeaderMEio: TLabel
           AlignWithMargins = True
           Left = 0
           Top = 5
-          Width = 913
+          Width = 921
           Height = 36
           Margins.Left = 0
           Margins.Top = 5
@@ -204,6 +200,7 @@ object Form1: TForm1
           ParentCustomHint = False
           Align = alClient
           Alignment = taCenter
+          Anchors = []
           AutoSize = False
           BiDiMode = bdLeftToRight
           Caption = 'G.S. Ponto de Venda - Limitado'
@@ -222,12 +219,12 @@ object Form1: TForm1
           Touch.TabletOptions = [toPressAndHold]
           Transparent = True
           StyleElements = []
-          ExplicitTop = 1
-          ExplicitWidth = 900
+          ExplicitTop = 13
+          ExplicitWidth = 925
         end
       end
       object pnHeaderSair: TPanel
-        Left = 1098
+        Left = 1106
         Top = 0
         Width = 185
         Height = 41
@@ -260,15 +257,14 @@ object Form1: TForm1
         Touch.ParentTabletOptions = False
         Touch.TabletOptions = [toPressAndHold]
         StyleElements = []
-        ExplicitLeft = 1085
         object lbHeaderSair: TLabel
           AlignWithMargins = True
           Left = 0
-          Top = 5
+          Top = 0
           Width = 170
-          Height = 36
+          Height = 41
           Margins.Left = 0
-          Margins.Top = 5
+          Margins.Top = 0
           Margins.Right = 15
           Margins.Bottom = 0
           ParentCustomHint = False
@@ -280,7 +276,7 @@ object Form1: TForm1
           Color = clBtnFace
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clWhite
-          Font.Height = -21
+          Font.Height = -27
           Font.Name = 'Segoe UI'
           Font.Style = []
           ParentBiDiMode = False
@@ -292,15 +288,18 @@ object Form1: TForm1
           Touch.TabletOptions = [toPressAndHold]
           Transparent = True
           StyleElements = []
-          ExplicitLeft = 56
-          ExplicitWidth = 129
+          OnClick = lbHeaderSairClick
+          ExplicitLeft = 128
+          ExplicitTop = 5
+          ExplicitWidth = 42
+          ExplicitHeight = 30
         end
       end
     end
     object pnFooter: TPanel
       Left = 0
-      Top = 592
-      Width = 1283
+      Top = 901
+      Width = 1291
       Height = 98
       Margins.Left = 0
       Margins.Top = 0
@@ -331,11 +330,10 @@ object Form1: TForm1
       Touch.ParentTabletOptions = False
       Touch.TabletOptions = [toPressAndHold]
       StyleElements = []
-      ExplicitWidth = 1270
       object pnFooterPart1: TPanel
         Left = 0
         Top = 0
-        Width = 861
+        Width = 869
         Height = 98
         Margins.Left = 0
         Margins.Top = 0
@@ -366,10 +364,6 @@ object Form1: TForm1
         Touch.ParentTabletOptions = False
         Touch.TabletOptions = [toPressAndHold]
         StyleElements = []
-        ExplicitLeft = 40
-        ExplicitTop = 105
-        ExplicitWidth = 185
-        ExplicitHeight = 41
         object pnFPT1Meio: TPanel
           Left = 0
           Top = 0
@@ -404,10 +398,6 @@ object Form1: TForm1
           Touch.ParentTabletOptions = False
           Touch.TabletOptions = [toPressAndHold]
           StyleElements = []
-          ExplicitLeft = 40
-          ExplicitTop = 105
-          ExplicitWidth = 185
-          ExplicitHeight = 41
           object lbFPT1: TLabel
             Left = 10
             Top = 15
@@ -499,7 +489,7 @@ object Form1: TForm1
         object pnFPT2Direita: TPanel
           Left = 440
           Top = 0
-          Width = 421
+          Width = 429
           Height = 98
           Margins.Left = 0
           Margins.Top = 0
@@ -530,8 +520,6 @@ object Form1: TForm1
           Touch.ParentTabletOptions = False
           Touch.TabletOptions = [toPressAndHold]
           StyleElements = []
-          ExplicitTop = 8
-          ExplicitWidth = 408
           object lb: TLabel
             Left = 30
             Top = 15
@@ -622,7 +610,7 @@ object Form1: TForm1
         end
       end
       object pnFooterPart2: TPanel
-        Left = 861
+        Left = 869
         Top = 0
         Width = 422
         Height = 98
@@ -655,8 +643,6 @@ object Form1: TForm1
         Touch.ParentTabletOptions = False
         Touch.TabletOptions = [toPressAndHold]
         StyleElements = []
-        ExplicitLeft = 848
-        ExplicitHeight = 146
         object Label3: TLabel
           Left = 0
           Top = 15
@@ -1316,8 +1302,8 @@ object Form1: TForm1
     object pnMain: TPanel
       Left = 0
       Top = 41
-      Width = 1283
-      Height = 551
+      Width = 1291
+      Height = 860
       Margins.Left = 0
       Margins.Top = 0
       Margins.Right = 0
@@ -1347,14 +1333,11 @@ object Form1: TForm1
       Touch.ParentTabletOptions = False
       Touch.TabletOptions = [toPressAndHold]
       StyleElements = []
-      ExplicitTop = 0
-      ExplicitWidth = 1270
-      ExplicitHeight = 690
       object pnMainEsquerdo: TPanel
         Left = 0
         Top = 0
         Width = 1016
-        Height = 551
+        Height = 860
         Margins.Left = 0
         Margins.Top = 0
         Margins.Right = 0
@@ -1384,7 +1367,6 @@ object Form1: TForm1
         Touch.ParentTabletOptions = False
         Touch.TabletOptions = [toPressAndHold]
         StyleElements = []
-        ExplicitWidth = 992
         object pnMainEsquerdoTop: TPanel
           Left = 0
           Top = 0
@@ -1399,7 +1381,7 @@ object Form1: TForm1
           BevelEdges = []
           BevelOuter = bvNone
           BiDiMode = bdLeftToRight
-          Color = 11101467
+          Color = 16378328
           Ctl3D = False
           DoubleBuffered = False
           FullRepaint = False
@@ -1408,7 +1390,9 @@ object Form1: TForm1
           Font.Height = -12
           Font.Name = 'Segoe UI'
           Font.Style = []
+          Padding.Left = 20
           Padding.Top = 15
+          Padding.Right = 20
           Padding.Bottom = 15
           ParentBiDiMode = False
           ParentBackground = False
@@ -1421,9 +1405,8 @@ object Form1: TForm1
           Touch.ParentTabletOptions = False
           Touch.TabletOptions = [toPressAndHold]
           StyleElements = []
-          ExplicitWidth = 1085
           object pnMETEsquerdo: TPanel
-            Left = 0
+            Left = 20
             Top = 15
             Width = 100
             Height = 105
@@ -1462,6 +1445,7 @@ object Form1: TForm1
               Width = 100
               Height = 105
               Align = alClient
+              Center = True
               Picture.Data = {
                 0954506E67496D61676589504E470D0A1A0A0000000D49484452000000640000
                 0064080600000070E295540000001974455874536F6674776172650041646F62
@@ -1661,12 +1645,13 @@ object Form1: TForm1
                 0A4D10D533DE1019E39E1025219944962DA06F9DC5F91C5B9F20200B3D55AA73
                 7C8E81DFEF2B04F2FF28AC821A534FF9190000000049454E44AE426082}
               Transparent = True
+              ExplicitLeft = 24
             end
           end
           object pnMETMeio: TPanel
-            Left = 100
+            Left = 120
             Top = 15
-            Width = 663
+            Width = 623
             Height = 105
             Margins.Left = 0
             Margins.Top = 0
@@ -1697,12 +1682,9 @@ object Form1: TForm1
             Touch.ParentTabletOptions = False
             Touch.TabletOptions = [toPressAndHold]
             StyleElements = []
-            ExplicitLeft = 150
-            ExplicitWidth = 682
-            ExplicitHeight = 155
           end
           object pnMETDireito: TPanel
-            Left = 763
+            Left = 743
             Top = 15
             Width = 253
             Height = 105
@@ -1735,10 +1717,8 @@ object Form1: TForm1
             Touch.ParentTabletOptions = False
             Touch.TabletOptions = [toPressAndHold]
             StyleElements = []
-            ExplicitLeft = 832
-            ExplicitHeight = 155
             object lbpnMETDireitoTotal: TLabel
-              Left = 0
+              Left = 40
               Top = 16
               Width = 71
               Height = 30
@@ -1776,6 +1756,7 @@ object Form1: TForm1
               Margins.Right = 0
               Margins.Bottom = 0
               ParentCustomHint = False
+              Alignment = taRightJustify
               AutoSize = False
               BiDiMode = bdLeftToRight
               Caption = 'R$ 2.130,00'
@@ -1797,12 +1778,1342 @@ object Form1: TForm1
             end
           end
         end
+        object pnMainEsquerdoMeio: TPanel
+          Left = 0
+          Top = 135
+          Width = 1016
+          Height = 725
+          Margins.Left = 0
+          Margins.Top = 0
+          Margins.Right = 0
+          Margins.Bottom = 0
+          ParentCustomHint = False
+          Align = alClient
+          BevelEdges = []
+          BevelOuter = bvNone
+          BiDiMode = bdLeftToRight
+          Color = 16378328
+          Ctl3D = False
+          DoubleBuffered = False
+          FullRepaint = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -12
+          Font.Name = 'Segoe UI'
+          Font.Style = []
+          Padding.Left = 15
+          Padding.Right = 15
+          ParentBiDiMode = False
+          ParentBackground = False
+          ParentCtl3D = False
+          ParentDoubleBuffered = False
+          ParentFont = False
+          ParentShowHint = False
+          ShowHint = False
+          TabOrder = 1
+          Touch.ParentTabletOptions = False
+          Touch.TabletOptions = [toPressAndHold]
+          StyleElements = []
+          object pnMEMTop: TPanel
+            Left = 15
+            Top = 0
+            Width = 986
+            Height = 89
+            Margins.Left = 0
+            Margins.Top = 0
+            Margins.Right = 0
+            Margins.Bottom = 0
+            ParentCustomHint = False
+            Align = alTop
+            Anchors = []
+            BevelEdges = []
+            BevelOuter = bvNone
+            BiDiMode = bdLeftToRight
+            Color = 16378328
+            Ctl3D = False
+            DoubleBuffered = False
+            FullRepaint = False
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentBiDiMode = False
+            ParentBackground = False
+            ParentCtl3D = False
+            ParentDoubleBuffered = False
+            ParentFont = False
+            ParentShowHint = False
+            ShowHint = False
+            TabOrder = 0
+            Touch.ParentTabletOptions = False
+            Touch.TabletOptions = [toPressAndHold]
+            StyleElements = []
+            object Shape6: TShape
+              Left = 0
+              Top = 0
+              Width = 986
+              Height = 2
+              Margins.Left = 0
+              Margins.Top = 0
+              Margins.Right = 0
+              Margins.Bottom = 0
+              ParentCustomHint = False
+              Align = alTop
+              Brush.Color = clCream
+              ParentShowHint = False
+              Pen.Color = clGray
+              Pen.Style = psClear
+              Pen.Width = 0
+              ShowHint = False
+              ExplicitWidth = 990
+            end
+            object pnMEMTopEsquerdo: TPanel
+              Left = 0
+              Top = 2
+              Width = 145
+              Height = 87
+              Margins.Left = 0
+              Margins.Top = 0
+              Margins.Right = 0
+              Margins.Bottom = 0
+              ParentCustomHint = False
+              Align = alLeft
+              Anchors = []
+              BevelEdges = []
+              BevelOuter = bvNone
+              BiDiMode = bdLeftToRight
+              Ctl3D = False
+              DoubleBuffered = False
+              FullRepaint = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -12
+              Font.Name = 'Segoe UI'
+              Font.Style = []
+              ParentBiDiMode = False
+              ParentBackground = False
+              ParentCtl3D = False
+              ParentDoubleBuffered = False
+              ParentFont = False
+              ParentShowHint = False
+              ShowHint = False
+              TabOrder = 0
+              Touch.ParentTabletOptions = False
+              Touch.TabletOptions = [toPressAndHold]
+              StyleElements = []
+              object pnMEMTEE: TPanel
+                Left = 0
+                Top = 0
+                Width = 185
+                Height = 87
+                Margins.Left = 0
+                Margins.Top = 0
+                Margins.Right = 0
+                Margins.Bottom = 0
+                ParentCustomHint = False
+                Align = alLeft
+                Anchors = []
+                BevelEdges = []
+                BevelOuter = bvNone
+                BiDiMode = bdLeftToRight
+                Color = 16378328
+                Ctl3D = False
+                DoubleBuffered = False
+                FullRepaint = False
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI'
+                Font.Style = []
+                ParentBiDiMode = False
+                ParentBackground = False
+                ParentCtl3D = False
+                ParentDoubleBuffered = False
+                ParentFont = False
+                ParentShowHint = False
+                ShowHint = False
+                TabOrder = 0
+                Touch.ParentTabletOptions = False
+                Touch.TabletOptions = [toPressAndHold]
+                StyleElements = []
+                object Label5: TLabel
+                  Left = 0
+                  Top = 10
+                  Width = 113
+                  Height = 30
+                  Margins.Left = 0
+                  Margins.Top = 0
+                  Margins.Right = 0
+                  Margins.Bottom = 0
+                  ParentCustomHint = False
+                  AutoSize = False
+                  BiDiMode = bdLeftToRight
+                  Caption = 'Documento'
+                  Color = clBtnFace
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWindowText
+                  Font.Height = -21
+                  Font.Name = 'Segoe UI'
+                  Font.Style = []
+                  ParentBiDiMode = False
+                  ParentColor = False
+                  ParentFont = False
+                  ParentShowHint = False
+                  ShowHint = False
+                  Touch.ParentTabletOptions = False
+                  Touch.TabletOptions = [toPressAndHold]
+                  Transparent = True
+                  StyleElements = []
+                end
+                object Label6: TLabel
+                  Left = 0
+                  Top = 31
+                  Width = 145
+                  Height = 30
+                  Margins.Left = 0
+                  Margins.Top = 0
+                  Margins.Right = 0
+                  Margins.Bottom = 0
+                  ParentCustomHint = False
+                  AutoSize = False
+                  BiDiMode = bdLeftToRight
+                  Caption = 'FAC 001/1234'
+                  Color = 13927449
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = 13927449
+                  Font.Height = -21
+                  Font.Name = 'Segoe UI'
+                  Font.Style = [fsBold]
+                  ParentBiDiMode = False
+                  ParentColor = False
+                  ParentFont = False
+                  ParentShowHint = False
+                  ShowHint = False
+                  Touch.ParentTabletOptions = False
+                  Touch.TabletOptions = [toPressAndHold]
+                  Transparent = True
+                  StyleElements = []
+                end
+              end
+            end
+            object pnMEMTopMeio: TPanel
+              Left = 145
+              Top = 2
+              Width = 519
+              Height = 87
+              Margins.Left = 0
+              Margins.Top = 0
+              Margins.Right = 0
+              Margins.Bottom = 0
+              ParentCustomHint = False
+              Align = alClient
+              Anchors = []
+              BevelEdges = []
+              BevelOuter = bvNone
+              BiDiMode = bdLeftToRight
+              Color = 16378328
+              Ctl3D = False
+              DoubleBuffered = False
+              FullRepaint = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -12
+              Font.Name = 'Segoe UI'
+              Font.Style = []
+              ParentBiDiMode = False
+              ParentBackground = False
+              ParentCtl3D = False
+              ParentDoubleBuffered = False
+              ParentFont = False
+              ParentShowHint = False
+              ShowHint = False
+              TabOrder = 1
+              Touch.ParentTabletOptions = False
+              Touch.TabletOptions = [toPressAndHold]
+              StyleElements = []
+              object pnMEMTEDMeio: TPanel
+                Left = 152
+                Top = 0
+                Width = 367
+                Height = 87
+                Margins.Left = 0
+                Margins.Top = 0
+                Margins.Right = 0
+                Margins.Bottom = 0
+                ParentCustomHint = False
+                Align = alRight
+                Anchors = []
+                BevelEdges = []
+                BevelOuter = bvNone
+                BiDiMode = bdLeftToRight
+                Ctl3D = False
+                DoubleBuffered = False
+                FullRepaint = False
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI'
+                Font.Style = []
+                ParentBiDiMode = False
+                ParentBackground = False
+                ParentCtl3D = False
+                ParentDoubleBuffered = False
+                ParentFont = False
+                ParentShowHint = False
+                ShowHint = False
+                TabOrder = 0
+                Touch.ParentTabletOptions = False
+                Touch.TabletOptions = [toPressAndHold]
+                StyleElements = []
+                object pnMEMTEED: TPanel
+                  Left = 161
+                  Top = 0
+                  Width = 206
+                  Height = 87
+                  Margins.Left = 0
+                  Margins.Top = 0
+                  Margins.Right = 0
+                  Margins.Bottom = 0
+                  ParentCustomHint = False
+                  Align = alClient
+                  BevelEdges = []
+                  BevelOuter = bvNone
+                  BiDiMode = bdLeftToRight
+                  Color = 16378328
+                  Ctl3D = False
+                  DoubleBuffered = False
+                  FullRepaint = False
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWindowText
+                  Font.Height = -12
+                  Font.Name = 'Segoe UI'
+                  Font.Style = []
+                  ParentBiDiMode = False
+                  ParentBackground = False
+                  ParentCtl3D = False
+                  ParentDoubleBuffered = False
+                  ParentFont = False
+                  ParentShowHint = False
+                  ShowHint = False
+                  TabOrder = 0
+                  Touch.ParentTabletOptions = False
+                  Touch.TabletOptions = [toPressAndHold]
+                  StyleElements = []
+                  object Label7: TLabel
+                    Left = 26
+                    Top = 10
+                    Width = 96
+                    Height = 30
+                    Margins.Left = 0
+                    Margins.Top = 0
+                    Margins.Right = 0
+                    Margins.Bottom = 0
+                    ParentCustomHint = False
+                    AutoSize = False
+                    BiDiMode = bdLeftToRight
+                    Caption = 'Vendedor'
+                    Color = clBtnFace
+                    Font.Charset = DEFAULT_CHARSET
+                    Font.Color = clWindowText
+                    Font.Height = -21
+                    Font.Name = 'Segoe UI'
+                    Font.Style = []
+                    ParentBiDiMode = False
+                    ParentColor = False
+                    ParentFont = False
+                    ParentShowHint = False
+                    ShowHint = False
+                    Touch.ParentTabletOptions = False
+                    Touch.TabletOptions = [toPressAndHold]
+                    Transparent = True
+                    StyleElements = []
+                  end
+                  object Image7: TImage
+                    Left = 26
+                    Top = 40
+                    Width = 25
+                    Height = 25
+                    Margins.Left = 0
+                    Margins.Top = 0
+                    Margins.Right = 0
+                    Margins.Bottom = 0
+                    Picture.Data = {
+                      0954506E67496D61676589504E470D0A1A0A0000000D49484452000000190000
+                      00190806000000C4E985630000001974455874536F6674776172650041646F62
+                      6520496D616765526561647971C9653C0000032269545874584D4C3A636F6D2E
+                      61646F62652E786D7000000000003C3F787061636B657420626567696E3D22EF
+                      BBBF222069643D2257354D304D7043656869487A7265537A4E54637A6B633964
+                      223F3E203C783A786D706D65746120786D6C6E733A783D2261646F62653A6E73
+                      3A6D6574612F2220783A786D70746B3D2241646F626520584D5020436F726520
+                      352E332D633031312036362E3134353636312C20323031322F30322F30362D31
+                      343A35363A32372020202020202020223E203C7264663A52444620786D6C6E73
+                      3A7264663D22687474703A2F2F7777772E77332E6F72672F313939392F30322F
+                      32322D7264662D73796E7461782D6E7323223E203C7264663A44657363726970
+                      74696F6E207264663A61626F75743D222220786D6C6E733A786D703D22687474
+                      703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F2220786D6C6E73
+                      3A786D704D4D3D22687474703A2F2F6E732E61646F62652E636F6D2F7861702F
+                      312E302F6D6D2F2220786D6C6E733A73745265663D22687474703A2F2F6E732E
+                      61646F62652E636F6D2F7861702F312E302F73547970652F5265736F75726365
+                      526566232220786D703A43726561746F72546F6F6C3D2241646F62652050686F
+                      746F73686F7020435336202857696E646F7773292220786D704D4D3A496E7374
+                      616E636549443D22786D702E6969643A42303035344241303242453231314545
+                      424143394437464533453534384331462220786D704D4D3A446F63756D656E74
+                      49443D22786D702E6469643A4230303534424131324245323131454542414339
+                      443746453345353438433146223E203C786D704D4D3A4465726976656446726F
+                      6D2073745265663A696E7374616E636549443D22786D702E6969643A42303035
+                      3442394532424532313145454241433944374645334535343843314622207374
+                      5265663A646F63756D656E7449443D22786D702E6469643A4230303534423946
+                      324245323131454542414339443746453345353438433146222F3E203C2F7264
+                      663A4465736372697074696F6E3E203C2F7264663A5244463E203C2F783A786D
+                      706D6574613E203C3F787061636B657420656E643D2272223F3E9EE2FF900000
+                      052B4944415478DA9D967B50D45514C7BFFBFCB12C8F5504F911889A882F8252
+                      54CC07393543E38498A9A5E94CE2BB2C2723B550B3B0501705110D790F6ABED1
+                      B242C1A6D2C606C149B332151276E6B7EB3F3E76D9072CBB74EE6F5DD855D6D7
+                      61EEECF0BBF79ECF39E7DE73CE957476766270FF68F8CBE5FD7A0506ECB23B9D
+                      CFC143D87C87DD8E8E8E0E389C4EF60552891432B91C0A1A5299CC73B9A4BDAD
+                      CD28954A6BED0EE71693D5AABBDAA283E41EA4AF46ED5FCD291409EC7F894402
+                      2729B498CD90C9E488888A4438CF232434149C9283C9688441AF47F37F4D30DD
+                      BD0B4EA5829C80168B19039E8D81D3E180C120FC7DDB644E21884E848C193E34
+                      47A9507CE806D86C565AE8C4F8E4973075C60C3C3F2A11C11A0DC842D15C2329
+                      96D09FAEA519BFFE548BEFAB8EA1A5B919AFA6A62263ED3AEC292942F9EE42C8
+                      945C49FD3FFF2E1021E3E3E3AED0DE5806686D6D459FD03E58F94926525E4BF5
+                      0C050C8280EC0DEB71A3B109018181181617872969D3F04C54147D6BC4C8D1A3
+                      212143B4599FA3B2A4048141C1CD672F5EEAEF86DC24409899C2C3474420B7B0
+                      08314386749D89186C32A0B8A0005FAECB14C3C642D2DEDE0EA55289E9B36763
+                      D5BACF28B4AEF3E98604DD3C7BF1CF703744B0DBDB798EF3C3CEF20A8C884FE8
+                      52EE0630D9BE79338A0AF2A1E9D50BEED03A0876FBD62D4C9DFE06B272B642AE
+                      5040BB310B95C5450CA227484417A4D564E43FCA5C8BB7E72FF0F2C013B22347
+                      8BDDDBF310441078CCB3B5C63B77B0715B2E5209D62324313646181833882F3F
+                      78042A7F7F2F8037248720B904D1B09BEC2566732B5E481C8DE27DFBB12DFB2B
+                      54D0C17B411206F617966764F0E94BDF7DC00B2FC8D67B90600DEE173BE55240
+                      40008E9CACC1BEF2327C9DC7D6057743C6C58D100A2BF7F07109090F003C2105
+                      0429F401E9A4BC623BDFCFF818171B2EE0D40F275854BA21A9939385CAA3C778
+                      960B4F0B714B9BCDE6AA06740148573764DEF46942D981433C9B7C1484852190
+                      72C497B877B31D9433FADF2E5D7641D2DF9A25ECDEFB0D2FA3447A1C882F8F7B
+                      D8D3EDC99CB4A942C5E1C3BC5CAE7828449BF505CE9D3903EDCE5DB0B7B78939
+                      E24B54FE6A9CAEAED6A72F5BE6824C993841A8ACAAE27B87F47928247753368E
+                      1F3A28E6C2ACB9F3101119E9135275603F6AAB7FD4179455B82063870F15F28B
+                      4BF9C4A4A447846B2B0D2D957D3B4AF71FA0023AB9C7EBCE2AF8DCD7D3F04743
+                      BDFE2F9DE082C4539ECC4B5FC0AFFC34D375780F494676BB388EC38E92328C9D
+                      30C12764C9DC3968A8ABD3375C6B7441C60C8D1534BD43F88A4387114E05F2B1
+                      20A50419FF041056BBA811F169336762C3A62D0F78D305D16A51989FF7F410FA
+                      E5CDD44B3E58B51AEF2C5EE2057243F2E8E08B76E483F3F3C3F6E212BC3829B9
+                      47637C410C34D7975D49ABD58A45EF2DC7421A2C6BDD30A6E0BBA347B062F142
+                      A8D501D87BFC5BC4514BE8493C200682F06E4823CD0D74F787569309E3264EC4
+                      FCA5CB903836A9CB4226278E55C1CF4F85975352BABE19A9E7FF525B839F6B6A
+                      B062F51A44454763E1EC3771A1BEFE46C3D5EB0344C8C8218377AA55AAA54EF1
+                      35E212163AD6F5587F4F9A34098362621016CE23342C4C3484B56241A743C3F9
+                      3A9CFFFD1C9AAE5D83D56241FCA8516267CD5EBF16A74F9E2ABDDCA24B1721B1
+                      D1FD224382024F52FB1CE6790E4C998DC2E7703AC0BA26EB352AF2C2D9492F19
+                      5268A576CD9E4ACC18255D06F6D0605EB15E6FB158AFD7D59F7FA54930DC7043
+                      E0CF71D16A95DF1AD23F99861AF7B525E6A558CEDD469042A6D43394F744EAB0
+                      DBAF5B6D6D8B8C36EB1582E07FB5FDFEED0BE668070000000049454E44AE4260
+                      82}
+                  end
+                  object Label8: TLabel
+                    Left = 64
+                    Top = 40
+                    Width = 74
+                    Height = 14
+                    Margins.Left = 0
+                    Margins.Top = 0
+                    Margins.Right = 0
+                    Margins.Bottom = 0
+                    ParentCustomHint = False
+                    AutoSize = False
+                    BiDiMode = bdLeftToRight
+                    Caption = 'Jesus Cristo'
+                    Color = clBtnFace
+                    Font.Charset = DEFAULT_CHARSET
+                    Font.Color = clWindowText
+                    Font.Height = -13
+                    Font.Name = 'Segoe UI'
+                    Font.Style = [fsBold]
+                    ParentBiDiMode = False
+                    ParentColor = False
+                    ParentFont = False
+                    ParentShowHint = False
+                    ShowHint = False
+                    Touch.ParentTabletOptions = False
+                    Touch.TabletOptions = [toPressAndHold]
+                    Transparent = True
+                    StyleElements = []
+                  end
+                  object Label9: TLabel
+                    Left = 64
+                    Top = 54
+                    Width = 18
+                    Height = 22
+                    Margins.Left = 0
+                    Margins.Top = 0
+                    Margins.Right = 0
+                    Margins.Bottom = 0
+                    ParentCustomHint = False
+                    AutoSize = False
+                    BiDiMode = bdLeftToRight
+                    Caption = '1'
+                    Color = clBtnFace
+                    Font.Charset = DEFAULT_CHARSET
+                    Font.Color = clWindowText
+                    Font.Height = -16
+                    Font.Name = 'Segoe UI'
+                    Font.Style = []
+                    ParentBiDiMode = False
+                    ParentColor = False
+                    ParentFont = False
+                    ParentShowHint = False
+                    ShowHint = False
+                    Touch.ParentTabletOptions = False
+                    Touch.TabletOptions = [toPressAndHold]
+                    Transparent = True
+                    StyleElements = []
+                  end
+                end
+                object pnMEMTEEE: TPanel
+                  Left = 0
+                  Top = 0
+                  Width = 161
+                  Height = 87
+                  Margins.Left = 0
+                  Margins.Top = 0
+                  Margins.Right = 0
+                  Margins.Bottom = 0
+                  ParentCustomHint = False
+                  Align = alLeft
+                  BevelEdges = []
+                  BevelOuter = bvNone
+                  BiDiMode = bdLeftToRight
+                  Color = 16378328
+                  Ctl3D = False
+                  DoubleBuffered = False
+                  FullRepaint = False
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWindowText
+                  Font.Height = -12
+                  Font.Name = 'Segoe UI'
+                  Font.Style = []
+                  ParentBiDiMode = False
+                  ParentBackground = False
+                  ParentCtl3D = False
+                  ParentDoubleBuffered = False
+                  ParentFont = False
+                  ParentShowHint = False
+                  ShowHint = False
+                  TabOrder = 1
+                  Touch.ParentTabletOptions = False
+                  Touch.TabletOptions = [toPressAndHold]
+                  StyleElements = []
+                  object Image8: TImage
+                    Left = 15
+                    Top = 40
+                    Width = 25
+                    Height = 25
+                    Margins.Left = 0
+                    Margins.Top = 0
+                    Margins.Right = 0
+                    Margins.Bottom = 0
+                    Picture.Data = {
+                      0954506E67496D61676589504E470D0A1A0A0000000D49484452000000190000
+                      00190806000000C4E985630000001974455874536F6674776172650041646F62
+                      6520496D616765526561647971C9653C0000032269545874584D4C3A636F6D2E
+                      61646F62652E786D7000000000003C3F787061636B657420626567696E3D22EF
+                      BBBF222069643D2257354D304D7043656869487A7265537A4E54637A6B633964
+                      223F3E203C783A786D706D65746120786D6C6E733A783D2261646F62653A6E73
+                      3A6D6574612F2220783A786D70746B3D2241646F626520584D5020436F726520
+                      352E332D633031312036362E3134353636312C20323031322F30322F30362D31
+                      343A35363A32372020202020202020223E203C7264663A52444620786D6C6E73
+                      3A7264663D22687474703A2F2F7777772E77332E6F72672F313939392F30322F
+                      32322D7264662D73796E7461782D6E7323223E203C7264663A44657363726970
+                      74696F6E207264663A61626F75743D222220786D6C6E733A786D703D22687474
+                      703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F2220786D6C6E73
+                      3A786D704D4D3D22687474703A2F2F6E732E61646F62652E636F6D2F7861702F
+                      312E302F6D6D2F2220786D6C6E733A73745265663D22687474703A2F2F6E732E
+                      61646F62652E636F6D2F7861702F312E302F73547970652F5265736F75726365
+                      526566232220786D703A43726561746F72546F6F6C3D2241646F62652050686F
+                      746F73686F7020435336202857696E646F7773292220786D704D4D3A496E7374
+                      616E636549443D22786D702E6969643A42303035344241303242453231314545
+                      424143394437464533453534384331462220786D704D4D3A446F63756D656E74
+                      49443D22786D702E6469643A4230303534424131324245323131454542414339
+                      443746453345353438433146223E203C786D704D4D3A4465726976656446726F
+                      6D2073745265663A696E7374616E636549443D22786D702E6969643A42303035
+                      3442394532424532313145454241433944374645334535343843314622207374
+                      5265663A646F63756D656E7449443D22786D702E6469643A4230303534423946
+                      324245323131454542414339443746453345353438433146222F3E203C2F7264
+                      663A4465736372697074696F6E3E203C2F7264663A5244463E203C2F783A786D
+                      706D6574613E203C3F787061636B657420656E643D2272223F3E9EE2FF900000
+                      052B4944415478DA9D967B50D45514C7BFFBFCB12C8F5504F911889A882F8252
+                      54CC07393543E38498A9A5E94CE2BB2C2723B550B3B0501705110D790F6ABED1
+                      B242C1A6D2C606C149B332151276E6B7EB3F3E76D9072CBB74EE6F5DD855D6D7
+                      61EEECF0BBF79ECF39E7DE73CE957476766270FF68F8CBE5FD7A0506ECB23B9D
+                      CFC143D87C87DD8E8E8E0E389C4EF60552891432B91C0A1A5299CC73B9A4BDAD
+                      CD28954A6BED0EE71693D5AABBDAA283E41EA4AF46ED5FCD291409EC7F894402
+                      2729B498CD90C9E488888A4438CF232434149C9283C9688441AF47F37F4D30DD
+                      BD0B4EA5829C80168B19039E8D81D3E180C120FC7DDB644E21884E848C193E34
+                      47A9507CE806D86C565AE8C4F8E4973075C60C3C3F2A11C11A0DC842D15C2329
+                      96D09FAEA519BFFE548BEFAB8EA1A5B919AFA6A62263ED3AEC292942F9EE42C8
+                      945C49FD3FFF2E1021E3E3E3AED0DE5806686D6D459FD03E58F94926525E4BF5
+                      0C050C8280EC0DEB71A3B109018181181617872969D3F04C54147D6BC4C8D1A3
+                      212143B4599FA3B2A4048141C1CD672F5EEAEF86DC24409899C2C3474420B7B0
+                      08314386749D89186C32A0B8A0005FAECB14C3C642D2DEDE0EA55289E9B36763
+                      D5BACF28B4AEF3E98604DD3C7BF1CF703744B0DBDB798EF3C3CEF20A8C884FE8
+                      52EE0630D9BE79338A0AF2A1E9D50BEED03A0876FBD62D4C9DFE06B272B642AE
+                      5040BB310B95C5450CA227484417A4D564E43FCA5C8BB7E72FF0F2C013B22347
+                      8BDDDBF310441078CCB3B5C63B77B0715B2E5209D62324313646181833882F3F
+                      78042A7F7F2F8037248720B904D1B09BEC2566732B5E481C8DE27DFBB12DFB2B
+                      54D0C17B411206F617966764F0E94BDF7DC00B2FC8D67B90600DEE173BE55240
+                      40008E9CACC1BEF2327C9DC7D6057743C6C58D100A2BF7F07109090F003C2105
+                      0429F401E9A4BC623BDFCFF818171B2EE0D40F275854BA21A9939385CAA3C778
+                      960B4F0B714B9BCDE6AA06740148573764DEF46942D981433C9B7C1484852190
+                      72C497B877B31D9433FADF2E5D7641D2DF9A25ECDEFB0D2FA3447A1C882F8F7B
+                      D8D3EDC99CB4A942C5E1C3BC5CAE7828449BF505CE9D3903EDCE5DB0B7B78939
+                      E24B54FE6A9CAEAED6A72F5BE6824C993841A8ACAAE27B87F47928247753368E
+                      1F3A28E6C2ACB9F3101119E9135275603F6AAB7FD4179455B82063870F15F28B
+                      4BF9C4A4A447846B2B0D2D957D3B4AF71FA0023AB9C7EBCE2AF8DCD7D3F04743
+                      BDFE2F9DE082C4539ECC4B5FC0AFFC34D375780F494676BB388EC38E92328C9D
+                      30C12764C9DC3968A8ABD3375C6B7441C60C8D1534BD43F88A4387114E05F2B1
+                      20A50419FF041056BBA811F169336762C3A62D0F78D305D16A51989FF7F410FA
+                      E5CDD44B3E58B51AEF2C5EE2057243F2E8E08B76E483F3F3C3F6E212BC3829B9
+                      47637C410C34D7975D49ABD58A45EF2DC7421A2C6BDD30A6E0BBA347B062F142
+                      A8D501D87BFC5BC4514BE8493C200682F06E4823CD0D74F787569309E3264EC4
+                      FCA5CB903836A9CB4226278E55C1CF4F85975352BABE19A9E7FF525B839F6B6A
+                      B062F51A44454763E1EC3771A1BEFE46C3D5EB0344C8C8218377AA55AAA54EF1
+                      35E212163AD6F5587F4F9A34098362621016CE23342C4C3484B56241A743C3F9
+                      3A9CFFFD1C9AAE5D83D56241FCA8516267CD5EBF16A74F9E2ABDDCA24B1721B1
+                      D1FD224382024F52FB1CE6790E4C998DC2E7703AC0BA26EB352AF2C2D9492F19
+                      5268A576CD9E4ACC18255D06F6D0605EB15E6FB158AFD7D59F7FA54930DC7043
+                      E0CF71D16A95DF1AD23F99861AF7B525E6A558CEDD469042A6D43394F744EAB0
+                      DBAF5B6D6D8B8C36EB1582E07FB5FDFEED0BE668070000000049454E44AE4260
+                      82}
+                  end
+                  object Label10: TLabel
+                    Left = 15
+                    Top = 10
+                    Width = 96
+                    Height = 30
+                    Margins.Left = 0
+                    Margins.Top = 0
+                    Margins.Right = 0
+                    Margins.Bottom = 0
+                    ParentCustomHint = False
+                    AutoSize = False
+                    BiDiMode = bdLeftToRight
+                    Caption = 'Cliente'
+                    Color = clBtnFace
+                    Font.Charset = DEFAULT_CHARSET
+                    Font.Color = clWindowText
+                    Font.Height = -21
+                    Font.Name = 'Segoe UI'
+                    Font.Style = []
+                    ParentBiDiMode = False
+                    ParentColor = False
+                    ParentFont = False
+                    ParentShowHint = False
+                    ShowHint = False
+                    Touch.ParentTabletOptions = False
+                    Touch.TabletOptions = [toPressAndHold]
+                    Transparent = True
+                    StyleElements = []
+                  end
+                  object Label11: TLabel
+                    Left = 53
+                    Top = 40
+                    Width = 74
+                    Height = 14
+                    Margins.Left = 0
+                    Margins.Top = 0
+                    Margins.Right = 0
+                    Margins.Bottom = 0
+                    ParentCustomHint = False
+                    AutoSize = False
+                    BiDiMode = bdLeftToRight
+                    Caption = 'Emanuel'
+                    Color = clBtnFace
+                    Font.Charset = DEFAULT_CHARSET
+                    Font.Color = clWindowText
+                    Font.Height = -13
+                    Font.Name = 'Segoe UI'
+                    Font.Style = [fsBold]
+                    ParentBiDiMode = False
+                    ParentColor = False
+                    ParentFont = False
+                    ParentShowHint = False
+                    ShowHint = False
+                    Touch.ParentTabletOptions = False
+                    Touch.TabletOptions = [toPressAndHold]
+                    Transparent = True
+                    StyleElements = []
+                  end
+                  object Label12: TLabel
+                    Left = 53
+                    Top = 54
+                    Width = 44
+                    Height = 22
+                    Margins.Left = 0
+                    Margins.Top = 0
+                    Margins.Right = 0
+                    Margins.Bottom = 0
+                    ParentCustomHint = False
+                    AutoSize = False
+                    BiDiMode = bdLeftToRight
+                    Caption = '12345'
+                    Color = clBtnFace
+                    Font.Charset = DEFAULT_CHARSET
+                    Font.Color = clWindowText
+                    Font.Height = -16
+                    Font.Name = 'Segoe UI'
+                    Font.Style = []
+                    ParentBiDiMode = False
+                    ParentColor = False
+                    ParentFont = False
+                    ParentShowHint = False
+                    ShowHint = False
+                    Touch.ParentTabletOptions = False
+                    Touch.TabletOptions = [toPressAndHold]
+                    Transparent = True
+                    StyleElements = []
+                  end
+                end
+              end
+            end
+            object pnMEMTopDireito: TPanel
+              Left = 664
+              Top = 2
+              Width = 322
+              Height = 87
+              Margins.Left = 0
+              Margins.Top = 0
+              Margins.Right = 0
+              Margins.Bottom = 0
+              ParentCustomHint = False
+              Align = alRight
+              Anchors = []
+              BevelEdges = []
+              BevelOuter = bvNone
+              BiDiMode = bdLeftToRight
+              Ctl3D = False
+              DoubleBuffered = False
+              FullRepaint = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -12
+              Font.Name = 'Segoe UI'
+              Font.Style = []
+              ParentBiDiMode = False
+              ParentBackground = False
+              ParentCtl3D = False
+              ParentDoubleBuffered = False
+              ParentFont = False
+              ParentShowHint = False
+              ShowHint = False
+              TabOrder = 2
+              Touch.ParentTabletOptions = False
+              Touch.TabletOptions = [toPressAndHold]
+              StyleElements = []
+              object pnEMTDEsquerdo: TPanel
+                Left = 0
+                Top = 0
+                Width = 185
+                Height = 87
+                Margins.Left = 0
+                Margins.Top = 0
+                Margins.Right = 0
+                Margins.Bottom = 0
+                ParentCustomHint = False
+                Align = alLeft
+                BevelEdges = []
+                BevelOuter = bvNone
+                BiDiMode = bdLeftToRight
+                Color = 16378328
+                Ctl3D = False
+                DoubleBuffered = False
+                FullRepaint = False
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI'
+                Font.Style = []
+                ParentBiDiMode = False
+                ParentBackground = False
+                ParentCtl3D = False
+                ParentDoubleBuffered = False
+                ParentFont = False
+                ParentShowHint = False
+                ShowHint = False
+                TabOrder = 0
+                Touch.ParentTabletOptions = False
+                Touch.TabletOptions = [toPressAndHold]
+                StyleElements = []
+                object Label13: TLabel
+                  Left = 0
+                  Top = 10
+                  Width = 113
+                  Height = 30
+                  Margins.Left = 0
+                  Margins.Top = 0
+                  Margins.Right = 0
+                  Margins.Bottom = 0
+                  ParentCustomHint = False
+                  AutoSize = False
+                  BiDiMode = bdLeftToRight
+                  Caption = 'Saldo Atual'
+                  Color = clBtnFace
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWindowText
+                  Font.Height = -21
+                  Font.Name = 'Segoe UI'
+                  Font.Style = []
+                  ParentBiDiMode = False
+                  ParentColor = False
+                  ParentFont = False
+                  ParentShowHint = False
+                  ShowHint = False
+                  Touch.ParentTabletOptions = False
+                  Touch.TabletOptions = [toPressAndHold]
+                  Transparent = True
+                  StyleElements = []
+                end
+                object Label14: TLabel
+                  Left = 71
+                  Top = 40
+                  Width = 34
+                  Height = 30
+                  Margins.Left = 0
+                  Margins.Top = 0
+                  Margins.Right = 0
+                  Margins.Bottom = 0
+                  ParentCustomHint = False
+                  AutoSize = False
+                  BiDiMode = bdLeftToRight
+                  Caption = '$ 0'
+                  Color = clBtnFace
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = 13927449
+                  Font.Height = -21
+                  Font.Name = 'Segoe UI'
+                  Font.Style = [fsBold]
+                  ParentBiDiMode = False
+                  ParentColor = False
+                  ParentFont = False
+                  ParentShowHint = False
+                  ShowHint = False
+                  Touch.ParentTabletOptions = False
+                  Touch.TabletOptions = [toPressAndHold]
+                  Transparent = True
+                  StyleElements = []
+                end
+              end
+              object pnEMTDMEio: TPanel
+                Left = 185
+                Top = 0
+                Width = 137
+                Height = 87
+                Margins.Left = 0
+                Margins.Top = 0
+                Margins.Right = 0
+                Margins.Bottom = 0
+                ParentCustomHint = False
+                Align = alClient
+                BevelEdges = []
+                BevelOuter = bvNone
+                BiDiMode = bdLeftToRight
+                Color = 16378328
+                Ctl3D = False
+                DoubleBuffered = False
+                FullRepaint = False
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI'
+                Font.Style = []
+                ParentBiDiMode = False
+                ParentBackground = False
+                ParentCtl3D = False
+                ParentDoubleBuffered = False
+                ParentFont = False
+                ParentShowHint = False
+                ShowHint = False
+                TabOrder = 1
+                Touch.ParentTabletOptions = False
+                Touch.TabletOptions = [toPressAndHold]
+                StyleElements = []
+                object Label15: TLabel
+                  Left = 0
+                  Top = 10
+                  Width = 113
+                  Height = 30
+                  Margins.Left = 0
+                  Margins.Top = 0
+                  Margins.Right = 0
+                  Margins.Bottom = 0
+                  ParentCustomHint = False
+                  AutoSize = False
+                  BiDiMode = bdLeftToRight
+                  Caption = 'Saldo Atual'
+                  Color = clBtnFace
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWindowText
+                  Font.Height = -21
+                  Font.Name = 'Segoe UI'
+                  Font.Style = []
+                  ParentBiDiMode = False
+                  ParentColor = False
+                  ParentFont = False
+                  ParentShowHint = False
+                  ShowHint = False
+                  Touch.ParentTabletOptions = False
+                  Touch.TabletOptions = [toPressAndHold]
+                  Transparent = True
+                  StyleElements = []
+                end
+                object Label16: TLabel
+                  Left = 32
+                  Top = 40
+                  Width = 81
+                  Height = 30
+                  Margins.Left = 0
+                  Margins.Top = 0
+                  Margins.Right = 0
+                  Margins.Bottom = 0
+                  ParentCustomHint = False
+                  AutoSize = False
+                  BiDiMode = bdLeftToRight
+                  Caption = 'R$ 5617'
+                  Color = clBtnFace
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = 13927449
+                  Font.Height = -21
+                  Font.Name = 'Segoe UI'
+                  Font.Style = [fsBold]
+                  ParentBiDiMode = False
+                  ParentColor = False
+                  ParentFont = False
+                  ParentShowHint = False
+                  ShowHint = False
+                  Touch.ParentTabletOptions = False
+                  Touch.TabletOptions = [toPressAndHold]
+                  Transparent = True
+                  StyleElements = []
+                end
+              end
+            end
+          end
+          object pnMEMBottom: TPanel
+            Left = 15
+            Top = 89
+            Width = 986
+            Height = 636
+            Margins.Left = 0
+            Margins.Top = 0
+            Margins.Right = 0
+            Margins.Bottom = 0
+            ParentCustomHint = False
+            Align = alClient
+            BevelEdges = []
+            BevelOuter = bvNone
+            BiDiMode = bdLeftToRight
+            Color = 16378328
+            Ctl3D = False
+            DoubleBuffered = False
+            FullRepaint = False
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            Padding.Bottom = 15
+            ParentBiDiMode = False
+            ParentBackground = False
+            ParentCtl3D = False
+            ParentDoubleBuffered = False
+            ParentFont = False
+            ParentShowHint = False
+            ShowHint = False
+            TabOrder = 1
+            Touch.ParentTabletOptions = False
+            Touch.TabletOptions = [toPressAndHold]
+            StyleElements = []
+            object DBGrid1: TDBGrid
+              Left = 0
+              Top = 41
+              Width = 986
+              Height = 580
+              Margins.Left = 0
+              Margins.Top = 0
+              Margins.Right = 0
+              Margins.Bottom = 0
+              ParentCustomHint = False
+              Align = alClient
+              BiDiMode = bdLeftToRight
+              BorderStyle = bsNone
+              Ctl3D = False
+              DataSource = DataSource1
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -12
+              Font.Name = 'Segoe UI'
+              Font.Style = []
+              Options = [dgColumnResize, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgConfirmDelete, dgCancelOnExit, dgTitleClick, dgTitleHotTrack]
+              ParentBiDiMode = False
+              ParentCtl3D = False
+              ParentFont = False
+              ParentShowHint = False
+              ShowHint = False
+              TabOrder = 0
+              TitleFont.Charset = DEFAULT_CHARSET
+              TitleFont.Color = clWindowText
+              TitleFont.Height = -12
+              TitleFont.Name = 'Segoe UI'
+              TitleFont.Style = []
+              StyleElements = []
+              Columns = <
+                item
+                  Expanded = False
+                  FieldName = 'OrderNo'
+                  Width = 112
+                  Visible = True
+                end
+                item
+                  Expanded = False
+                  FieldName = 'ShipToContact'
+                  Width = 320
+                  Visible = True
+                end
+                item
+                  Expanded = False
+                  FieldName = 'CustNo'
+                  Width = 100
+                  Visible = True
+                end
+                item
+                  Expanded = False
+                  FieldName = 'TaxRate'
+                  Width = 110
+                  Visible = True
+                end
+                item
+                  Expanded = False
+                  FieldName = 'AmountPaid'
+                  Width = 110
+                  Visible = True
+                end
+                item
+                  Expanded = False
+                  FieldName = 'Freight'
+                  Width = 100
+                  Visible = True
+                end
+                item
+                  Expanded = False
+                  FieldName = 'ItemsTotal'
+                  Width = 100
+                  Visible = True
+                end>
+            end
+            object pnMEMBTop: TPanel
+              Left = 0
+              Top = 0
+              Width = 986
+              Height = 41
+              Margins.Left = 0
+              Margins.Top = 0
+              Margins.Right = 0
+              Margins.Bottom = 0
+              ParentCustomHint = False
+              Align = alTop
+              BevelEdges = []
+              BevelOuter = bvNone
+              BiDiMode = bdLeftToRight
+              Color = 14917969
+              Ctl3D = False
+              DoubleBuffered = False
+              FullRepaint = False
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -12
+              Font.Name = 'Segoe UI'
+              Font.Style = []
+              Padding.Left = 15
+              Padding.Right = 15
+              ParentBiDiMode = False
+              ParentBackground = False
+              ParentCtl3D = False
+              ParentDoubleBuffered = False
+              ParentFont = False
+              ParentShowHint = False
+              ShowHint = False
+              TabOrder = 1
+              Touch.ParentTabletOptions = False
+              Touch.TabletOptions = [toPressAndHold]
+              StyleElements = []
+              object pnMEMEBTMeio: TPanel
+                Left = 15
+                Top = 0
+                Width = 956
+                Height = 41
+                Margins.Left = 0
+                Margins.Top = 0
+                Margins.Right = 0
+                Margins.Bottom = 0
+                ParentCustomHint = False
+                Align = alClient
+                BevelEdges = []
+                BevelOuter = bvNone
+                BiDiMode = bdLeftToRight
+                Color = 14917969
+                Ctl3D = False
+                DoubleBuffered = False
+                FullRepaint = False
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI'
+                Font.Style = []
+                ParentBiDiMode = False
+                ParentBackground = False
+                ParentCtl3D = False
+                ParentDoubleBuffered = False
+                ParentFont = False
+                ParentShowHint = False
+                ShowHint = False
+                TabOrder = 0
+                Touch.ParentTabletOptions = False
+                Touch.TabletOptions = [toPressAndHold]
+                StyleElements = []
+                object Label28: TLabel
+                  AlignWithMargins = True
+                  Left = 16
+                  Top = 8
+                  Width = 52
+                  Height = 41
+                  Margins.Left = 0
+                  Margins.Top = 0
+                  Margins.Right = 0
+                  Margins.Bottom = 0
+                  ParentCustomHint = False
+                  Align = alCustom
+                  Alignment = taCenter
+                  AutoSize = False
+                  BiDiMode = bdLeftToRight
+                  Caption = 'C'#243'digo'
+                  Color = 14917969
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWhite
+                  Font.Height = -16
+                  Font.Name = 'Segoe UI'
+                  Font.Style = []
+                  ParentBiDiMode = False
+                  ParentColor = False
+                  ParentFont = False
+                  ParentShowHint = False
+                  ShowHint = False
+                  Touch.ParentTabletOptions = False
+                  Touch.TabletOptions = [toPressAndHold]
+                  Transparent = True
+                  StyleElements = []
+                end
+                object Label29: TLabel
+                  AlignWithMargins = True
+                  Left = 259
+                  Top = 8
+                  Width = 67
+                  Height = 41
+                  Margins.Left = 0
+                  Margins.Top = 0
+                  Margins.Right = 0
+                  Margins.Bottom = 0
+                  ParentCustomHint = False
+                  Align = alCustom
+                  Alignment = taCenter
+                  AutoSize = False
+                  BiDiMode = bdLeftToRight
+                  Caption = 'Descri'#231#227'o'
+                  Color = clBtnFace
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWhite
+                  Font.Height = -16
+                  Font.Name = 'Segoe UI'
+                  Font.Style = []
+                  ParentBiDiMode = False
+                  ParentColor = False
+                  ParentFont = False
+                  ParentShowHint = False
+                  ShowHint = False
+                  Touch.ParentTabletOptions = False
+                  Touch.TabletOptions = [toPressAndHold]
+                  Transparent = True
+                  StyleElements = []
+                end
+                object Label30: TLabel
+                  AlignWithMargins = True
+                  Left = 454
+                  Top = 8
+                  Width = 91
+                  Height = 41
+                  Margins.Left = 0
+                  Margins.Top = 0
+                  Margins.Right = 0
+                  Margins.Bottom = 0
+                  ParentCustomHint = False
+                  Align = alCustom
+                  Alignment = taCenter
+                  AutoSize = False
+                  BiDiMode = bdLeftToRight
+                  Caption = 'Quantidade'
+                  Color = clBtnFace
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWhite
+                  Font.Height = -16
+                  Font.Name = 'Segoe UI'
+                  Font.Style = []
+                  ParentBiDiMode = False
+                  ParentColor = False
+                  ParentFont = False
+                  ParentShowHint = False
+                  ShowHint = False
+                  Touch.ParentTabletOptions = False
+                  Touch.TabletOptions = [toPressAndHold]
+                  Transparent = True
+                  StyleElements = []
+                end
+                object Label31: TLabel
+                  AlignWithMargins = True
+                  Left = 575
+                  Top = 8
+                  Width = 59
+                  Height = 41
+                  Margins.Left = 0
+                  Margins.Top = 0
+                  Margins.Right = 0
+                  Margins.Bottom = 0
+                  ParentCustomHint = False
+                  Align = alCustom
+                  Alignment = taCenter
+                  AutoSize = False
+                  BiDiMode = bdLeftToRight
+                  Caption = 'Pre'#231'o'
+                  Color = clBtnFace
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWhite
+                  Font.Height = -16
+                  Font.Name = 'Segoe UI'
+                  Font.Style = []
+                  ParentBiDiMode = False
+                  ParentColor = False
+                  ParentFont = False
+                  ParentShowHint = False
+                  ShowHint = False
+                  Touch.ParentTabletOptions = False
+                  Touch.TabletOptions = [toPressAndHold]
+                  Transparent = True
+                  StyleElements = []
+                end
+                object Label32: TLabel
+                  AlignWithMargins = True
+                  Left = 678
+                  Top = 8
+                  Width = 68
+                  Height = 41
+                  Margins.Left = 0
+                  Margins.Top = 0
+                  Margins.Right = 0
+                  Margins.Bottom = 0
+                  ParentCustomHint = False
+                  Align = alCustom
+                  Alignment = taCenter
+                  AutoSize = False
+                  BiDiMode = bdLeftToRight
+                  Caption = 'Desconto'
+                  Color = clBtnFace
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWhite
+                  Font.Height = -16
+                  Font.Name = 'Segoe UI'
+                  Font.Style = []
+                  ParentBiDiMode = False
+                  ParentColor = False
+                  ParentFont = False
+                  ParentShowHint = False
+                  ShowHint = False
+                  Touch.ParentTabletOptions = False
+                  Touch.TabletOptions = [toPressAndHold]
+                  Transparent = True
+                  StyleElements = []
+                end
+                object Label33: TLabel
+                  AlignWithMargins = True
+                  Left = 795
+                  Top = 8
+                  Width = 33
+                  Height = 41
+                  Margins.Left = 0
+                  Margins.Top = 0
+                  Margins.Right = 0
+                  Margins.Bottom = 0
+                  ParentCustomHint = False
+                  Align = alCustom
+                  Alignment = taCenter
+                  AutoSize = False
+                  BiDiMode = bdLeftToRight
+                  Caption = 'Taxa'
+                  Color = clBtnFace
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWhite
+                  Font.Height = -16
+                  Font.Name = 'Segoe UI'
+                  Font.Style = []
+                  ParentBiDiMode = False
+                  ParentColor = False
+                  ParentFont = False
+                  ParentShowHint = False
+                  ShowHint = False
+                  Touch.ParentTabletOptions = False
+                  Touch.TabletOptions = [toPressAndHold]
+                  Transparent = True
+                  StyleElements = []
+                end
+                object Label34: TLabel
+                  AlignWithMargins = True
+                  Left = 912
+                  Top = 8
+                  Width = 45
+                  Height = 41
+                  Margins.Left = 0
+                  Margins.Top = 0
+                  Margins.Right = 0
+                  Margins.Bottom = 0
+                  ParentCustomHint = False
+                  Align = alCustom
+                  Alignment = taCenter
+                  AutoSize = False
+                  BiDiMode = bdLeftToRight
+                  Caption = 'Total'
+                  Color = clBtnFace
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWhite
+                  Font.Height = -16
+                  Font.Name = 'Segoe UI'
+                  Font.Style = [fsBold]
+                  ParentBiDiMode = False
+                  ParentColor = False
+                  ParentFont = False
+                  ParentShowHint = False
+                  ShowHint = False
+                  Touch.ParentTabletOptions = False
+                  Touch.TabletOptions = [toPressAndHold]
+                  Transparent = True
+                  StyleElements = []
+                end
+              end
+            end
+          end
+        end
       end
       object pnMainDireito: TPanel
         Left = 1016
         Top = 0
-        Width = 267
-        Height = 551
+        Width = 275
+        Height = 860
         Margins.Left = 0
         Margins.Top = 0
         Margins.Right = 0
@@ -1832,75 +3143,780 @@ object Form1: TForm1
         Touch.ParentTabletOptions = False
         Touch.TabletOptions = [toPressAndHold]
         StyleElements = []
-        object pnMainDireitoTop1: TPanel
-          Left = 8
-          Top = 13
-          Width = 120
-          Height = 120
-          Margins.Left = 0
-          Margins.Top = 0
-          Margins.Right = 0
-          Margins.Bottom = 0
-          ParentCustomHint = False
-          BevelEdges = []
-          BevelOuter = bvNone
-          BiDiMode = bdLeftToRight
-          Color = 8388863
-          Ctl3D = False
-          DoubleBuffered = False
-          FullRepaint = False
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -12
-          Font.Name = 'Segoe UI'
-          Font.Style = []
-          ParentBiDiMode = False
-          ParentBackground = False
-          ParentCtl3D = False
-          ParentDoubleBuffered = False
-          ParentFont = False
-          ParentShowHint = False
-          ShowHint = False
-          TabOrder = 0
-          Touch.ParentTabletOptions = False
-          Touch.TabletOptions = [toPressAndHold]
-          StyleElements = []
-        end
-        object pnMainDireitoTop2: TPanel
-          Left = 136
-          Top = 13
-          Width = 120
-          Height = 120
-          Margins.Left = 0
-          Margins.Top = 0
-          Margins.Right = 0
-          Margins.Bottom = 0
-          ParentCustomHint = False
-          BevelEdges = []
-          BevelOuter = bvNone
-          BiDiMode = bdLeftToRight
-          Color = 4194368
-          Ctl3D = False
-          DoubleBuffered = False
-          FullRepaint = False
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -12
-          Font.Name = 'Segoe UI'
-          Font.Style = []
-          ParentBiDiMode = False
-          ParentBackground = False
-          ParentCtl3D = False
-          ParentDoubleBuffered = False
-          ParentFont = False
-          ParentShowHint = False
-          ShowHint = False
-          TabOrder = 1
-          Touch.ParentTabletOptions = False
-          Touch.TabletOptions = [toPressAndHold]
-          StyleElements = []
-        end
+        OnResize = pnMainDireitoResize
       end
     end
+  end
+  object ClientDataSet1: TClientDataSet
+    PersistDataPacket.Data = {
+      4A4C00009619E0BD01000000180000001500CD000000030000009802074F7264
+      65724E6F080004001000000006437573744E6F08000400140000000853616C65
+      446174650800080010000000085368697044617465080008001000000005456D
+      704E6F04000100140000000D53686970546F436F6E7461637401004900100001
+      000557494454480200020014000B53686970546F416464723101004900100001
+      00055749445448020002001E000B53686970546F416464723201004900100001
+      00055749445448020002001E000A53686970546F436974790100490010000100
+      055749445448020002000F000B53686970546F53746174650100490010000100
+      0557494454480200020014000953686970546F5A697001004900100001000557
+      49445448020002000A000D53686970546F436F756E7472790100490010000100
+      0557494454480200020014000B53686970546F50686F6E650100490010000100
+      055749445448020002000F000753686970564941010049001000010005574944
+      544802000200070002504F0100490010000100055749445448020002000F0005
+      5465726D7301004900100001000557494454480200020006000D5061796D656E
+      744D6574686F6401004900100001000557494454480200020007000A4974656D
+      73546F74616C080004001000010007535542545950450200490006004D6F6E65
+      7900075461785261746508000400100000000746726569676874080004001000
+      010007535542545950450200490006004D6F6E6579000A416D6F756E74506169
+      64080004001000010007535542545950450200490006004D6F6E65790003000D
+      44454641554C545F4F524445520400820001000000010000000B5052494D4152
+      595F4B4559040082000100000001000000044C43494402000100090400005455
+      1100000000000000588F4000000000001C9540000032D5B184CC4200008F31E9
+      84CC42720000000355505303464F420643726564697400000000008893400000
+      0000000012400000000000000000000000000000000000004004100000000000
+      0000608F400000000000D8A040000018B5BE84CC4200004648C184CC42910000
+      000E4D61726961204576656E746F73680A504F20426F78203733370C4A6F6861
+      6E6E65736275726704323034321352657075626C696320536F2E204166726963
+      610D32372D31312D343433323435380344484C03464F4205436865636B000000
+      0000CDBE40000000000000000000000000000000000000000000CDBE40000054
+      551100000000000000688F4000000000003095400000A26EC684CC4200000DFA
+      DF83CC426E0000000355505303464F4204566973610000000000C7B240000000
+      000000000000000000000000000000000000C7B2400000545501000000000000
+      00708F40000000000090954000004411D39CCC4200005747CD86CC422E000000
+      05456D657279075031303133323403464F42045669736100000000C03CDF4000
+      0000000000000000000000000000000000000000000000000054551100000000
+      000000788F400000000000A0954000009CC1E284CC420000CA54E584CC422D00
+      0000075553204D61696C03464F420456697361000000000064B9400000000000
+      0000000000000000000000000000000064B94000005455110000000000000080
+      8F4000000000009897400000F8E7E784CC420000267BEA84CC420C0000000755
+      53204D61696C064E657420333004566973610000000000A69640000000000000
+      000000000000000000000000000000000000000054551100000000000000888F
+      400000000000A4974000006881FC84CC4200009614FF84CC4247000000075553
+      204D61696C064E657420333003434F440000000000D3B5400000000000000000
+      00000000000000000000000000000000000054551100000000000000908F4000
+      000000003C984000006881FC84CC4200009614FF84CC422E0000000355505306
+      4E657420333003434F44000000000084B3400000000000000000000000000000
+      0000000000000084B340000054551100000000000000988F4000000000006098
+      400000AA870E85CC420000D81A1185CC420500000003555053064E6574203330
+      03434F4433333333B3EFA4400000000000000000000000000000000033333333
+      B3EFA440000054551100000000000000A08F4000000000006C98400000D81A11
+      85CC42000006AE1385CC427600000003555053064E6574203330064372656469
+      74000000000051B44000000000000000000000000000000000000000000051B4
+      40000054551100000000000000A88F4000000000006099400000EC8D2085CC42
+      00001A212385CC428600000005456D657279064E657420333006437265646974
+      000000000056A84000000000000000000000000000000000000000000056A840
+      000054551100000000000000B08F400000000000B499400000EC8D2085CC4200
+      001A212385CC429000000005456D657279064E65742033300643726564697433
+      33333333DB6040000000000000000000000000000000003333333333DB604000
+      0054551100000000000000B88F400000000000CC99400000EC8D2085CC420000
+      1A212385CC424700000005456D65727903464F42024D430000000070D8D34000
+      0000000000000000000000000000000000000070D8D340000054551100000000
+      000000C08F400000000000409A4000005C273585CC4200008ABA3785CC424100
+      00000355505303464F4204416D457800000000005AA440000000000000000000
+      000000000000000000000000000000000054551100000000000000C88F400000
+      000000009F40000028E74E85CC420000567A5185CC421C0000000344484C0346
+      4F4205436865636B0000000080E9C34000000000000000000000000000000000
+      0000000000000000000054551100000000000000D08F4000000000008CA04000
+      003C5A5E85CC4200006AED6085CC42760000000344484C03464F420543686563
+      6B000000000088B4400000000000000000000000000000000000000000000000
+      00000054551100000000000000D88F400000000000AEA040000050CD6D85CC42
+      00007E607085CC42720000000344484C064E6574203330064372656469740000
+      0000801ED4400000000000000000000000000000000000000000000000000000
+      54551100000000000000E08F400000000000D8A040000050CD6D85CC4200007E
+      607085CC423D0000000344484C064E6574203330064372656469740000000080
+      71C34000000000000000000000000000000000000000008071C3400000545511
+      00000000000000E88F400000000000E6A040000050CD6D85CC4200007E607085
+      CC423400000003555053064E65742033300643726564697400000000000EAD40
+      0000000000000000000000000000000000000000000EAD400000545511000000
+      00000000F08F400000000000E6A040000064407D85CC42000092D37F85CC422E
+      00000003555053064E6574203330064372656469743333333353A8C340000000
+      000000000000000000000000003333333353A8C3400000545511000000000000
+      00F88F400000000000149340000092D37F85CC420000C0668285CC4205000000
+      03555053064E657420333005436865636B000000000042B24000000000000000
+      000000000000000000000000000042B240000054551100000000000000009040
+      00000000009EA8400000C0668285CC420000EEF98485CC420200000003555053
+      064E657420333005436865636B0000000000F1BA400000000000000000000000
+      00000000000000000000F1BA4000005455110000000000000004904000000000
+      009897400000EEF98485CC4200001C8D8785CC42080000000344484C064E6574
+      20333004416D45780000000000108D4000000000000000000000000000000000
+      0000000000108D40000054551100000000000000089040000000000060994000
+      00A6468F85CC420000D4D99185CC422C00000003555053064E65742033300441
+      6D45780000000000D0A640000000000000000000000000000000000000000000
+      D0A6400000545511000000000000000C90400000000000A095400000A6468F85
+      CC420000D4D99185CC422200000003555053064E657420333004566973610000
+      0000809ED8400000000000000000000000000000000000000000809ED8400000
+      545511000000000000001090400000000000CC99400000A6468F85CC420000D4
+      D99185CC420B00000005456D65727903464F420456697361CDCCCCCCCC7C7540
+      00000000000000000000000000000000CDCCCCCCCC7C75400000545511000000
+      000000001490400000000000B499400000A099AB85CC420000CE2CAE85CC426E
+      00000005466564457803464F42024D430000000000A3D3400000000000000000
+      00000000000000000000000000A3D34000005455110000000000000018904000
+      000000003EAC400000E29FBD85CC4200001033C085CC426B0000000546656445
+      7803464F42024D43CDCCCCCCCC7C814000000000000000000000000000000000
+      CDCCCCCCCC7C81400000545511000000000000001C904000000000008CA04000
+      006C59C585CC42000024A6CF85CC427F00000005466564457803464F42064372
+      656469740000000080C6C8400000000000000000000000000000000000000000
+      80C6C8400000545511000000000000002090400000000000E6A04000006C59C5
+      85CC42000024A6CF85CC429000000005466564457803464F4206437265646974
+      0000000000388840000000000000000000000000000000000000000000388840
+      0000545511000000000000002490400000000000A09540000024A6CF85CC4200
+      005239D285CC428A00000005466564457803464F420443617368000000000058
+      9340000000000000000000000000000000000000000000589340000054551100
+      0000000000002890400000000000409A4000004C8CEE85CC4200007A1FF185CC
+      42180000000355505303464F4205436865636B000000000019D2400000000000
+      0000000000000000000000000000000019D2400000545511000000000000002C
+      904000000000006098400000D645F685CC42000004D9F885CC420F0000000355
+      505303464F420643726564697400000000008081400000000000000000000000
+      0000000000000000000080814000005455110000000000000030904000000000
+      0008B540000074720D86CC420000A2051086CC42040000000344484C03464F42
+      0643726564697400000000000EB0400000000000000000000000000000000000
+      000000000EB0400000545511000000000000003490400000000000009F400000
+      A2051086CC420000D0981286CC420C0000000344484C03464F42064372656469
+      7400000000005AA8400000000000000000000000000000000000000000005AA8
+      400000545511000000000000003890400000000000B499400000A2051086CC42
+      0000D0981286CC42480000000344484C03464F4204566973610000000000D4C3
+      40000000000000000000000000000000000000000000D4C34000005455110000
+      00000000003C90400000000000ACA84000002CBF1786CC420000B6781F86CC42
+      3D000000075553204D61696C03464F4204566973616666666666C68040000000
+      000000000000000000000000006666666666C680400000545511000000000000
+      0040904000000000009CBA40000040322786CC4200006EC52986CC4234000000
+      075553204D61696C064E65742033300456697361000000000060AC4000000000
+      000000000000000000000000000000000060AC40000054551100000000000000
+      44904000000000002CB240000068184686CC42000096AB4886CC426D00000007
+      5553204D61696C064E657420333004416D457800000000007FBE400000000000
+      000000000000000000000000000000007FBE4000005455110000000000000048
+      9040000000000020AF400000D8B15A86CC42000006455D86CC42090000000355
+      5053064E657420333004416D45789A999999995D8E4000000000000000000000
+      0000000000009A999999995D8E400000545511000000000000004C9040000000
+      00000CB4400000EC246A86CC4200001AB86C86CC420E00000003555053064E65
+      7420333006437265646974000000008053C84000000000000000000000000000
+      000000000000008053C84000005455110000000000000050904000000000008B
+      B54000005CBE7E86CC4200008A518186CC420C0000000355505303464F420643
+      7265646974000000004046EF4000000000000000000000000000000000000000
+      004046EF40000054551100000000000000549040000000008038C3400000CC57
+      9386CC420000FAEA9586CC422400000005466564457803464F42064372656469
+      7466666666669E88400000000000000000000000000000000066666666669E88
+      40000054551100000000000000589040000000000016A2400000A6DDD886CC42
+      0000D470DB86CC421800000005466564457803464F4205436865636B66666666
+      66F68740000000000000000000000000000000006666666666F6874000005455
+      11000000000000005C904000000000008BB5400000587DFF86CC420000861002
+      87CC422C00000005466564457803464F420443617368000000008002CE400000
+      0000000000000000000000000000000000008002CE4000005455110000000000
+      0000609040000000000038B54000003E5D0C87CC4200006CF00E87CC42760000
+      0005466564457803464F4204566973610000000000B2BC400000000000000000
+      00000000000000000000000000B2BC4000005455110000000000000064904000
+      0000008038C340000038B02887CC42000066432B87CC426B0000000355505303
+      464F42024D436666666666479C40000000000000000000000000000000006666
+      666666479C400000545511000000000000006890400000000000D8A740000032
+      034587CC42000060964787CC425E0000000355505303464F4204416D45789A99
+      9999D98FB840000000000000000000000000000000009A999999D98FB8400000
+      545511000000000000006C90400000000000EAA04000002C566187CC4200005A
+      E96387CC4202000000054665644578064E657420333006437265646974000000
+      0000507440000000000000000000000000000000000000000000507440000054
+      55110000000000000070904000000000001C95400000887C6687CC420000B60F
+      6987CC4290000000054665644578064E65742033300643726564697400000000
+      0065D04000000000000000000000000000000000000000000065D04000005455
+      1100000000000000749040000000000074B940000026A97D87CC420000543C80
+      87CC4291000000054665644578064E6574203330064372656469740000000080
+      12D84000000000000000000000000000000000000000008012D8400000545511
+      00000000000000789040000000000038B54000007C229F87CC420000346FA987
+      CC425300000003555053064E657420333004566973610000000000B6CB400000
+      00000000000000000000000000000000000000B6CB4000005455110000000000
+      00007C904000000000001C95400000BE28B187CC420000ECBBB387CC421D0000
+      0003555053064E6574203330064372656469740000000080DBD6400000000000
+      00000000000000000000000000000080DBD64000005455110000000000000080
+      90400000000000A4974000007675BB87CC420000A408BE87CC42180000000355
+      5053064E6574203330024D43CDCCCCCC6CD7D240000000000000000000000000
+      00000000CDCCCCCC6CD7D2400000545511000000000000008490400000000000
+      6C984000004235D587CC42000070C8D787CC420E00000003555053064E657420
+      3330064372656469740000000000DC9E40000000000000000000000000000000
+      000000000000DC9E4000005455110000000000000088904000000000008CA040
+      0000CCEEDC87CC420000FA81DF87CC4208000000075553204D61696C064E6574
+      203330064372656469740000000000E0C8400000000000000000000000000000
+      00000000000000E0C8400000040010000000000000008C904000000000003095
+      40000056A8E487CC420000843BE787CC426D00000013342D3937362053756761
+      726C6F616620487779095375697465203130330B4B61706161204B6175616902
+      48490A39343736362D3132333407416D65726963610C3830382D3535352D3032
+      3639075553204D61696C03464F4204436173680000000000CCA0400000000000
+      00214000000000000000000000000000CCA04000005455110000000000000090
+      904000000000003C934000000EF5EE87CC4200003C88F187CC425E0000000755
+      53204D61696C03464F4205436865636B0000000080FDCD400000000000000000
+      00000000000000000000000080FDCD4000005455110000000000000094904000
+      000000006C9840000098AEF687CC420000C641F987CC4202000000075553204D
+      61696C03464F42064372656469743333333353B5D74000000000000000000000
+      0000000000003333333353B5D740000054551100000000000000989040000000
+      00008CA04000007E8E0388CC420000AC210688CC420B000000075553204D6169
+      6C03464F42064372656469740000000000E4D140000000000000000000000000
+      000000000000000000E4D1400000545511000000000000009C90400000000000
+      C4A7400000646E1088CC42000092011388CC4218000000075553204D61696C03
+      464F42064372656469749A999999A935EE400000000000000000000000000000
+      00009A999999A935EE40000054551100000000000000A0904000000000008CA0
+      4000005EC12C88CC4200008C542F88CC42530000000344484C064E6574203330
+      064372656469740000000000B078400000000000000000000000000000000000
+      00000000B07840000054551100000000000000A490400000000000A8B8400000
+      8C542F88CC420000BAE73188CC42480000000355505303464F42045669736100
+      0000008065D14000000000000000000000000000000000000000008065D14000
+      0054551100000000000000A890400000000000DCA7400000BAE73188CC420000
+      E87A3488CC42410000000344484C064E65742033300456697361000000000059
+      D34000000000000000000000000000000000000000000059D340000054551100
+      000000000000AC904000000000001C95400000CE5A4188CC420000FCED4388CC
+      422200000005466564457803464F42045669736100000000008FB14000000000
+      00000000000000000000000000000000008FB140000054551100000000000000
+      B090400000000000B3B14000002A814688CC42000058144988CC426900000005
+      466564457803464F42024D4300000000C019DF40000000000000000000000000
+      0000000000000000C019DF40000054551100000000000000B490400000000000
+      3EA740000086A74B88CC420000B43A4E88CC42880000000355505303464F4206
+      43726564697466666666AE84E040000000000000000000000000000000006666
+      6666AE84E040000054551100000000000000B89040000000000047B8400000E2
+      CD5088CC42000010615388CC42900000000344484C064E657420333006437265
+      6469740000000080D4D540000000000000000000000000000000000000000080
+      D4D540000054551100000000000000BC9040000000000060984000003EF45588
+      CC4200006C875888CC4272000000054665644578064E65742033300443617368
+      000000001028F94000000000000000000000000000000000000000001028F940
+      000054551100000000000000C09040000000000030954000009A1A5B88CC4200
+      00C8AD5D88CC421D000000075553204D61696C064E6574203330044361736800
+      0000000018AC4000000000000000000000000000000000000000000018AC4000
+      0054551100000000000000C4904000000000003C9340000052676588CC420000
+      80FA6788CC4202000000075553204D61696C064E6574203330024D4300000000
+      80F5D240000000000000000000000000000000000000000080F5D24000005455
+      1100000000000000C890400000000000009F4000000AB46F88CC420000384772
+      88CC420F000000075553204D61696C064E6574203330024D43000000000026A1
+      4000000000000000000000000000000000000000000026A14000005455110000
+      0000000000CC904000000000001C9540000066DA7488CC420000946D7788CC42
+      0B0000000355505303464F42024D430000000000B8C040000000000000000000
+      000000000000000000000000B8C040000054551100000000000000D090400000
+      000000149340000074103A9DCC4200004CBA8188CC4209000000035550530346
+      4F42045669736100000000405DD1400000000000000000000000000000000000
+      000000405DD140000054551100000000000000D4904000000000003C98400000
+      D6738988CC420000329A8E88CC426E0000000344484C03464F42064372656469
+      7400000000008063400000000000000000000000000000000000000000008063
+      40000054551100000000000000D890400000000000C2A7400000329A8E88CC42
+      0000602D9188CC42270000000344484C03464F420643726564697400000000C0
+      50F3400000000000000000000000000000000000000000C050F3400000545511
+      00000000000000DC9040000000000090954000008EC09388CC420000BC539688
+      CC422C0000000344484C03464F420643726564697400000000005DB140000000
+      0000000000000000000000000000000000005DB1400000545511000000000000
+      00E0904000000000003095400000EAE69888CC420000187A9B88CC422D000000
+      03555053064E6574203330064372656469740000000000D1C240000000000000
+      000000000000000000000000000000D1C240000054551100000000000000E490
+      400000000000C4A7400000460D9E88CC42000074A0A088CC426D000000054665
+      644578064E657420333004416D45780000000080D9DD40000000000000000000
+      000000000000000000000080D9DD40000054551100000000000000E890400000
+      0000003C98400000A233A388CC420000D0C6A588CC4202000000054665644578
+      064E657420333004416D4578CDCCCCCCCC219640000000000000000000000000
+      00000000CDCCCCCCCC219640000054551100000000000000EC90400000000000
+      6C98400000A233A388CC420000D0C6A588CC4214000000054665644578064E65
+      7420333004436173686666666666CEC540000000000000000000000000000000
+      006666666666CEC540000054551100000000000000F090400000000000409A40
+      0000FE59A888CC4200002CEDAA88CC420F000000075553204D61696C064E6574
+      2033300443617368000000000084924000000000000000000000000000000000
+      0000000000849240000054551100000000000000F890400000000000A4974000
+      004060BA88CC4200006EF3BC88CC421D000000075553204D61696C064E657420
+      333004436173689A999999F970CB40000000000000000000000000000000009A
+      999999F970CB40000054551100000000000000FC904000000000001C95400000
+      9C86BF88CC420000CA19C288CC427F0000000344484C064E6574203330064372
+      6564697400000000806ECB400000000000000000000000000000000000000000
+      806ECB4000005455110000000000000004914000000000009EA8400000F8ACC4
+      88CC4200002640C788CC42710000000355505303464F42064372656469740000
+      00000024A54000000000000000000000000000000000000000000024A5400000
+      545511000000000000000891400000000000A4974000008266CC88CC420000B0
+      F9CE88CC425E0000000344484C03464F420643726564697400000000809DC040
+      0000000000000000000000000000000000000000809DC0400000545511000000
+      000000000C914000000000006C984000000C20D488CC420000C46CDE88CC4253
+      000000075553204D61696C03464F42064372656469740000000000789E400000
+      00000000000000000000000000000000000000789E4000005455110000000000
+      00001091400000000000B6B94000006846D988CC420000C46CDE88CC423D0000
+      00054665644578064E6574203330045669736100000000ACB9F2400000000000
+      000000000000000000000000000000ACB9F24000005455110000000000000014
+      91400000000000409A400000C46CDE88CC420000F2FFE088CC42020000000546
+      65644578064E65742033300456697361CDCCCCCCCCFC7D400000000000000000
+      0000000000000000CDCCCCCCCCFC7D4000005455110000000000000018914000
+      000000002BB44000002093E388CC4200004E26E688CC42040000000546656445
+      7803464F42024D4300000000C011B04000000000000000000000000000000000
+      00000000000000000000545511000000000000001C91400000000000D8A04000
+      007CB9E888CC420000AA4CEB88CC4224000000075553204D61696C064E657420
+      3330024D4300000000C06BBD4000000000000000000000000000000000000000
+      0000000000000054551100000000000000209140000000000064A24000003406
+      F388CC4200003406F388CC42220000000344484C064E6574203330024D430000
+      0000C035FE400000000000000000000000000000000000000000000000000000
+      5455110000000000000024914000000000003EAC400000BEBFFA88CC420000BE
+      BFFA88CC426B00000003555053064E6574203330024D43CDCCCCCCCC4CC94000
+      0000000000000000000000000000000000000000000000000054551100000000
+      000000289140000000000016A24000001AE6FF88CC4200001AE6FF88CC427600
+      000003555053064E65742033300643726564697466666666668E7D4000000000
+      0000000000000000000000000000000000000000000054551100000000000000
+      2C91400000000000009F400000760C0589CC420000760C0589CC428A00000003
+      555053064E6574203330064372656469749A99999999DF8A4000000000000000
+      0000000000000000000000000000000000000054551100000000000000309140
+      0000000000A0954000002E590F89CC4200002E590F89CC420900000003555053
+      03464F4206437265646974CDCCCCCCCCCEB74000000000000000000000000000
+      00000000000000000000000000545511000000000000003491400000000000EA
+      A0400000B2653389CC420000B2653389CC42250000000355505303464F420643
+      7265646974CDCCCCCCECB6C64000000000000000000000000000000000000000
+      000000000000005455110000000000000038914000000000003C934000009A69
+      F193CC4200009A69F193CC42690000000355505303464F420643726564697400
+      0000000038A64000000000000000000000000000000000000000000038A64000
+      00545511000000000000003C91400000000000C4A740000040AF5094CC420000
+      40AF5094CC425E0000000355505303464F420643726564697466666666B66EE3
+      400000000000000000000000000000000066666666B66EE34000005455110000
+      000000000040914000000000002895400000268F5D94CC420000268F5D94CC42
+      530000000344484C03464F4205436865636BCBCCCCCC243BE940000000000000
+      00000000000000000000CDCCCCCC243BE9400000545511000000000000004491
+      4000000000003095400000B0486594CC420000B0486594CC421C000000035550
+      5303464F420456697361CDCCCCCCFC7CDE400000000000000000000000000000
+      0000CDCCCCCCFC7CDE4000005455110000000000000048914000000000009095
+      40000030140A95CC42000030140A95CC420F00000005456D65727903464F4204
+      566973619A9999999997AB40000000000000000000000000000000009A999999
+      9997AB400000545511000000000000004C91400000000000A095400000C2E659
+      95CC420000C2E65995CC4286000000075553204D61696C03464F420456697361
+      0000000040B9DB40000000000000000000000000000000000000000040B9DB40
+      0000545511000000000000005491400000000000A4974000005A668D95CC4200
+      005A668D95CC4291000000075553204D61696C064E657420333003434F440000
+      0000006069400000000000000000000000000000000000000000006069400000
+      545511000000000000005C914000000000006098400000EC38DD95CC420000EC
+      38DD95CC420200000003555053064E657420333003434F44CDCCCCCCCC70B240
+      00000000000000000000000000000000CDCCCCCCCC70B2400000545511000000
+      000000006091400000000000B3B140000056250E96CC42000056250E96CC423D
+      00000003555053064E6574203330064372656469740000000000BDB540000000
+      0000000000000000000000000000000000000000000000545511000000000000
+      0064914000000000006099400000B4B77796CC420000B4B77796CC4209000000
+      05456D657279064E657420333006437265646974CDCCCCCC4CA5A34000000000
+      0000000000000000000000000000000000000000000054551100000000000000
+      6C914000000000004CB2400000EA63C296CC420000EA63C296CC421D00000005
+      456D65727903464F42024D4333333333F31EB340000000000000000000000000
+      0000000000000000000000000000545511000000000000007091400000000000
+      409A4000005AFDD696CC4200005AFDD696CC42710000000355505303464F4204
+      416D4578000000000090D6400000000000000000000000000000000000000000
+      000000000000545511000000000000007491400000000000009F4000007C3612
+      97CC4200007C361297CC422C0000000344484C03464F4205436865636B9A9999
+      99D94EBA40000000000000000000000000000000000000000000000000000054
+      55110000000000000078914000000000008CA040000048F62B97CC42000048F6
+      2B97CC42220000000344484C03464F4205436865636B00000000801BD5400000
+      000000000000000000000000000000000000801BD54000005455110000000000
+      00007C9140000000000008B54000003C9C6497CC4200003C9C6497CC42020000
+      000344484C064E6574203330064372656469749A999999F96ECC400000000000
+      00000000000000000000009A999999F96ECC4000005455110000000000000080
+      91400000000000D8A0400000085C7E97CC420000085C7E97CC422E0000000344
+      484C064E65742033300643726564697433333333338788400000000000000000
+      0000000000000000333333333387884000005455110000000000000084914000
+      00000000E6A040000078F59297CC42000078F59297CC42550000000355505306
+      4E6574203330064372656469740000000000A089400000000000000000000000
+      00000000000000000000A0894000005455110000000000000088914000000000
+      00E6A0400000A2471698CC420000A2471698CC428D00000003555053064E6574
+      2033300643726564697400000000C0E6E5400000000000000000000000000000
+      000000000000C0E6E5400000545511000000000000008C914000000000001493
+      40000062AD6898CC42000062AD6898CC427900000003555053064E6574203330
+      05436865636B00000000803CCB40000000000000000000000000000000000000
+      0000803CCB400000545511000000000000009091400000000000A095400000D2
+      467D98CC420000D2467D98CC424700000003555053064E657420333005436865
+      636B00000000E025E0400000000000000000000000000000000000000000E025
+      E040000054551100000000000000949140000000000098974000005C008598CC
+      4200005C008598CC422C0000000344484C064E657420333004416D4578CDCCCC
+      CCCCB7B94000000000000000000000000000000000CDCCCCCCCCB7B940000054
+      551100000000000000989140000000000060994000003686CA98CC4200003686
+      CA98CC422D00000003555053064E657420333004416D45780000000080BDC340
+      000000000000000000000000000000000000000080BDC3400000545511000000
+      000000009C91400000000000A0954000006419CD98CC4200006419CD98CC4241
+      00000003555053064E6574203330045669736100000000C07BD8400000000000
+      000000000000000000000000000000C07BD840000054551100000000000000A0
+      91400000000000CC99400000788CDC98CC420000788CDC98CC42250000000545
+      6D65727903464F420456697361000000000033C0400000000000000000000000
+      0000000000000000000033C040000054551100000000000000A4914000000000
+      00B49940000072DFF898CC42000072DFF898CC42180000000546656445780346
+      4F42024D436666666666668F4000000000000000000000000000000000666666
+      6666668F40000054551100000000000000A891400000000000D8B0400000B4E5
+      0A99CC420000B4E50A99CC427200000005466564457803464F42024D43000000
+      00009CB8400000000000000000000000000000000000000000009CB840000054
+      551100000000000000AC914000000000008CA0400000C8581A99CC420000C858
+      1A99CC428600000005466564457803464F42064372656469749A999999996AC7
+      40000000000000000000000000000000009A999999996AC74000005455110000
+      0000000000B091400000000000E6A0400000C8581A99CC420000C8581A99CC42
+      7900000005466564457803464F42064372656469740000000000508C40000000
+      000000000000000000000000000000000000508C400000545511000000000000
+      00B4914000000000009EA8400000F6EB1C99CC420000F6EB1C99CC428A000000
+      05466564457803464F4204436173680000000000E6A240000000000000000000
+      000000000000000000000000E6A240000054551100000000000000B891400000
+      0000001FB44000001ED23B99CC4200001ED23B99CC425E000000035550530346
+      4F4205436865636B33333333F313BA4000000000000000000000000000000000
+      33333333F313BA40000054551100000000000000C091400000000000E6A04000
+      00744B5D99CC420000744B5D99CC42470000000344484C03464F420643726564
+      6974000000000036A74000000000000000000000000000000000000000000036
+      A740000054551100000000000000C491400000000000009F400000744B5D99CC
+      420000744B5D99CC420B0000000344484C03464F420643726564697466666666
+      6681BA4000000000000000000000000000000000666666666681BA4000005455
+      1100000000000000CC9140000000000098974000002C986799CC4200002C9867
+      99CC421D000000075553204D61696C03464F42045669736100000000D84BE740
+      0000000000000000000000000000000000000000D84BE7400000545511000000
+      00000000D0914000000000009CBA40000026EB8399CC42000026EB8399CC4234
+      000000075553204D61696C064E65742033300456697361000000000060934000
+      0000000000000000000000000000000000000000609340000054551100000000
+      000000D4914000000000002CB24000000CCB9099CC4200000CCB9099CC425300
+      0000075553204D61696C064E657420333004416D45780000000000D89C400000
+      00000000000000000000000000000000000000D89C4000005455110000000000
+      0000D89140000000000020AF4000007C64A599CC4200007C64A599CC42690000
+      0003555053064E657420333004416D45780000000000B4AB4000000000000000
+      0000000000000000000000000000B4AB40000054551100000000000000DC9140
+      00000000000CB4400000BE6AB799CC420000BE6AB799CC427100000003555053
+      064E65742033300643726564697400000000001EA84000000000000000000000
+      00000000000000000000001EA840000054551100000000000000E09140000000
+      00008BB54000002E04CC99CC4200002E04CC99CC42860000000355505303464F
+      42064372656469740000000000A3C34000000000000000000000000000000000
+      0000000000A3C340000054551100000000000000E49140000000008038C34000
+      009E9DE099CC4200009E9DE099CC429000000005466564457803464F42064372
+      65646974CDCCCCCCCC85B04000000000000000000000000000000000CDCCCCCC
+      CC85B040000054551100000000000000E89140000000000016A2400000782326
+      9ACC4200007823269ACC425E00000005466564457803464F4205436865636B00
+      0000000066CD4000000000000000000000000000000000000000000066CD4000
+      0054551100000000000000F0914000000000006C98400000B47C549ACC420000
+      B47C549ACC425300000005466564457803464F420456697361000000000093B3
+      4000000000000000000000000000000000000000000093B34000005455110000
+      0000000000F49140000000008038C3400000AECF709ACC420000AECF709ACC42
+      340000000355505303464F42024D43000000006032C940000000000000000000
+      00000000000000000000006032C940000054551100000000000000F891400000
+      000000D8A7400000A8228D9ACC420000A8228D9ACC422C000000035550530346
+      4F4204416D457866666666E6F7BD400000000000000000000000000000000066
+      666666E6F7BD4000005455110000000000000000924000000000001C95400000
+      FE9BAE9ACC420000FE9BAE9ACC4218000000054665644578064E657420333006
+      4372656469749999999929DAF740000000000000000000000000000000009A99
+      999929DAF740000054551100000000000000049240000000000090954000009C
+      C8C59ACC4200009CC8C59ACC4204000000054665644578064E65742033300643
+      726564697433333333B329AE4000000000000000000000000000000000333333
+      33B329AE40000054551100000000000000089240000000000060984000004E68
+      EC9ACC4200004E68EC9ACC420900000003555053064E65742033300456697361
+      6666666666D5C940000000000000000000000000000000006666666666D5C940
+      0000545511000000000000000C924000000000001C9540000006B5F69ACC4200
+      0006B5F69ACC422500000003555053064E6574203330064372656469749A9999
+      99F937CB40000000000000000000000000000000009A999999F937CB40000054
+      5511000000000000001092400000000000A497400000BE01019BCC420000BE01
+      019BCC422E00000003555053064E6574203330024D43000000008027C8400000
+      0000000000000000000000000000000000008027C84000005455110000000000
+      000018924000000000002DB4400000147B229BCC420000147B229BCC428D0000
+      00075553204D61696C064E65742033300643726564697466666666C620C34000
+      00000000000000000000000000000066666666C620C340000054551100000000
+      00000020924000000000003C93400000E03A3C9BCC420000E03A3C9BCC426E00
+      0000075553204D61696C03464F4205436865636B33333333B33DA14000000000
+      00000000000000000000000033333333B33DA140000054551100000000000000
+      24924000000000006C984000006AF4439BCC4200006AF4439BCC425E00000007
+      5553204D61696C03464F42064372656469749A9999995903F940000000000000
+      000000000000000000009A9999995903F9400000545511000000000000002892
+      4000000000008CA040000050D4509BCC42000050D4509BCC4272000000075553
+      204D61696C03464F42064372656469740000000000A2A8400000000000000000
+      00000000000000000000000000A2A8400000545511000000000000002C924000
+      000000001C9540000036B45D9BCC42000036B45D9BCC4253000000075553204D
+      61696C03464F4206437265646974000000000060754000000000000000000000
+      0000000000000000000000607540000054551100000000000000349240000000
+      0000A4974000005E9A7C9BCC4200005E9A7C9BCC42480000000355505303464F
+      42045669736133333333B309A540000000000000000000000000000000003333
+      3333B309A5400000545511000000000000003892400000000000DCA740000044
+      7A899BCC420000447A899BCC42470000000344484C064E657420333004566973
+      6100000000802FDC400000000000000000000000000000000000000000802FDC
+      4000005455110000000000000040924000000000006C98400000CE33919BCC42
+      0000CE33919BCC420900000005466564457803464F42024D430000000000005A
+      40000000000000000000000000000000000000000000005A4000005455110000
+      0000000000449240000000000014934000002A5A969BCC4200002A5A969BCC42
+      0C0000000355505303464F42064372656469749A999999F97FC2400000000000
+      00000000000000000000009A999999F97FC24000005455110000000000000048
+      924000000000003C9840000086809B9BCC42000086809B9BCC42140000000344
+      484C064E657420333006437265646974CDCCCCCCCC16B6400000000000000000
+      0000000000000000CDCCCCCCCC16B6400000545511000000000000004C924000
+      000000006098400000E2A6A09BCC420000E2A6A09BCC42880000000546656445
+      78064E65742033300443617368CDCCCCCCCC69A2400000000000000000000000
+      0000000000CDCCCCCCCC69A24000005455110000000000000054924000000000
+      003C93400000F619B09BCC420000F619B09BCC427F000000075553204D61696C
+      064E6574203330024D430000000000004B400000000000000000000000000000
+      00000000000000004B400000545511000000000000005C92400000000000D6A7
+      4000000A8DBF9BCC4200000A8DBF9BCC426E0000000355505303464F42024D43
+      6666666606FBCA40000000000000000000000000000000006666666606FBCA40
+      00005455110000000000000060924000000000001493400000C2D9C99BCC4200
+      00C2D9C99BCC42340000000355505303464F4204566973619A999999D952B040
+      000000000000000000000000000000009A999999D952B0400000545511000000
+      0000000068924000000000003C9340000004E0DB9BCC42000004E0DB9BCC4218
+      0000000344484C03464F420643726564697400000000C087B540000000000000
+      0000000000000000000000000000C087B5400000545511000000000000007092
+      4000000000003095400000BC2CE69BCC420000BC2CE69BCC4290000000035550
+      53064E657420333006437265646974000000000070AC40000000000000000000
+      00000000000000000000000070AC400000545511000000000000007C92400000
+      000000B3B14000007479F09BCC4200007479F09BCC4205000000054665644578
+      064E65742033300443617368000000000084AC40000000000000000000000000
+      00000000000000000084AC40000054551100000000000000AC92400000000000
+      08B54000004EFF359CCC4200004EFF359CCC4214000000075553204D61696C06
+      4E6574203330024D430000000000BCBE40000000000000000000000000000000
+      000000000000BCBE40000054551100000000000000B09240000000000064A240
+      0000AA253B9CCC420000AA253B9CCC42090000000344484C064E657420333002
+      4D4300000000005FB7400000000000000000000000000000000000000000005F
+      B740000054551100000000000000B492400000000000A4974000006272459CCC
+      4200006272459CCC424700000003555053064E6574203330024D430000000000
+      4BBA400000000000000000000000000000000000000000004BBA400000545511
+      00000000000000B89240000000000016A2400000BE984A9CCC420000BE984A9C
+      CC424100000003555053064E657420333006437265646974676666669E99F140
+      00000000000000000000000000000000666666669E99F1400000545511000000
+      00000000BC924000000000002BB44000001ABF4F9CCC4200001ABF4F9CCC4255
+      00000003555053064E6574203330064372656469740000000000608640000000
+      0000000000000000000000000000000000006086400000545511000000000000
+      00C092400000000000A095400000D20B5A9CCC420000D20B5A9CCC426B000000
+      0355505303464F420643726564697400000000008C9C40000000000000000000
+      0000000000000000000000008C9C40000054551100000000000000C492400000
+      00000050A740000056187E9CCC42000056187E9CCC4272000000035550530346
+      4F4206437265646974000000000036BF40000000000000000000000000000000
+      00000000000036BF40000054551100000000000000C8924000000000003C9340
+      0000B23E839CCC420000B23E839CCC42910000000355505303464F4206437265
+      64697400000000006DB040000000000000000000000000000000000000000000
+      6DB040000054551100000000000000D092400000000000DAA7400000DA24A29C
+      CC420000DA24A29CCC428D0000000344484C03464F4205436865636B00000000
+      E00BC4400000000000000000000000000000000000000000E00BC44000005455
+      1100000000000000D492400000000000DCA740000064DEA99CCC42000064DEA9
+      9CCC42080000000355505303464F4204566973619A999999197BAF4000000000
+      0000000000000000000000009A999999197BAF40000054551100000000000000
+      DC92400000000000A0954000002AF1DF9CCC4200002AF1DF9CCC423400000007
+      5553204D61696C03464F4204566973619A999999D94AC9400000000000000000
+      00000000000000009A999999D94AC940000054551100000000000000E4924000
+      00000000A4974000005884E29CCC4200005884E29CCC423D000000075553204D
+      61696C064E657420333003434F449A999999F939D44000000000000000000000
+      0000000000009A999999F939D440000054551100000000000000F09240000000
+      00006C98400000B4AAE79CCC420000B4AAE79CCC420400000003555053064E65
+      742033300643726564697400000000800FAF4000000000000000000000000000
+      00000000000000800FAF40000054551100000000000000FC92400000000000CC
+      9940000010D1EC9CCC42000010D1EC9CCC422200000005456D65727903464F42
+      024D4399999999F938C040000000000000000000000000000000009A999999F9
+      38C0400000545511000000000000000493400000000000009F4000002444FC9C
+      CC4200002444FC9CCC420E0000000344484C03464F4205436865636B9A999999
+      5942E940000000000000000000000000000000009A9999995942E94000005455
+      11000000000000001493400000000000E6A040000052D7FE9CCC42000052D7FE
+      9CCC420200000003555053064E657420333006437265646974000000000066A0
+      4000000000000000000000000000000000000000000066A04000005455110000
+      00000000008893400000000000D8A7400000806A019DCC420000806A019DCC42
+      3D0000000355505303464F4204416D457835333333030DE64000000000000000
+      00000000000000000033333333030DE640000054551100000000000000949340
+      00000000009095400000DC90069DCC420000DC90069DCC422E00000005466564
+      4578064E6574203330064372656469749A999999D9A6B2400000000000000000
+      00000000000000009A999999D9A6B2400000545511000000000000009C934000
+      000000001C95400000320A289DCC420000320A289DCC427F0000000355505306
+      4E65742033300643726564697400000000784EEF400000000000000000000000
+      000000000000000000784EEF40000054551100000000000000B0934000000000
+      00C2A7400000609D2A9DCC420000609D2A9DCC426B000000075553204D61696C
+      03464F4205436865636B33333333B323A4400000000000000000000000000000
+      000033333333B323A440000054551100000000000000B4934000000000006C98
+      4000008E302D9DCC4200008E302D9DCC422D000000075553204D61696C03464F
+      420643726564697400000000003C9F4000000000000000000000000000000000
+      00000000003C9F40000054551100000000000000BC93400000000000DAA74000
+      0018EA349DCC42000018EA349DCC422C000000075553204D61696C03464F4206
+      4372656469743333333355660341000000000000000000000000000000003333
+      333355660341000054551100000000000000C893400000000000309540000046
+      7D379DCC420000467D379DCC42470000000344484C064E657420333004566973
+      61000000000017BB4000000000000000000000000000000000000000000017BB
+      40000054551100000000000000D493400000000000149340000074103A9DCC42
+      000074103A9DCC421C0000000355505303464F42064372656469740000000000
+      E09540000000000000000000000000000000000000000000E095400000545511
+      00000000000000DC9340000000000060984000002C5D449DCC4200002C5D449D
+      CC4291000000054665644578064E657420333004436173680000000000007340
+      0000000000000000000000000000000000000000000073400000545511000000
+      00000000EC934000000000001C954000008883499DCC4200008883499DCC4214
+      0000000355505303464F42024D4300000000E08AD04000000000000000000000
+      00000000000000000000E08AD040000054551100000000000000F89340000000
+      00003C93400000B6164C9DCC420000B6164C9DCC42470000000344484C03464F
+      4206437265646974000000000098C64000000000000000000000000000000000
+      000000000098C640000054551100000000000000009440000000000030954000
+      0040D0539DCC42000040D0539DCC427600000003555053064E65742033300643
+      726564697400000000C0DDB04000000000000000000000000000000000000000
+      00C0DDB0400000545511000000000000000C944000000000006C98400000F81C
+      5E9DCC420000F81C5E9DCC4271000000054665644578064E6574203330044361
+      73680000000000DEBB40000000000000000000000000000000000000000000DE
+      BB40000054551100000000000000309440000000000028954000005443639DCC
+      4200005443639DCC4288000000054665644578064E6574203330045669736166
+      666666E632BF400000000000000000000000000000000066666666E632BF4000
+      00545511000000000000003894400000000000009F400000DEFC6A9DCC420000
+      DEFC6A9DCC425500000005466564457803464F42024D4333333333B3D1A94000
+      00000000000000000000000000000033333333B3D1A940000054551100000000
+      0000003C94400000000000D8A04000003A23709DCC4200003A23709DCC422D00
+      0000075553204D61696C064E6574203330024D4300000000407FD14000000000
+      00000000000000000000000000000000407FD140000054551100000000000000
+      409440000000000024B54000009649759DCC4200009649759DCC422200000003
+      44484C064E6574203330024D439999999959FFBC400000000000000000000000
+      00000000009A99999959FFBC4000005455110000000000000048944000000000
+      0016A2400000C4DC779DCC420000C4DC779DCC420B00000003555053064E6574
+      20333006437265646974000000008054C3400000000000000000000000000000
+      0000000000008054C3400000545511000000000000005094400000000000A095
+      400000F26F7A9DCC420000F26F7A9DCC421C0000000355505303464F42064372
+      656469740000000028BFE9400000000000000000000000000000000000000000
+      28BFE94000005455110000000000000058944000000000003C9340000006E389
+      9DCC42000006E3899DCC42340000000355505303464F42064372656469740000
+      000040E9D740000000000000000000000000000000000000000040E9D7400000
+      5455110000000000000064944000000000003095400000BE2F949DCC420000BE
+      2F949DCC42410000000355505303464F4204566973610000000000F2A7400000
+      00000000000000000000000000000000000000F2A74000005455110000000000
+      000074944000000000003EAC4000001A56999DCC4200001A56999DCC425E0000
+      00075553204D61696C064E657420333003434F440000000000107D4000000000
+      0000000000000000000000000000000000107D40000054551100000000000000
+      8C94400000000000CC99400000D2A2A39DCC420000D2A2A39DCC427900000005
+      456D65727903464F42024D439A99999919ADB340000000000000000000000000
+      000000009A99999919ADB3400000545511000000000000009494400000000000
+      009F400000E615B39DCC420000E615B39DCC428A0000000344484C03464F4205
+      436865636B000000000094BD4000000000000000000000000000000000000000
+      000094BD400000545511000000000000001895400000000000D8A740000014A9
+      B59DCC42000014A9B59DCC42470000000355505303464F4204416D4578CDCCCC
+      CCCC75C14000000000000000000000000000000000CDCCCCCCCC75C140000054
+      5511000000000000002C95400000000000DAA74000009E62BD9DCC4200009E62
+      BD9DCC428D00000003555053064E65742033300643726564697400000000002A
+      CB400000000000000000000000000000000000000000002ACB40004054551100
+      000000000000109D4000000000003EAC40000006A866A1CC4209000000035550
+      53066E657420333005436865636B000000000040504000000000000000000000
+      0000000000000000000000000000}
+    Active = True
+    Aggregates = <>
+    FieldDefs = <
+      item
+        Name = 'OrderNo'
+        Attributes = [faUnNamed]
+        DataType = ftFloat
+      end
+      item
+        Name = 'CustNo'
+        Attributes = [faRequired, faUnNamed]
+        DataType = ftFloat
+      end
+      item
+        Name = 'SaleDate'
+        Attributes = [faUnNamed]
+        DataType = ftDateTime
+      end
+      item
+        Name = 'ShipDate'
+        Attributes = [faUnNamed]
+        DataType = ftDateTime
+      end
+      item
+        Name = 'EmpNo'
+        Attributes = [faRequired, faUnNamed]
+        DataType = ftInteger
+      end
+      item
+        Name = 'ShipToContact'
+        Attributes = [faUnNamed]
+        DataType = ftString
+        Size = 20
+      end
+      item
+        Name = 'ShipToAddr1'
+        Attributes = [faUnNamed]
+        DataType = ftString
+        Size = 30
+      end
+      item
+        Name = 'ShipToAddr2'
+        Attributes = [faUnNamed]
+        DataType = ftString
+        Size = 30
+      end
+      item
+        Name = 'ShipToCity'
+        Attributes = [faUnNamed]
+        DataType = ftString
+        Size = 15
+      end
+      item
+        Name = 'ShipToState'
+        Attributes = [faUnNamed]
+        DataType = ftString
+        Size = 20
+      end
+      item
+        Name = 'ShipToZip'
+        Attributes = [faUnNamed]
+        DataType = ftString
+        Size = 10
+      end
+      item
+        Name = 'ShipToCountry'
+        Attributes = [faUnNamed]
+        DataType = ftString
+        Size = 20
+      end
+      item
+        Name = 'ShipToPhone'
+        Attributes = [faUnNamed]
+        DataType = ftString
+        Size = 15
+      end
+      item
+        Name = 'ShipVIA'
+        Attributes = [faUnNamed]
+        DataType = ftString
+        Size = 7
+      end
+      item
+        Name = 'PO'
+        Attributes = [faUnNamed]
+        DataType = ftString
+        Size = 15
+      end
+      item
+        Name = 'Terms'
+        Attributes = [faUnNamed]
+        DataType = ftString
+        Size = 6
+      end
+      item
+        Name = 'PaymentMethod'
+        Attributes = [faUnNamed]
+        DataType = ftString
+        Size = 7
+      end
+      item
+        Name = 'ItemsTotal'
+        Attributes = [faUnNamed]
+        DataType = ftCurrency
+      end
+      item
+        Name = 'TaxRate'
+        Attributes = [faUnNamed]
+        DataType = ftFloat
+      end
+      item
+        Name = 'Freight'
+        Attributes = [faUnNamed]
+        DataType = ftCurrency
+      end
+      item
+        Name = 'AmountPaid'
+        Attributes = [faUnNamed]
+        DataType = ftCurrency
+      end>
+    IndexDefs = <>
+    Params = <>
+    StoreDefs = True
+    Left = 608
+    Top = 496
+    object ClientDataSet1OrderNo: TFloatField
+      FieldName = 'OrderNo'
+    end
+    object ClientDataSet1ShipToContact: TStringField
+      FieldName = 'ShipToContact'
+    end
+    object ClientDataSet1TaxRate: TFloatField
+      FieldName = 'TaxRate'
+    end
+    object ClientDataSet1Freight: TCurrencyField
+      FieldName = 'Freight'
+    end
+    object ClientDataSet1AmountPaid: TCurrencyField
+      FieldName = 'AmountPaid'
+    end
+    object ClientDataSet1ItemsTotal: TCurrencyField
+      FieldName = 'ItemsTotal'
+    end
+    object ClientDataSet1CustNo: TFloatField
+      FieldName = 'CustNo'
+      Required = True
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = ClientDataSet1
+    Left = 512
+    Top = 496
+  end
+  object ApplicationEvents1: TApplicationEvents
+    OnModalBegin = ApplicationEvents1ModalBegin
+    OnModalEnd = ApplicationEvents1ModalEnd
+    Left = 512
+    Top = 88
   end
 end

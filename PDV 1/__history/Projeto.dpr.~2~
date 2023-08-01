@@ -1,0 +1,17 @@
+program Projeto;
+
+{$R *.dres}
+
+uses
+  Vcl.Forms,
+  frmPrincipal in 'frmPrincipal.pas' {Form1},
+  UnitFrameMenuLateral in 'UnitFrameMenuLateral.pas' {frameMenuLateral: TFrame};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
