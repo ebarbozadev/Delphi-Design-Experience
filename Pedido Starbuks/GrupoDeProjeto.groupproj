@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{64C4E320-01C8-48AD-8B94-BD1D18334A4A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Projeto.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="PacoteFMX.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Projeto">
+        <MSBuild Projects="Projeto.dproj"/>
+    </Target>
+    <Target Name="Projeto:Clean">
+        <MSBuild Projects="Projeto.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Projeto:Make">
+        <MSBuild Projects="Projeto.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PacoteFMX">
+        <MSBuild Projects="PacoteFMX.dproj"/>
+    </Target>
+    <Target Name="PacoteFMX:Clean">
+        <MSBuild Projects="PacoteFMX.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PacoteFMX:Make">
+        <MSBuild Projects="PacoteFMX.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Projeto;PacoteFMX"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Projeto:Clean;PacoteFMX:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Projeto:Make;PacoteFMX:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

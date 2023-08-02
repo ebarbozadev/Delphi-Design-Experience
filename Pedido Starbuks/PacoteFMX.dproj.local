@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/08/02 09:33:31.000.401,=rtl.dcp</Transaction>
+    <Transaction>2023/08/02 10:09:44.000.033,=rtl.dcp</Transaction>
+    <Transaction>2023/08/02 10:09:50.000.687,=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/08/02 10:10:05.000.840,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Teste\frmFMXPrincipal.pas=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/08/02 10:10:05.000.840,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Teste\frmFMXPrincipal.fmx=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2023/08/02 10:10:21.000.322,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Teste\PacoteFMX.dproj=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2023/08/02 10:10:51.000.583,=fmx.dcp</Transaction>
+    <Transaction>2023/08/02 14:36:28.620,=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Pedido Starbuks\Unit1.pas</Transaction>
+    <Transaction>2023/08/02 14:55:24.562,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Pedido Starbuks\ItemMenuPrnc.pas=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Pedido Starbuks\Unit1.pas</Transaction>
+    <Transaction>2023/08/02 14:55:24.562,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Pedido Starbuks\ItemMenuPrnc.fmx=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Pedido Starbuks\Unit1.fmx</Transaction>
+  </Transactions>
+</BorlandProject>
