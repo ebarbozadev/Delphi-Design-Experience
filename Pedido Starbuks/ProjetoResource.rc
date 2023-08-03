@@ -1,1 +1,2 @@
-PngImage_1 RCDATA "Imagem\\food.png"
+food RCDATA "Imagem\\food.png"
+menu_drink RCDATA "Imagem\\drink.png"

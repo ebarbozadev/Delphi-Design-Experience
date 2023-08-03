@@ -1,6 +1,7 @@
 package PacoteFMX;
 
 {$R *.res}
+{$R *.dres}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
@@ -33,6 +34,8 @@ requires
 
 contains
   frmFMXPrincipal in 'frmFMXPrincipal.pas' {Form2},
-  ItemMenuPrnc in 'ItemMenuPrnc.pas' {ItemMenuPrincipal};
+  ItemMenuPrnc in 'ItemMenuPrnc.pas' {ItemMenuPrincipal},
+  ItemMenuMesa in 'ItemMenuMesa.pas' {Form1},
+  ItemMenuPrncSubProduto in 'ItemMenuPrncSubProduto.pas' {Form4};
 
 end.

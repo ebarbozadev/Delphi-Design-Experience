@@ -718,35 +718,35 @@ object Form2: TForm2
                 PNG = {
                   89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
                   F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
-                  0376494441545847BD964B48545118C7E7A192819959D2C31625486011053D16
-                  411BA128888868D1A24D8B5AB58828DA16428B220A8236D18B821605D1030289
-                  A0A0458B826A5341929A54D6388E3AA38EDE7EDFB97F27AF8E335E87E60787F3
-                  F8BEEF7FBE7BCEBDE7DC68A4089EE7CDA7ECA0ECA1AC1F1B1B5BDAD7D7575F57
-                  57D75B5959D9333E3EFE361A8D3EA4B453320A2B1D9B18F153E9743A41BB28F8
-                  FD367F9AF324317710DA343232F2CD970EC7E8E8E867E2D749AA28D3B680E003
-                  FDFDFD376A6B6BAB35E440B8331E8F3F6599BF526C55EA294DD96C76575555D5
-                  32B93986868652D5D5D50763B1D8630DCD0E045B3B3B3B47ED492660823754AD
-                  94BCEF0BE33192DE8DDF7BF39FA0B7B737C3F856B9158798D5B68F7EB8E791C8
-                  382F5C1BCD985C0A825F05FE975DB0181E1EB69734B03A3342F07DC539083C2E
-                  5328D0392B0907FD6B32CD8C2D953DB1622CE8B64CA1213C4AFC235FC9AD6416
-                  FD1699F343C075F97BA9546A806AA94C73820957D93BE02BBA07BA28D374B0C7
-                  3399CC2FDFD5395F91A924D0B92349FB34BF6A783A64BB517E13B4CA5412E8EE
-                  979E837E934C01EC0D5FE93773BC515D2A011DCE8EA9F3382C81DC7E2793C934
-                  8E49754B029D9EAEAE2E4F5DDBEAE56A06B004B27E3312E1BB8DE358F4829A25
-                  158D8D8D93B572F34CC612E8F19B914843434315092C56B724D059A1A68315F9
-                  A966004BA0C36FE6D8A6BA54023A24F449CD20B6E4DC7C1DD40EFB7C642A0974
-                  9E48D23EC38F1ACE0FCE97E46B27975D466B649A137C729BA79CAC6D32E58780
-                  E6EEEEEE11F95BC073AA0A994341DC3CDDA08E44229146BFF885C4A45714E3A0
-                  7F952AD41781BFDD88779D80A07F41E6C290653D7BF545710E821F30BE402E05
-                  B178FC9F29D4617BCF78E0C7A62038B70C0E0E2615EFE06CF8C1F831CA22B905
-                  607C09E524FF127F14928384EE51853B5710DBC2A4DF7D897FD8CBC9DEBE44F4
-                  A62D2BE516FDD776DDCA252FF8D9D6864E6205412F9C424898B07DEA9F3463E7
-                  251D0E12D9C353BE934E416C35A8F62A6E2B5BD9EF5B7C48E28C139DC2AC9606
-                  C166AABDE8ACA5B6D5B1F72165170EE535ED76FE803F50E72066FBC0C0C0D39A
-                  9A9AF91A324EE37F4EEDFF0F89B6DA39602B3001899D90B93C30E1CEC9BF6776
-                  42C25199CB0313EED311EF501287652E0F4C788889C79483FBAC19DB20737960
-                  C223F6F4CAC1DE87F2AE826149D8A9C967FBCAF3BC857F01B75E8495FB874B12
-                  0000000049454E44AE426082}
+                  0377494441545847BD974B6853411486F3684353A8B54643B5B8D04211AA8882
+                  A60BC14D40512845C4850B372E74E54244715B29B85044A1E0467CA1E04241D4
+                  82504450684B170AC68D0A294A2D6A34CDA34D9AD7F89FB97F626E9A26BDB998
+                  0F86799C73FE3999B973E7C6E9A88352AA1DE500CA20CACE7C3EDF3D3F3FEFEB
+                  EAEA8AB4B6B6CE150A85774EA7F329CA384A9A61F69189217E21954A45D1AE0B
+                  FC7E8B3F9A6D94681C08EDC964325F0D696B64B3D9CF88DF41A9BA2CDB02041F
+                  8BC7E3773A3B3BBD1CD240F89BDBED1EC332875164557C28BDB95CEE90C7E3D9
+                  4837CDE2E262C2EBF51E77B95CCF39B43A20180C87C359F9254530C134AA204A
+                  D5E705E32E247D187E1FC4BF48241249637C806EF541CC56D947235CA9C9C9C9
+                  021EB811345D74A909FC5AE07F430793A5A52579484DABB322087ECC380D02CF
+                  D26409E85CA28406FD5B34AD8C2C95FC62C648D07D9A2C837027E29F194A4A85
+                  42A11CF4FB69AE0E026ED35F25128924AA6E9A1A02136E9167C050D43FE81A4D
+                  CB81DD9D4EA77F19AEDA7994265B40E70125E5688639BC1C64BB9B7E458234D9
+                  02BA47A9A741BF972613F2846F369A25A659DBC5A4837747E53C1A49A0B4DFB1
+                  582C05C718BBB680CEDCD4D4946257B67A139B2624819CD17438706EDD70AC7B
+                  41AD9296402050AE559AA71C4960CE683A1C7EBFDF8304D6B36B0BE8F4B0A9C1
+                  8AFC64D384243063344BEC636D17930E12FAC4A6195972DC7C33A835727C68B2
+                  05745E50528EE1470E5707CED7E9AB78196DA3A92170E4F656BC594768AA0E02
+                  FA66676733F4978057A85A68B604E2DA78836AA2D1680AFAF52F244C3ACA180D
+                  FA3751593A11F0971BF1A11620E85FA5B936C8D287BDFAC2380D829F607C0D5D
+                  6A22F1F07FC9508DEC3DC64D1F36358173FFC2C2428CF11ABC1B7E60FC0CCA3A
+                  BA99C0F80694F3F896F8C3901248E8112A6BEF15880530E97743E21FF270626F
+                  DF40F4AE2C2BCA3DF427E4BAA54B55E0275B6B39891E04BDD60A16C184E3955F
+                  D218BB42696B209141FCCAF7D4A989AC06AA21C60D602BE386C500490C6BD10A
+                  56B53410EC4335049DEDA86575E47948C885833281F638BE8043A84B20667F32
+                  991CEBE8E868E7907011FE97D9FEFF20D1A0BC0764058A20B1733437074C78B0
+                  FCF34CDE90E034CDCD01131E29FFBFC1244ED2DC1C30E1094C9C670EFA58636C
+                  17CDCD01139E2ABFA49ABE0A8224216F4D1CDBB74AA9B57F01025781C884FE05
+                  9D0000000049454E44AE426082}
                 FileName = 
                   'C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experien' +
                   'ce\Pedido Starbuks\Imagem\search.png'
@@ -43611,31 +43611,37 @@ object Form2: TForm2
         end
         object LyMHeaderVazio1: TLayout
           Align = Left
-          Size.Width = 76.000000000000000000
+          Size.Width = 75.000000000000000000
           Size.Height = 105.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
         end
         object LyMHeaderMesas: TLayout
           Align = Client
-          Size.Width = 932.000000000000000000
+          Size.Width = 933.000000000000000000
           Size.Height = 105.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 1
-          object LyMesasCentralizar: TLayout
+          object LayoutMesas: TFlowLayout
             Align = Center
-            Size.Width = 960.000000000000000000
+            Anchors = [akLeft, akRight]
+            Size.Width = 953.000000000000000000
             Size.Height = 105.000000000000000000
             Size.PlatformDefault = False
             TabOrder = 0
+            Justify = Left
+            JustifyLastLine = Left
+            FlowDirection = LeftToRight
             object LyMesa01: TLayout
               Align = Left
               Size.Width = 120.000000000000000000
               Size.Height = 105.000000000000000000
               Size.PlatformDefault = False
+              Visible = False
               TabOrder = 3
               object Layout2: TLayout
                 Align = Center
+                Visible = False
                 TabOrder = 0
                 object Label2: TLabel
                   Align = Top
@@ -43663,17 +43669,17 @@ object Form2: TForm2
                 end
               end
             end
-            object LyMesa08: TLayout
+            object LyMesa02: TLayout
               Align = Left
-              Position.X = 840.000000000000000000
               Size.Width = 120.000000000000000000
               Size.Height = 105.000000000000000000
               Size.PlatformDefault = False
-              TabOrder = 5
-              object Layout9: TLayout
+              Visible = False
+              TabOrder = 0
+              object Layout3: TLayout
                 Align = Center
                 TabOrder = 0
-                object Label16: TLabel
+                object Label4: TLabel
                   Align = Top
                   StyledSettings = [Family, Style]
                   Size.Width = 50.000000000000000000
@@ -43685,7 +43691,7 @@ object Form2: TForm2
                   Text = 'Mesa'
                   TabOrder = 1
                 end
-                object Label17: TLabel
+                object Label5: TLabel
                   Align = Center
                   StyledSettings = [Family, Style]
                   Size.Width = 120.000000000000000000
@@ -43694,161 +43700,17 @@ object Form2: TForm2
                   TextSettings.Font.Size = 32.000000000000000000
                   TextSettings.FontColor = claWhite
                   TextSettings.HorzAlign = Center
-                  Text = '08'
-                  TabOrder = 0
-                end
-              end
-            end
-            object LyMesa07: TLayout
-              Align = Left
-              Position.X = 720.000000000000000000
-              Size.Width = 120.000000000000000000
-              Size.Height = 105.000000000000000000
-              Size.PlatformDefault = False
-              TabOrder = 2
-              object Layout8: TLayout
-                Align = Center
-                TabOrder = 0
-                object Label14: TLabel
-                  Align = Top
-                  StyledSettings = [Family, Style]
-                  Size.Width = 50.000000000000000000
-                  Size.Height = 17.000000000000000000
-                  Size.PlatformDefault = False
-                  TextSettings.Font.Size = 16.000000000000000000
-                  TextSettings.FontColor = claWhite
-                  TextSettings.HorzAlign = Center
-                  Text = 'Mesa'
-                  TabOrder = 1
-                end
-                object Label15: TLabel
-                  Align = Center
-                  StyledSettings = [Family, Style]
-                  Size.Width = 120.000000000000000000
-                  Size.Height = 34.000000000000000000
-                  Size.PlatformDefault = False
-                  TextSettings.Font.Size = 32.000000000000000000
-                  TextSettings.FontColor = claWhite
-                  TextSettings.HorzAlign = Center
-                  Text = '07'
-                  TabOrder = 0
-                end
-              end
-            end
-            object LyMesa06: TLayout
-              Align = Left
-              Position.X = 600.000000000000000000
-              Size.Width = 120.000000000000000000
-              Size.Height = 105.000000000000000000
-              Size.PlatformDefault = False
-              TabOrder = 4
-              object Layout7: TLayout
-                Align = Center
-                TabOrder = 0
-                object Label12: TLabel
-                  Align = Top
-                  StyledSettings = [Family, Style]
-                  Size.Width = 50.000000000000000000
-                  Size.Height = 17.000000000000000000
-                  Size.PlatformDefault = False
-                  TextSettings.Font.Size = 16.000000000000000000
-                  TextSettings.FontColor = claWhite
-                  TextSettings.HorzAlign = Center
-                  Text = 'Mesa'
-                  TabOrder = 1
-                end
-                object Label13: TLabel
-                  Align = Center
-                  StyledSettings = [Family, Style]
-                  Size.Width = 120.000000000000000000
-                  Size.Height = 34.000000000000000000
-                  Size.PlatformDefault = False
-                  TextSettings.Font.Size = 32.000000000000000000
-                  TextSettings.FontColor = claWhite
-                  TextSettings.HorzAlign = Center
-                  Text = '06'
-                  TabOrder = 0
-                end
-              end
-            end
-            object LyMesa05: TLayout
-              Align = Left
-              Position.X = 480.000000000000000000
-              Size.Width = 120.000000000000000000
-              Size.Height = 105.000000000000000000
-              Size.PlatformDefault = False
-              TabOrder = 6
-              object Layout6: TLayout
-                Align = Center
-                TabOrder = 0
-                object Label10: TLabel
-                  Align = Top
-                  StyledSettings = [Family, Style]
-                  Size.Width = 50.000000000000000000
-                  Size.Height = 17.000000000000000000
-                  Size.PlatformDefault = False
-                  TextSettings.Font.Size = 16.000000000000000000
-                  TextSettings.FontColor = claWhite
-                  TextSettings.HorzAlign = Center
-                  Text = 'Mesa'
-                  TabOrder = 1
-                end
-                object Label11: TLabel
-                  Align = Center
-                  StyledSettings = [Family, Style]
-                  Size.Width = 120.000000000000000000
-                  Size.Height = 34.000000000000000000
-                  Size.PlatformDefault = False
-                  TextSettings.Font.Size = 32.000000000000000000
-                  TextSettings.FontColor = claWhite
-                  TextSettings.HorzAlign = Center
-                  Text = '05'
-                  TabOrder = 0
-                end
-              end
-            end
-            object LyMesa04: TLayout
-              Align = Left
-              Position.X = 360.000000000000000000
-              Size.Width = 120.000000000000000000
-              Size.Height = 105.000000000000000000
-              Size.PlatformDefault = False
-              TabOrder = 7
-              object Layout5: TLayout
-                Align = Center
-                TabOrder = 0
-                object Label8: TLabel
-                  Align = Top
-                  StyledSettings = [Family, Style]
-                  Size.Width = 50.000000000000000000
-                  Size.Height = 17.000000000000000000
-                  Size.PlatformDefault = False
-                  TextSettings.Font.Size = 16.000000000000000000
-                  TextSettings.FontColor = claWhite
-                  TextSettings.HorzAlign = Center
-                  Text = 'Mesa'
-                  TabOrder = 1
-                end
-                object Label9: TLabel
-                  Align = Center
-                  StyledSettings = [Family, Style]
-                  Size.Width = 120.000000000000000000
-                  Size.Height = 34.000000000000000000
-                  Size.PlatformDefault = False
-                  TextSettings.Font.Size = 32.000000000000000000
-                  TextSettings.FontColor = claWhite
-                  TextSettings.HorzAlign = Center
-                  Text = '04'
+                  Text = '02'
                   TabOrder = 0
                 end
               end
             end
             object LyMesa03: TLayout
               Align = Left
-              Position.X = 240.000000000000000000
               Size.Width = 120.000000000000000000
               Size.Height = 105.000000000000000000
               Size.PlatformDefault = False
+              Visible = False
               TabOrder = 1
               object Layout4: TLayout
                 Align = Center
@@ -43879,17 +43741,17 @@ object Form2: TForm2
                 end
               end
             end
-            object LyMesa02: TLayout
+            object LyMesa04: TLayout
               Align = Left
-              Position.X = 120.000000000000000000
               Size.Width = 120.000000000000000000
               Size.Height = 105.000000000000000000
               Size.PlatformDefault = False
-              TabOrder = 0
-              object Layout3: TLayout
+              Visible = False
+              TabOrder = 7
+              object Layout5: TLayout
                 Align = Center
                 TabOrder = 0
-                object Label4: TLabel
+                object Label8: TLabel
                   Align = Top
                   StyledSettings = [Family, Style]
                   Size.Width = 50.000000000000000000
@@ -43901,7 +43763,7 @@ object Form2: TForm2
                   Text = 'Mesa'
                   TabOrder = 1
                 end
-                object Label5: TLabel
+                object Label9: TLabel
                   Align = Center
                   StyledSettings = [Family, Style]
                   Size.Width = 120.000000000000000000
@@ -43910,7 +43772,156 @@ object Form2: TForm2
                   TextSettings.Font.Size = 32.000000000000000000
                   TextSettings.FontColor = claWhite
                   TextSettings.HorzAlign = Center
-                  Text = '02'
+                  Text = '04'
+                  TabOrder = 0
+                end
+              end
+            end
+            object LyMesa05: TLayout
+              Align = Left
+              Size.Width = 120.000000000000000000
+              Size.Height = 105.000000000000000000
+              Size.PlatformDefault = False
+              Visible = False
+              TabOrder = 6
+              object Layout6: TLayout
+                Align = Center
+                TabOrder = 0
+                object Label10: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Style]
+                  Size.Width = 50.000000000000000000
+                  Size.Height = 17.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 16.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  Text = 'Mesa'
+                  TabOrder = 1
+                end
+                object Label11: TLabel
+                  Align = Center
+                  StyledSettings = [Family, Style]
+                  Size.Width = 120.000000000000000000
+                  Size.Height = 34.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 32.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  Text = '05'
+                  TabOrder = 0
+                end
+              end
+            end
+            object LyMesa06: TLayout
+              Align = Left
+              Size.Width = 120.000000000000000000
+              Size.Height = 105.000000000000000000
+              Size.PlatformDefault = False
+              Visible = False
+              TabOrder = 4
+              object Layout7: TLayout
+                Align = Center
+                TabOrder = 0
+                object Label12: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Style]
+                  Size.Width = 50.000000000000000000
+                  Size.Height = 17.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 16.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  Text = 'Mesa'
+                  TabOrder = 1
+                end
+                object Label13: TLabel
+                  Align = Center
+                  StyledSettings = [Family, Style]
+                  Size.Width = 120.000000000000000000
+                  Size.Height = 34.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 32.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  Text = '06'
+                  TabOrder = 0
+                end
+              end
+            end
+            object LyMesa07: TLayout
+              Align = Left
+              Size.Width = 120.000000000000000000
+              Size.Height = 105.000000000000000000
+              Size.PlatformDefault = False
+              Visible = False
+              TabOrder = 2
+              object Layout8: TLayout
+                Align = Center
+                TabOrder = 0
+                object Label14: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Style]
+                  Size.Width = 50.000000000000000000
+                  Size.Height = 17.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 16.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  Text = 'Mesa'
+                  TabOrder = 1
+                end
+                object Label15: TLabel
+                  Align = Center
+                  StyledSettings = [Family, Style]
+                  Size.Width = 120.000000000000000000
+                  Size.Height = 34.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 32.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  Text = '07'
+                  TabOrder = 0
+                end
+                object Image3: TImage
+                  MultiResBitmap = <
+                    item
+                    end>
+                end
+              end
+            end
+            object LyMesa08: TLayout
+              Align = Left
+              Size.Width = 120.000000000000000000
+              Size.Height = 105.000000000000000000
+              Size.PlatformDefault = False
+              Visible = False
+              TabOrder = 5
+              object Layout9: TLayout
+                Align = Center
+                TabOrder = 0
+                object Label16: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Style]
+                  Size.Width = 50.000000000000000000
+                  Size.Height = 17.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 16.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  Text = 'Mesa'
+                  TabOrder = 1
+                end
+                object Label17: TLabel
+                  Align = Center
+                  StyledSettings = [Family, Style]
+                  Size.Width = 120.000000000000000000
+                  Size.Height = 34.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 32.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  Text = '08'
                   TabOrder = 0
                 end
               end
@@ -43955,6 +43966,17 @@ object Form2: TForm2
                 Text = 'Criar Mesa'
                 TabOrder = 0
               end
+              object SpeedButton1: TSpeedButton
+                Align = Contents
+                EnableDragHighlight = False
+                Opacity = 0.000000000000000000
+                Size.Width = 192.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                OnClick = SpeedButton1Click
+                OnMouseEnter = SpeedButton1MouseEnter
+                OnMouseLeave = SpeedButton1MouseLeave
+              end
             end
           end
         end
@@ -43972,12 +43994,55 @@ object Form2: TForm2
           Size.PlatformDefault = False
           TabOrder = 0
           object Rectangle4: TRectangle
-            Align = Client
+            Align = Contents
             Fill.Color = xFF2B3A5D
             Size.Width = 1215.000000000000000000
             Size.Height = 625.000000000000000000
             Size.PlatformDefault = False
             Stroke.Kind = None
+          end
+          object LyMainClient: TLayout
+            Align = Client
+            Padding.Left = 40.000000000000000000
+            Padding.Right = 40.000000000000000000
+            Size.Width = 672.000000000000000000
+            Size.Height = 625.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object MainTop: TLayout
+              Align = Top
+              Position.X = 40.000000000000000000
+              Size.Width = 592.000000000000000000
+              Size.Height = 129.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              object FlowLayout1: TFlowLayout
+                Align = Center
+                Anchors = [akLeft, akRight]
+                Size.Width = 591.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                Justify = Left
+                JustifyLastLine = Left
+                FlowDirection = LeftToRight
+              end
+            end
+            object MainMid: TLayout
+              Align = Client
+              Size.Width = 592.000000000000000000
+              Size.Height = 496.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+            end
+          end
+          object LyMainRight: TLayout
+            Align = Right
+            Position.X = 672.000000000000000000
+            Size.Width = 543.000000000000000000
+            Size.Height = 625.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
           end
         end
         object LyMainSMenu: TLayout

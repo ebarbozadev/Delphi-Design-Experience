@@ -106,6 +106,14 @@
             <Form>Form3</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <RcItem Include="Imagem\food.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>food</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagem\drink.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>menu_drink</ResourceId>
+        </RcItem>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -135,6 +143,18 @@
                 </Excluded_Packages>
             </Delphi.Personality>
             <Deployment Version="4">
+                <DeployFile LocalName="Imagem\drink.png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="Imagem\food.png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Win32\Debug\Projeto.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>Projeto.exe</RemoteName>

@@ -159,6 +159,30 @@
             <Form>ItemMenuPrincipal</Form>
             <FormType>fmx</FormType>
         </DCCReference>
+        <DCCReference Include="ItemMenuMesa.pas">
+            <Form>Form1</Form>
+            <FormType>fmx</FormType>
+        </DCCReference>
+        <DCCReference Include="ItemMenuPrncSubProduto.pas">
+            <Form>Form4</Form>
+            <FormType>fmx</FormType>
+        </DCCReference>
+        <RcItem Include="Imagens\food.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>menu_food</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\configuracao.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>menu_configuracao</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\drink.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>menu_drink</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\pagamento.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>menu_pagamento</ResourceId>
+        </RcItem>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
