@@ -183,6 +183,26 @@
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>menu_pagamento</ResourceId>
         </RcItem>
+        <RcItem Include="Imagens\cafe.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>sub_cafe</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\cerveja.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>sub_cerveja</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\suco.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>sub_suco</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\vinho.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>sub_vinho</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\cha.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>sub_cha</ResourceId>
+        </RcItem>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

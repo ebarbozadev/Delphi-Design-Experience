@@ -6,9 +6,10 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
   FMX.Controls.Presentation, FMX.StdCtrls, FMX.Objects, FMX.Layouts, FMX.Edit,
-  FMX.Effects, FMX.Filter.Effects, ItemMenuPrnc, ItemMenuMesa, ItemMenuPrncSubProduto;
+  FMX.Effects, FMX.Filter.Effects, ItemMenuPrnc, ItemMenuMesa, ItemMenuPrncSubProduto, Recursos, ItemMenuOpc;
 
 type
+
   TForm2 = class(TForm)
     Button1: TButton;
     LyBody: TLayout;
@@ -40,63 +41,69 @@ type
     LyMHeaderVazio1: TLayout;
     LyMHeaderMesas: TLayout;
     LyMHeaderCriarMesa: TLayout;
-    LyMesa04: TLayout;
-    LyMesa03: TLayout;
-    LyMesa02: TLayout;
-    LyMesa01: TLayout;
-    LyMesa08: TLayout;
-    LyMesa07: TLayout;
-    LyMesa06: TLayout;
-    LyMesa05: TLayout;
-    Label2: TLabel;
-    Label3: TLabel;
-    Layout2: TLayout;
-    Layout3: TLayout;
-    Label4: TLabel;
-    Label5: TLabel;
-    Layout4: TLayout;
-    Label6: TLabel;
-    Label7: TLabel;
-    Layout5: TLayout;
-    Label8: TLabel;
-    Label9: TLabel;
-    Layout6: TLayout;
-    Label10: TLabel;
-    Label11: TLabel;
-    Layout7: TLayout;
-    Label12: TLabel;
-    Label13: TLabel;
-    Layout8: TLayout;
-    Label14: TLabel;
-    Label15: TLabel;
-    Layout9: TLayout;
-    Label16: TLabel;
-    Label17: TLabel;
     RoundRect1: TRoundRect;
     LyCriarMesa1: TLayout;
     LyCriarMesa2: TLayout;
     Label18: TLabel;
     LayoutMenu: TFlowLayout;
-    Image3: TImage;
-    LayoutMesas: TFlowLayout;
     SpeedButton1: TSpeedButton;
     LyMainClient: TLayout;
     LyMainRight: TLayout;
     MainTop: TLayout;
     MainMid: TLayout;
     FlowLayout1: TFlowLayout;
+    VertScrollBox1: TVertScrollBox;
+    LayoutMesas: TFlowLayout;
+    Image3: TImage;
+    FillRGBEffect3: TFillRGBEffect;
+    SpeedButton: TSpeedButton;
+    Layout2: TLayout;
+    Layout3: TLayout;
+    Rc: TRectangle;
+    Layout4: TLayout;
+    Layout5: TLayout;
+    Layout6: TLayout;
+    Label2: TLabel;
+    Label3: TLabel;
+    Rectangle5: TRectangle;
+    Layout7: TLayout;
+    Rectangle6: TRectangle;
+    Layout8: TLayout;
+    Layout9: TLayout;
+    Label4: TLabel;
+    Layout10: TLayout;
+    Finalizar: TLabel;
+    RoundRect2: TRoundRect;
+    Layout11: TLayout;
+    Z: TLayout;
+    Layout13: TLayout;
+    Label5: TLabel;
+    Label6: TLabel;
+    Layout14: TLayout;
+    Label7: TLabel;
+    Label8: TLabel;
+    Rectangle7: TRectangle;
+    Layout15: TLayout;
+    Layout16: TLayout;
+    Label9: TLabel;
+    Label10: TLabel;
+    MROpcoes: TFlowLayout;
     procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure SpeedButton1MouseEnter(Sender: TObject);
     procedure SpeedButton1MouseLeave(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
+    procedure SpeedButtonClick(Sender: TObject);
   private
     { Private declarations }
     FMesas : Integer;
+    FShowMesas : Boolean;
     procedure MontarMenuPrincipal;
     procedure MontarSubMenu;
+    procedure MontarOpcoes;
     procedure ClicouMenu(Sender : TObject);
     procedure ClicouSub(Sender : TObject);
+    procedure OcultarBarraMesas (Sender : TObject);
   public
     { Public declarations }
   end;
@@ -119,15 +126,19 @@ begin
 end;
 
 procedure TForm2.ClicouSub(Sender: TObject);
+var
+  Criado : TObject;
 begin
-  ShowMessage('Clicou no sub');
+
 end;
 
 procedure TForm2.FormCreate(Sender: TObject);
 begin
   MontarMenuPrincipal;
   MontarSubMenu;
+  MontarOpcoes;
   FMesas := 0;
+  FShowMesas := False;
 end;
 
 procedure TForm2.MontarMenuPrincipal;
@@ -136,6 +147,13 @@ begin
   LayoutMenu.AddObject(TItemMenuPrincipal.Create(Self).Recursos('Food', 'menu_food', ClicouMenu).LayoutPrincipal);
   LayoutMenu.AddObject(TItemMenuPrincipal.Create(Self).Recursos('Pagamento', 'menu_pagamento', ClicouMenu).LayoutPrincipal);
   LayoutMenu.AddObject(TItemMenuPrincipal.Create(Self).Recursos('Configurações', 'menu_configuracao', ClicouMenu).LayoutPrincipal);
+end;
+
+procedure TForm2.MontarOpcoes;
+begin
+  MROpcoes.AddObject(TForm5.Create(Self).criarOpcao('Checkout', 'opc_checkout').Layout1);
+  MROpcoes.AddObject(TForm5.Create(Self).criarOpcao('Order', 'opc_order').Layout1);
+  MROpcoes.AddObject(TForm5.Create(Self).criarOpcao('Histórico', 'opc_historico').Layout1);
 end;
 
 procedure TForm2.MontarSubMenu;
@@ -147,10 +165,26 @@ begin
   FlowLayout1.AddObject(TForm4.Create(Self).CriaSubTopico('Vinho', 'sub_vinho', ClicouSub).Layout1);
 end;
 
+procedure TForm2.OcultarBarraMesas(Sender: TObject);
+begin
+  if FShowMesas then
+  begin
+    LyMainHeader.Height:= 100;
+    FShowMesas := False;
+    TRecursos.CarregarImagem(Image3, 'arrow_down');
+  end
+  else
+  begin
+    LyMainHeader.Height:= Screen.Height - 80;
+    FShowMesas := True;
+    TRecursos.CarregarImagem(Image3, 'arrow_up');
+  end;
+end;
+
 procedure TForm2.SpeedButton1Click(Sender: TObject);
 begin
-  FMesas := FMesas +1;
-  LayoutMesas.AddObject(TForm1.Create(Self).Recursos(FMesas).LyMesa01);
+  FMesas := FMesas + 1;
+  LayoutMesas.AddObject(TForm1.Create(Self).Recursos(FMesas).EventClick(OcultarBarraMesas).LyMesa01);
 end;
 
 procedure TForm2.SpeedButton1MouseEnter(Sender: TObject);
@@ -163,6 +197,11 @@ procedure TForm2.SpeedButton1MouseLeave(Sender: TObject);
 begin
   RoundRect1.Fill.Color := TAlphaColor($FFFF9C67);
   Label18.TextSettings.FontColor:= TAlphaColor($FFFFFFFF);
+end;
+
+procedure TForm2.SpeedButtonClick(Sender: TObject);
+begin
+  OcultarBarraMesas(Self);
 end;
 
 end.
