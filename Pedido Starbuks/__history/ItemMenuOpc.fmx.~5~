@@ -15,13 +15,6 @@ object Form5: TForm5
     Size.Height = 40.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
-    object RoundRect1: TRoundRect
-      Align = Contents
-      Size.Width = 144.000000000000000000
-      Size.Height = 40.000000000000000000
-      Size.PlatformDefault = False
-      Stroke.Kind = None
-    end
     object Image1: TImage
       MultiResBitmap.Height = 32
       MultiResBitmap.Width = 32
@@ -83,15 +76,6 @@ object Form5: TForm5
       TextSettings.HorzAlign = Center
       Text = 'Checkout'
       TabOrder = 1
-    end
-    object SpeedButton1: TSpeedButton
-      Align = Contents
-      Opacity = 0.000000000000000000
-      Size.Width = 144.000000000000000000
-      Size.Height = 40.000000000000000000
-      Size.PlatformDefault = False
-      OnMouseEnter = SpeedButton1MouseEnter
-      OnMouseLeave = SpeedButton1MouseLeave
     end
   end
 end

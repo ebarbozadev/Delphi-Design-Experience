@@ -12,10 +12,6 @@ type
     Layout1: TLayout;
     Image1: TImage;
     Label1: TLabel;
-    RoundRect1: TRoundRect;
-    SpeedButton1: TSpeedButton;
-    procedure SpeedButton1MouseEnter(Sender: TObject);
-    procedure SpeedButton1MouseLeave(Sender: TObject);
   private
     { Private declarations }
   public
@@ -54,16 +50,6 @@ begin
   CarregarImagem(Image1, Icone);
   FColorEnter:= ColorEnter;
   FColorLeave:= ColorLeave;
-end;
-
-procedure TForm5.SpeedButton1MouseEnter(Sender: TObject);
-begin
-  RoundRect1.Fill.Color:= FColorEnter;
-end;
-
-procedure TForm5.SpeedButton1MouseLeave(Sender: TObject);
-begin
-  RoundRect1.Fill.Color:= FColorLeave;
 end;
 
 end.

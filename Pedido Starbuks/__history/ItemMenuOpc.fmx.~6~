@@ -84,14 +84,5 @@ object Form5: TForm5
       Text = 'Checkout'
       TabOrder = 1
     end
-    object SpeedButton1: TSpeedButton
-      Align = Contents
-      Opacity = 0.000000000000000000
-      Size.Width = 144.000000000000000000
-      Size.Height = 40.000000000000000000
-      Size.PlatformDefault = False
-      OnMouseEnter = SpeedButton1MouseEnter
-      OnMouseLeave = SpeedButton1MouseLeave
-    end
   end
 end

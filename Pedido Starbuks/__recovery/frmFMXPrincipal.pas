@@ -6,12 +6,11 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
   FMX.Controls.Presentation, FMX.StdCtrls, FMX.Objects, FMX.Layouts, FMX.Edit,
-  FMX.Effects, FMX.Filter.Effects, ItemMenuPrnc, ItemMenuMesa, ItemMenuPrncSubProduto, Recursos;
+  FMX.Effects, FMX.Filter.Effects, ItemMenuPrnc, ItemMenuMesa, ItemMenuPrncSubProduto, Recursos, ItemMenuOpc;
 
 type
 
   TForm2 = class(TForm)
-    Button1: TButton;
     LyBody: TLayout;
     LyHeader: TLayout;
     LyHeaderLogo: TLayout;
@@ -87,7 +86,7 @@ type
     Layout16: TLayout;
     Label9: TLabel;
     Label10: TLabel;
-    Layout12: TLayout;
+    MROpcoes: TFlowLayout;
     procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure SpeedButton1MouseEnter(Sender: TObject);
@@ -100,6 +99,7 @@ type
     FShowMesas : Boolean;
     procedure MontarMenuPrincipal;
     procedure MontarSubMenu;
+    procedure MontarOpcoes;
     procedure ClicouMenu(Sender : TObject);
     procedure ClicouSub(Sender : TObject);
     procedure OcultarBarraMesas (Sender : TObject);
@@ -135,6 +135,7 @@ procedure TForm2.FormCreate(Sender: TObject);
 begin
   MontarMenuPrincipal;
   MontarSubMenu;
+  MontarOpcoes;
   FMesas := 0;
   FShowMesas := False;
 end;
@@ -144,13 +145,20 @@ begin
   LayoutMenu.AddObject(TItemMenuPrincipal.Create(Self).Recursos('Drink', 'menu_drink', ClicouMenu).LayoutPrincipal);
   LayoutMenu.AddObject(TItemMenuPrincipal.Create(Self).Recursos('Food', 'menu_food', ClicouMenu).LayoutPrincipal);
   LayoutMenu.AddObject(TItemMenuPrincipal.Create(Self).Recursos('Pagamento', 'menu_pagamento', ClicouMenu).LayoutPrincipal);
-  LayoutMenu.AddObject(TItemMenuPrincipal.Create(Self).Recursos('ConfiguraÁıes', 'menu_configuracao', ClicouMenu).LayoutPrincipal);
+  LayoutMenu.AddObject(TItemMenuPrincipal.Create(Self).Recursos('Configura√ß√µes', 'menu_configuracao', ClicouMenu).LayoutPrincipal);
+end;
+
+procedure TForm2.MontarOpcoes;
+begin
+  MROpcoes.AddObject(TForm5.Create(Self).criarOpcao('Checkout', 'opc_checkout').Layout1);
+  MROpcoes.AddObject(TForm5.Create(Self).criarOpcao('Order', 'opc_order').Layout1);
+  MROpcoes.AddObject(TForm5.Create(Self).criarOpcao('Hist√≥rico', 'opc_historico').Layout1);
 end;
 
 procedure TForm2.MontarSubMenu;
 begin
-  FlowLayout1.AddObject(TForm4.Create(Self).CriaSubTopico('CafÈ', 'sub_cafe', ClicouSub).Layout1);
-  FlowLayout1.AddObject(TForm4.Create(Self).CriaSubTopico('Ch·', 'sub_cha', ClicouSub).Layout1);
+  FlowLayout1.AddObject(TForm4.Create(Self).CriaSubTopico('Caf√©', 'sub_cafe', ClicouSub).Layout1);
+  FlowLayout1.AddObject(TForm4.Create(Self).CriaSubTopico('Ch√°', 'sub_cha', ClicouSub).Layout1);
   FlowLayout1.AddObject(TForm4.Create(Self).CriaSubTopico('Cerveja', 'sub_cerveja', ClicouSub).Layout1);
   FlowLayout1.AddObject(TForm4.Create(Self).CriaSubTopico('Suco', 'sub_suco', ClicouSub).Layout1);
   FlowLayout1.AddObject(TForm4.Create(Self).CriaSubTopico('Vinho', 'sub_vinho', ClicouSub).Layout1);

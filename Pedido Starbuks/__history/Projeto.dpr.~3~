@@ -6,12 +6,11 @@ program Projeto;
 
 
 
-
+{$R *.dres}
 
 uses
   Vcl.Forms,
-  frmVCLPrincipal in 'frmVCLPrincipal.pas' {Form3},
-  Recursos in 'Recursos.pas';
+  frmVCLPrincipal in 'frmVCLPrincipal.pas' {Form3};
 
 {$R *.res}
 

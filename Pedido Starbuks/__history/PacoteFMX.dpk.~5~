@@ -36,7 +36,6 @@ contains
   frmFMXPrincipal in 'frmFMXPrincipal.pas' {Form2},
   ItemMenuPrnc in 'ItemMenuPrnc.pas' {ItemMenuPrincipal},
   ItemMenuMesa in 'ItemMenuMesa.pas' {Form1},
-  ItemMenuPrncSubProduto in 'ItemMenuPrncSubProduto.pas' {Form4},
-  ItemMenuOpc in 'ItemMenuOpc.pas' {Form5};
+  ItemMenuPrncSubProduto in 'ItemMenuPrncSubProduto.pas' {Form4};
 
 end.

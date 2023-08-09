@@ -167,6 +167,10 @@
             <Form>Form4</Form>
             <FormType>fmx</FormType>
         </DCCReference>
+        <DCCReference Include="ItemMenuOpc.pas">
+            <Form>Form5</Form>
+            <FormType>fmx</FormType>
+        </DCCReference>
         <RcItem Include="Imagens\food.png">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>menu_food</ResourceId>
@@ -202,6 +206,26 @@
         <RcItem Include="Imagens\cha.png">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>sub_cha</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\down.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>arrow_down</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\up.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>arrow_up</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\checkout.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>opc_checkout</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\history-clock-button.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>opc_historico</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\list.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>opc_order</ResourceId>
         </RcItem>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>

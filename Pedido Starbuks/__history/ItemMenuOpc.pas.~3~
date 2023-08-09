@@ -12,16 +12,10 @@ type
     Layout1: TLayout;
     Image1: TImage;
     Label1: TLabel;
-    RoundRect1: TRoundRect;
-    SpeedButton1: TSpeedButton;
-    procedure SpeedButton1MouseEnter(Sender: TObject);
-    procedure SpeedButton1MouseLeave(Sender: TObject);
   private
     { Private declarations }
   public
     { Public declarations }
-    FColorEnter, FColorLeave : TAlphaColor;
-
     function criarOpcao (Texto : String; Icone : String; ColorEnter : TAlphaColor = $FFFF9C67; ColorLeave : TAlphaColor = $FF2A3959) : TForm5;
     procedure CarregarImagem(Imagem : TImage; NomeImagem : String);
   end;
@@ -47,23 +41,11 @@ begin
   end;
 end;
 
-function TForm5.criarOpcao(Texto : String; Icone : String; ColorEnter : TAlphaColor = $FFFF9C67; ColorLeave : TAlphaColor = $FF2A3959) : TForm5;
+function TForm5.criarOpcao(Texto, Icone: String): TForm5;
 begin
   Result:= Self;
   Label1.Text:= Texto;
   CarregarImagem(Image1, Icone);
-  FColorEnter:= ColorEnter;
-  FColorLeave:= ColorLeave;
-end;
-
-procedure TForm5.SpeedButton1MouseEnter(Sender: TObject);
-begin
-  RoundRect1.Fill.Color:= FColorEnter;
-end;
-
-procedure TForm5.SpeedButton1MouseLeave(Sender: TObject);
-begin
-  RoundRect1.Fill.Color:= FColorLeave;
 end;
 
 end.
