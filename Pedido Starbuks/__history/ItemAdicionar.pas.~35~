@@ -1,0 +1,90 @@
+unit ItemAdicionar;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts, Recursos;
+
+type
+  TForm6 = class(TForm)
+    Rectangle1: TRectangle;
+    Layout1: TLayout;
+    Image1: TImage;
+    Label1: TLabel;
+    Label2: TLabel;
+    SpeedButton1: TSpeedButton;
+    Layout3: TLayout;
+    Layout4: TLayout;
+    Layout5: TLayout;
+    Layout6: TLayout;
+    Rc: TRectangle;
+    Layout11: TLayout;
+    Layout7: TLayout;
+    Layout8: TLayout;
+    Layout9: TLayout;
+    Layout10: TLayout;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    SpeedButton2: TSpeedButton;
+    SpeedButton3: TSpeedButton;
+    SpeedButton4: TSpeedButton;
+    procedure SpeedButton2Click(Sender: TObject);
+    procedure SpeedButton1Click(Sender: TObject);
+    procedure SpeedButton3Click(Sender: TObject);
+    procedure SpeedButton4Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    function adicionarItens(Item : Integer; nomeImagem, nomeProduto, nomeValor : String; Frame : TFramedVertScrollBox) : TForm6;
+  end;
+
+var
+  Form6: TForm6;
+
+implementation
+
+{$R *.fmx}
+
+{ TForm6 }
+
+function TForm6.adicionarItens(Item : Integer; nomeImagem, nomeProduto, nomeValor : String; Frame : TFramedVertScrollBox) : TForm6;
+var
+  FFramed : TFramedVertScrollBox;
+  FItem   : Integer;
+begin
+  Result:= Self;
+  FItem:= Item;
+  Label1.Text:= nomeProduto;
+  Label2.Text:= nomeValor;
+  FFramed:= Frame;
+  TRecursos.CarregarImagem(Image1, nomeImagem);
+end;
+
+procedure TForm6.SpeedButton1Click(Sender: TObject);
+begin
+  Layout6.Visible:= True;
+  Label5.Text:= '0';
+end;
+
+procedure TForm6.SpeedButton2Click(Sender: TObject);
+begin
+  Layout6.Visible:= False;
+end;
+
+procedure TForm6.SpeedButton3Click(Sender: TObject);
+begin
+  if Label5.Text <> '0' then Label5.Text := IntToStr(StrToInt(Label5.Text) - 1);
+
+end;
+
+procedure TForm6.SpeedButton4Click(Sender: TObject);
+begin
+  Label5.Text := IntToStr(StrToInt(Label5.Text) + 1);
+end;
+
+end.

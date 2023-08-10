@@ -6,7 +6,8 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
   FMX.Controls.Presentation, FMX.StdCtrls, FMX.Objects, FMX.Layouts, FMX.Edit,
-  FMX.Effects, FMX.Filter.Effects, ItemMenuPrnc, ItemMenuMesa, ItemMenuPrncSubProduto, Recursos, ItemMenuOpc;
+  FMX.Effects, FMX.Filter.Effects, ItemMenuPrnc, ItemMenuMesa, ItemMenuPrncSubProduto, Recursos, ItemMenuOpc,
+  ItemAdicionar;
 
 type
 
@@ -65,7 +66,6 @@ type
     Label2: TLabel;
     Label3: TLabel;
     Rectangle5: TRectangle;
-    Layout7: TLayout;
     Rectangle6: TRectangle;
     Layout8: TLayout;
     Layout9: TLayout;
@@ -87,6 +87,9 @@ type
     Label9: TLabel;
     Label10: TLabel;
     MROpcoes: TFlowLayout;
+    FramedVertScrollBox1: TFramedVertScrollBox;
+    VertScrollBox2: TVertScrollBox;
+    LayoutItens: TFlowLayout;
     procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure SpeedButton1MouseEnter(Sender: TObject);
@@ -100,6 +103,8 @@ type
     procedure MontarMenuPrincipal;
     procedure MontarSubMenu;
     procedure MontarOpcoes;
+    procedure MontarItemAdicionado;
+
     procedure ClicouMenu(Sender : TObject);
     procedure ClicouSub(Sender : TObject);
     procedure OcultarBarraMesas (Sender : TObject);
@@ -136,8 +141,19 @@ begin
   MontarMenuPrincipal;
   MontarSubMenu;
   MontarOpcoes;
+  MontarItemAdicionado;
   FMesas := 0;
   FShowMesas := False;
+end;
+
+procedure TForm2.MontarItemAdicionado;
+var
+  I: Integer;
+begin
+  for I := 1 to 11 do
+  begin
+    LayoutItens.AddObject(TForm6.Create(Self).adicionarItens(I, 'bebida' + IntToStr(I), 'Suco ' + IntToStr(I), 8.50.ToString , FramedVertScrollBox1).Layout1)
+  end;
 end;
 
 procedure TForm2.MontarMenuPrincipal;
@@ -150,9 +166,9 @@ end;
 
 procedure TForm2.MontarOpcoes;
 begin
-  MROpcoes.AddObject(TForm5.Create(Self).criarOpcao('Checkout', 'opc_checkout').Layout1);
-  MROpcoes.AddObject(TForm5.Create(Self).criarOpcao('Order', 'opc_order').Layout1);
-  MROpcoes.AddObject(TForm5.Create(Self).criarOpcao('Histórico', 'opc_historico').Layout1);
+  MROpcoes.AddObject(TForm5.Create(Self).criarOpcao('Checkout', 'opc_checkout', $FF4DC27B).Layout1);
+  MROpcoes.AddObject(TForm5.Create(Self).criarOpcao('Order', 'opc_order', $FF4DC27B).Layout1);
+  MROpcoes.AddObject(TForm5.Create(Self).criarOpcao('Histórico', 'opc_historico', $FF4DC27B).Layout1);
 end;
 
 procedure TForm2.MontarSubMenu;

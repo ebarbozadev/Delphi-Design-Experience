@@ -171,6 +171,11 @@
             <Form>Form5</Form>
             <FormType>fmx</FormType>
         </DCCReference>
+        <DCCReference Include="ItemAdicionado.pas">
+            <Form>Frame1</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
         <RcItem Include="Imagens\food.png">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>menu_food</ResourceId>
@@ -226,6 +231,50 @@
         <RcItem Include="Imagens\list.png">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>opc_order</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\starbucksfrutasvermelhas300.jpg">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>bebida1</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\19878601.jpg">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>bebida11</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\423e34c4d3fc01929e0fb94e448edaf6--starbucks-caramel-frappuccino-starbucks-drinks.jpg">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>bebida2</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\download (1).jpg">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>bebida4</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\download.jpg">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>bebida3</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\edelmanstrip_106787_0_full.jpg">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>bebida5</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\galeria_18962_0107171953.jpg">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>bebida6</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\icedcafemocha.jpg">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>bebida7</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\sb-espresso.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>bebida8</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\sp44844433_sc7.jpg">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>bebida9</ResourceId>
+        </RcItem>
+        <RcItem Include="Imagens\Starbucks-Frappuccino-Morango.jpg">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>bebida10</ResourceId>
         </RcItem>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>

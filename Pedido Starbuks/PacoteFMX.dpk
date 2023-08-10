@@ -37,6 +37,7 @@ contains
   ItemMenuPrnc in 'ItemMenuPrnc.pas' {ItemMenuPrincipal},
   ItemMenuMesa in 'ItemMenuMesa.pas' {Form1},
   ItemMenuPrncSubProduto in 'ItemMenuPrncSubProduto.pas' {Form4},
-  ItemMenuOpc in 'ItemMenuOpc.pas' {Form5};
+  ItemMenuOpc in 'ItemMenuOpc.pas' {Form5},
+  ItemAdicionado in 'ItemAdicionado.pas' {Frame1: TFrame};
 
 end.

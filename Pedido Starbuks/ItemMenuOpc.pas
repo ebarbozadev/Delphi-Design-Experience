@@ -58,7 +58,8 @@ end;
 
 procedure TForm5.SpeedButton1MouseEnter(Sender: TObject);
 begin
-  RoundRect1.Fill.Color:= FColorEnter;
+  RoundRect1.Visible    := True;
+  RoundRect1.Fill.Color := FColorEnter;
 end;
 
 procedure TForm5.SpeedButton1MouseLeave(Sender: TObject);
