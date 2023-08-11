@@ -1,0 +1,34 @@
+unit frmAreas;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Layouts;
+
+type
+  TfrmUnitAreas = class(TForm)
+    Rc: TRectangle;
+    body: TLayout;
+    lySection1: TLayout;
+    lySection2: TLayout;
+    lyArea1: TLayout;
+    lyArea2: TLayout;
+    lyArea3: TLayout;
+    lyArea4: TLayout;
+    lyArea5: TLayout;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmUnitAreas: TfrmUnitAreas;
+
+implementation
+
+{$R *.fmx}
+
+end.

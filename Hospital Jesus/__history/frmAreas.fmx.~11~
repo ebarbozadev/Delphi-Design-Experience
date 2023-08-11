@@ -1,0 +1,93 @@
+object frmUnitAreas: TfrmUnitAreas
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 500
+  ClientWidth = 910
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object body: TLayout
+    Align = Contents
+    Size.Width = 910.000000000000000000
+    Size.Height = 500.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rc: TRectangle
+      Align = Contents
+      Size.Width = 910.000000000000000000
+      Size.Height = 500.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object lySection1: TLayout
+      Align = Client
+      Padding.Left = 20.000000000000000000
+      Padding.Top = 20.000000000000000000
+      Padding.Right = 20.000000000000000000
+      Padding.Bottom = 10.000000000000000000
+      Size.Width = 910.000000000000000000
+      Size.Height = 360.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object lyArea1: TLayout
+        Align = Left
+        Position.X = 20.000000000000000000
+        Position.Y = 20.000000000000000000
+        Size.Width = 270.000000000000000000
+        Size.Height = 330.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object lyArea2: TLayout
+        Align = Left
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 310.000000000000000000
+        Position.Y = 20.000000000000000000
+        Size.Width = 270.000000000000000000
+        Size.Height = 330.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+      object lyArea3: TLayout
+        Align = Client
+        Size.Width = 290.000000000000000000
+        Size.Height = 330.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+      end
+    end
+    object lySection2: TLayout
+      Align = Bottom
+      Padding.Left = 20.000000000000000000
+      Padding.Top = 10.000000000000000000
+      Padding.Right = 20.000000000000000000
+      Padding.Bottom = 20.000000000000000000
+      Position.Y = 360.000000000000000000
+      Size.Width = 910.000000000000000000
+      Size.Height = 140.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object lyArea4: TLayout
+        Align = Left
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 270.000000000000000000
+        Size.Height = 110.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object lyArea5: TLayout
+        Align = Client
+        Size.Width = 580.000000000000000000
+        Size.Height = 110.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+    end
+  end
+end

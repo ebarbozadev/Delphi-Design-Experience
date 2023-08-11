@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/07/05 17:01:57.000.451,=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/10 09:30:40.000.633,=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/28 09:51:11.000.873,=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/08/01 15:56:52.000.793,=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/08/01 16:40:12.000.740,C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.dfm=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\frmPrincipal.dfm</Transaction>
+    <Transaction>2023/08/01 16:40:12.000.740,C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\frmPrincipal.pas</Transaction>
+    <Transaction>2023/08/01 16:40:38.000.314,C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/08/02 08:13:58.000.088,=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/08/02 08:19:02.000.591,=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/08/02 10:06:28.000.617,=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/08/02 10:08:26.000.136,=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/08/10 15:49:31.994,=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/08/10 15:49:59.701,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmPrincipal.pas=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/08/10 15:49:59.701,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmPrincipal.fmx=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2023/08/10 15:50:08.163,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Projeto.dproj=C:\Users\geren\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/08/10 16:25:33.726,=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/10 16:26:32.801,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmHeader.pas=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/10 16:26:32.801,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmHeader.fmx=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.fmx</Transaction>
+    <Transaction>2023/08/10 16:42:27.807,=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/10 16:43:50.698,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmPrincipal.ItemMenuPrincipal.fmx=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.fmx</Transaction>
+    <Transaction>2023/08/10 16:43:50.698,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmPrincipal.ItemMenuPrincipal.pas=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/10 17:02:52.141,=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/10 17:03:05.584,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Recursos.pas=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/10 17:28:19.100,=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Img\Casa.png</Transaction>
+    <Transaction>2023/08/10 18:12:19.021,=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Img\Sobre.png</Transaction>
+    <Transaction>2023/08/10 18:14:56.174,=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/10 18:15:46.862,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmHeaderSecundario.fmx=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.fmx</Transaction>
+    <Transaction>2023/08/10 18:15:46.862,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmHeaderSecundario.pas=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 10:25:41.051,=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 10:25:51.534,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmPerfil.fmx=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.fmx</Transaction>
+    <Transaction>2023/08/11 10:25:51.534,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmPerfil.pas=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 14:08:28.376,=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 14:08:36.909,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmAreas.pas=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 14:08:36.909,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmAreas.fmx=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.fmx</Transaction>
+    <Transaction>2023/08/11 14:15:30.846,=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 14:16:55.572,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmUnitArea1.pas=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 14:16:55.572,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmUnitArea1.fmx=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.fmx</Transaction>
+    <Transaction>2023/08/11 14:17:13.850,=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 14:17:56.387,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmUnitArea2.fmx=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.fmx</Transaction>
+    <Transaction>2023/08/11 14:17:56.387,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmUnitArea2.pas=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 14:19:30.034,=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 14:19:55.241,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmUnitArea3.pas=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 14:19:55.241,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmUnitArea3.fmx=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.fmx</Transaction>
+    <Transaction>2023/08/11 14:20:10.116,=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 14:20:37.993,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmUnitArea4.fmx=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.fmx</Transaction>
+    <Transaction>2023/08/11 14:20:37.993,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmUnitArea4.pas=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 14:20:57.355,=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 14:21:38.646,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmUnitArea5.pas=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 14:21:38.646,C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\frmUnitArea5.fmx=C:\Users\geren\OneDrive\Documentos\Delphi\Delphi Design Experience\Hospital Stark\Unit1.fmx</Transaction>
+  </Transactions>
+</BorlandProject>

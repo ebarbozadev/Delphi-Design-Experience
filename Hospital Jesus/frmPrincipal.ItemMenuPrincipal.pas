@@ -1,0 +1,47 @@
+unit frmPrincipal.ItemMenuPrincipal;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Effects,
+  FMX.Filter.Effects, FMX.Controls.Presentation, FMX.StdCtrls, FMX.Objects,
+  FMX.Layouts, Recursos;
+
+type
+  TEventoAoClicar = procedure (Sender : TObject) of object;
+
+  TfrmItemMenuPrincipal = class(TForm)
+    Body              : TLayout;
+    Icone             : TLayout;
+    Topico            : TLayout;
+    Image1            : TImage;
+    lbTopico          : TLabel;
+    FillRGBEffect1    : TFillRGBEffect;
+    eventoMenu: TSpeedButton;
+    Centralizar: TLayout;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    function montarItem(topico, icone : String; evento : TEventoAoClicar) : TfrmItemMenuPrincipal;
+  end;
+
+var
+  frmItemMenuPrincipal: TfrmItemMenuPrincipal;
+
+implementation
+
+{$R *.fmx}
+
+{ TfrmItemMenuPrincipal }
+
+function TfrmItemMenuPrincipal.montarItem(topico, icone : String; evento : TEventoAoClicar) : TfrmItemMenuPrincipal;
+begin
+  Result                := Self;
+  lbTopico.Text         := topico;
+  eventoMenu.OnClick    := evento;
+  TRecursos.Create.adicionarImagem(Image1, icone);
+end;
+
+end.

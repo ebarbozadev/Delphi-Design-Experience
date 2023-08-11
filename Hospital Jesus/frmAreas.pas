@@ -1,0 +1,53 @@
+unit frmAreas;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Layouts, frmUnitArea1, frmUnitArea2, frmUnitArea3, frmUnitArea4,
+  frmUnitArea5;
+
+type
+  TfrmUnitAreas = class(TForm)
+    Rc: TRectangle;
+    body: TLayout;
+    lySection1: TLayout;
+    lySection2: TLayout;
+    lyArea1: TLayout;
+    lyArea2: TLayout;
+    lyArea3: TLayout;
+    lyArea4: TLayout;
+    lyArea5: TLayout;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+    procedure montarLayout;
+  public
+    { Public declarations }
+  end;
+
+var
+  frmUnitAreas: TfrmUnitAreas;
+
+implementation
+
+{$R *.fmx}
+
+{ TfrmUnitAreas }
+
+procedure TfrmUnitAreas.FormCreate(Sender: TObject);
+begin
+  montarLayout;
+end;
+
+procedure TfrmUnitAreas.montarLayout;
+begin
+  lyArea1.AddObject(TfrmArea1.Create(Self).body);
+  lyArea2.AddObject(TfrmArea2.Create(Self).body);
+  lyArea3.AddObject(TfrmArea3.Create(Self).body);
+  lyArea4.AddObject(TfrmArea4.Create(Self).body);
+  lyArea5.AddObject(TfrmArea5.Create(Self).body);
+end;
+
+end.
