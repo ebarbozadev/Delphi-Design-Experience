@@ -25,7 +25,7 @@ type
   public
     { Public declarations }
     procedure CarregarImagem(Imagem : TImage; NomeImagem : String);
-    function CriaSubTopico(Texto : String; Imagem : String; Evento : TEventoAoClicar) : TForm4;
+    function CriaSubTopico  (Texto : String; Imagem : String; Evento : TEventoAoClicar) : TForm4;
   end;
 
 var

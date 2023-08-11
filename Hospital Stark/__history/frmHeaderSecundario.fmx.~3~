@@ -1,0 +1,27 @@
+object frmUnitHeaderSecundario: TfrmUnitHeaderSecundario
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 50
+  ClientWidth = 910
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Body: TLayout
+    Align = Client
+    Size.Width = 910.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object bkBody: TRectangle
+      Fill.Color = claWhite
+      Position.X = -198.000000000000000000
+      Position.Y = -546.000000000000000000
+      Size.Width = 1108.000000000000000000
+      Size.Height = 596.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+  end
+end

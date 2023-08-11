@@ -1,0 +1,53 @@
+unit frmHeader;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts, FMX.Objects,
+  frmPrincipal.ItemMenuPrincipal;
+
+type
+  TfrmUnitHeader = class(TForm)
+    bkBody: TRectangle;
+    Body: TLayout;
+    Header: TLayout;
+    lbNomeLogo: TLabel;
+    sectionPrincipal: TLayout;
+    headerSecundario: TLayout;
+    lbMenuPrincipal: TLabel;
+    flowItensMenuPrincipal: TFlowLayout;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure montarMenuPrincipal;
+
+    procedure montarHome;
+  end;
+
+var
+  frmUnitHeader: TfrmUnitHeader;
+
+implementation
+
+{$R *.fmx}
+
+procedure TfrmUnitHeader.FormCreate(Sender: TObject);
+begin
+  montarMenuPrincipal;
+end;
+
+procedure TfrmUnitHeader.montarHome;
+begin
+  ShowMessage('Home Montada');
+end;
+
+procedure TfrmUnitHeader.montarMenuPrincipal;
+begin
+  flowItensMenuPrincipal.AddObject(TfrmItemMenuPrincipal.Create(Self).montarItem('Home', 'menu_principal_casa', mostrarHome).Body);
+end;
+
+end.
